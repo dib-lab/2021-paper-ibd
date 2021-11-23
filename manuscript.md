@@ -7,8 +7,11 @@ keywords:
 lang: en-US
 date-meta: '2021-11-23'
 author-meta:
-- John Doe
-- Jane Roe
+- Taylor Elaine Reiter
+- Luiz Irber
+- Phillip T. Brooks
+- Amy D. Willis
+- C. Titus Brown
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -27,23 +30,35 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Taylor Elaine Reiter" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_orcid" content="0000-0002-7388-421X" />
+  <meta name="twitter:creator" content="@ReiterTaylor" />
+  <meta name="citation_author" content="Luiz Irber" />
+  <meta name="citation_author_institution" content="Graduate Group in Computer Science, UC Davis" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_orcid" content="0000-0003-4371-9659" />
+  <meta name="twitter:creator" content="@luizirber" />
+  <meta name="citation_author" content="Phillip T. Brooks" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_orcid" content="0000-0003-3987-244X" />
+  <meta name="twitter:creator" content="@brooksph" />
+  <meta name="citation_author" content="Amy D. Willis" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, UW" />
+  <meta name="citation_author_orcid" content="0000-0002-2802-4317" />
+  <meta name="twitter:creator" content="@AmyDWillis" />
+  <meta name="citation_author" content="C. Titus Brown" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_orcid" content="0000-0001-6001-2677" />
   <link rel="canonical" href="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta property="og:url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta property="twitter:url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/8086a3985300c203353acbe44a2fc908f677d563/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/8086a3985300c203353acbe44a2fc908f677d563/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/8086a3985300c203353acbe44a2fc908f677d563/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/3b7bbf494aaa46ff41e09cbfc5b4e6ba9955d878/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3b7bbf494aaa46ff41e09cbfc5b4e6ba9955d878/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3b7bbf494aaa46ff41e09cbfc5b4e6ba9955d878/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/8086a3985300c203353acbe44a2fc908f677d563/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/3b7bbf494aaa46ff41e09cbfc5b4e6ba9955d878/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@8086a39](https://github.com/taylorreiter/2021-paper-ibd/tree/8086a3985300c203353acbe44a2fc908f677d563)
+from [taylorreiter/2021-paper-ibd@3b7bbf4](https://github.com/taylorreiter/2021-paper-ibd/tree/3b7bbf494aaa46ff41e09cbfc5b4e6ba9955d878)
 on November 23, 2021.
 </em></small>
 
@@ -75,25 +90,59 @@ on November 23, 2021.
 
 
 
-+ **John Doe**<br>
++ **Taylor Elaine Reiter**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-7388-421X](https://orcid.org/0000-0002-7388-421X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
+    [taylorreiter](https://github.com/taylorreiter)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [ReiterTaylor](https://twitter.com/ReiterTaylor)<br>
   <small>
-     Department of Something, University of Whatever
+     Department of Population Health and Reproduction, UC Davis
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**<br>
++ **Luiz Irber**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-4371-9659](https://orcid.org/0000-0003-4371-9659)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)<br>
+    [luizirber](https://github.com/luizirber)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [luizirber](https://twitter.com/luizirber)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Graduate Group in Computer Science, UC Davis; Department of Population Health and Reproduction, UC Davis
+     · Funded by Grant XXXXXXXX
+  </small>
+
++ **Phillip T. Brooks**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-3987-244X](https://orcid.org/0000-0003-3987-244X)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [brooksph](https://github.com/brooksph)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [brooksph](https://twitter.com/brooksph)<br>
+  <small>
+     Department of Population Health and Reproduction, UC Davis
+  </small>
+
++ **Amy D. Willis**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2802-4317](https://orcid.org/0000-0002-2802-4317)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ctb](https://github.com/ctb)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [AmyDWillis](https://twitter.com/AmyDWillis)<br>
+  <small>
+     Department of Biostatistics, UW
+  </small>
+
++ **C. Titus Brown**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6001-2677](https://orcid.org/0000-0001-6001-2677)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [ctb](https://github.com/ctb)<br>
+  <small>
+     Department of Population Health and Reproduction, UC Davis
   </small>
 
 
@@ -398,6 +447,72 @@ useful for *important information* - [manubot.org](https://manubot.org/)
 useful for *warnings* - [manubot.org](https://manubot.org/)
 ]{.banner .lightred}
 
+
+# Introduction
+
+Sub-species groupings of microorganisms have functional differences that govern important genome-environment interactions across diverse ecosystems. 
+For example, ecotypes of Escherichia coli have different gene complements that allow each group to thrive in diverse environments like the gut, soil, and freshwater [PNAS. 2011;108: 7200–7205]. 
+Metagenomic sequencing data from communities of microorganisms contain information about specific strains present in a sample, but strain-resolved insights are lacking due to incomplete references or inability of current tools to retrieve such information (CITATIONS). 
+Here we use *strain* to refer to within-species variation that generates taxonomic grouping below the species level.
+
+Inflammatory bowel disease (IBD) is a spectrum of diseases characterized by chronic inflammation of the intestines that is likely caused by host-mediated inflammatory responses elicited in part by microorganisms [@kostic2014].
+IBD is cyclical with periods of active disease and remission. 
+IBD manifests in three subtypes depending on clinical presentation, including Crohn's disease (CD), which presents as discontinuous patches of inflammation throughout the gastrointestinal tract, ulcerative colitis (UC), which presents as continuous inflammation isolated to the colon, and undetermined, which cannot be distinguished as CD or UC.
+Diagnosis is often clinically difficult, with ramifications associated with over- or under-treatment that lead to decreased patient well-being. 
+Detection of microbial signatures associated with IBD subtype may lead to improved diagnostic criteria and therapeutics that extend periods of remission.
+However, such a signature has thus far remained elusive [@kumar2019integrating].
+
+The microbiome of CD and UC is heterogeneous, and studies that characterize the microbiome often produce conflicting results.
+This is likely in part driven by large inter- and intra-individual variation [@lloyd2019], but is also attributable to non-standardized laboratory, sequencing, and analysis techniques used to profile the gut microbiome [@kumar2019integrating]. 
+Dysbiosis is frequently observed in IBD, particularly in CD [@kang2010dysbiosis; @machiels2014decrease; @lewis2015; @moustafa2018; @qin2010], however dysbiosis alone is not a signature of IBD [@lloyd2019].
+Dysbiosis is defined as a decrease in gut microbial diversity that results in an imbalance between protective and harmful microorganisms, leading to intestinal inflammation [@weiss2017mechanisms].
+
+Strain-level differences may account for some heterogeneity in IBD gut microbiome profiles.
+A recent investigation of time-series gut microbiome metagenomes found that one clade of *Ruminococcus gnavus* is enriched in CD [@hall2017]. 
+Further, this clade produces an inflammatory polysaccharide [@henke2019ruminococcus].
+While this clade is enriched in CD, its enrichment was previously masked from computational discovery by concomitant decreases in other *Ruminococcus* species in IBD [@hall2017], highlighting the need for strain-resolved analysis of metagenomic sequencing in the exploration of IBD gut microbiomes.
+
+<!-- Currently this is word vomit, but it's the concepts that I want to convey -->
+Given these features of the IBD gut microbiome, strain-resolved analysis may improve insights into the XXX of these communities.
+The two biggest obstacles to strain-level analysis of short read data are data getting thrown away, either because it's not in reference databases or because it doesn't assemble or bin, and resolving genomes from communities with mixed populations of closely related but distinct genomes.
+While long reads have made strides toward resolving the latter issue (CITE: Bickhart), in habitats like the gut where communities are dominated by single strains of microbes (CITE: bork lab paper), the largest barrier to strain-level analysis is using all of the data.
+Here, we combine k-mer-based analysis with assembly graphs to not throw away the data.
+
+K-mers, words of length *k* in nucleotide sequences, have previously been used for annotation-free characterization of sequencing data [@sheppard2013genome; @dubinkina2016assessment; @standage2019kevlar].
+K-mers are suitable for strain-resolved metagenome analysis because they do not need to be present in reference databases to be included in analysis, they do not rely on marker genes which are largely conserved at the strain level, and they are suitable for species- and strain-level classification (CITE: metapallete, gather). 
+Investigating all k-mers in metagenomes is more computationally intensive than reference-based approaches [@benoit2016multiple]., by data-reduction techniques like scaled MinHash sketching make k-mer-based analysis scalable to large-scale sequence comparisons [@pierce2019; @rowe2019levee]. 
+MinHash sketching sacrifices the fine-scaled resolution of reference-based techniques but is representative of the full sequencing sample and complete databases, including strain-variable accessory elements that may be associated with diseases. 
+
+Assembly graphs complement sketch-based analysis [@brown2020exploring; @jaillard2018fast]. 
+While both k-mers and assembly graphs can be used to represent all sequences contained within a metagenome, assembly graphs retain important sequencing context and known functional and taxonomic annotations, recovering critical information lost through the MinHash sketching approach.
+While assembly graphs have been leveraged in metagenome analyses [12, 13], their large size precluded analysis at scale. 
+The *spacegraphcats* tool is designed to tackle this issue, encoding algorithms that scalably reduce the size of an assembly graph, enabling efficient querying and sequence retrieval (CITE SGC). 
+These algorithms center around dominating sets, a subset of nodes that ensure that every node in the assembly graph is at most distance one from a node in the dominating set. 
+Dominating sets partition the graph into *pieces* by assigning every node to exactly one of the closest nodes in the dominating set (CITE SGC). 
+This simplified graph enables efficient queries: querying with a sequence that overlaps at least one k-mer in a compact de Bruijn graph (cDBG) node returns all k-mers (or all reads containing those k-mers) from the graph piece. 
+We refer to sequences retrieved by a graph query as *neighborhoods* (CITE SGC). 
+Genome queries often recover sequences not in reference databases or *de novo* assemblies, which disproportionately include sequences from  low coverage regions or highly variable portions of the graph (CITE SGC).
+When a query has a Jaccard similarity between 10-2 and 10-3, 20-40% of a target genome sequence is recovered from a metagenome query (CITE SGC). 
+This jumps to >80% when Jaccard similarity exceeds 10-1 (CITE SGC). 
+
+Here, we analyzed a meta-cohort of IBD gut microbiome metagenomes
+
+Here we extend the functionality of spacegraphcats to enable differential abundance analysis on the simplified assembly graph. We perform this analysis on a meta-cohort of IBD gut microbiome metagenomes originating from six studies (260 CD, 132 UC and 213 healthy controls) (Table 1) [2,7,9,10,16,17]. We perform this analysis on sequences from species R. gnavus to determine which sections of the pangenome are more abundant in IBD (CD, UC) than non-IBD.
+
+Here we use k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 healthy controls (see **Table \@ref(tab:cohorts)**) [@lloyd2019; @lewis2015; @hall2017; @franzosa2019; @gevers2014; @qin2010].
+SUMMARY OF TECHNIQUES WE BUILT? 
+  1. LOOCV on scaled MinHash signatures from quality controlled metagenome data
+  2. Identification of consistent cross-study and cross-model signatures
+  3. Gather to anchor to genomes
+  4. SGC R1 nbhd queries to recover variable regions not in reference databases, and unite all the retrieved sequences under an organizing umbrella species
+  5. SGC R10 metapangenome graphs
+  6. Dominating set differential abundance analysis 
+We demonstrate a weak but consistent signature of IBD subtype in fecal microbiome metagenomes. 
+Only a small subset of all k-mers are predictive of UC and CD, and these k-mers originate from a core set of microbial genomes. 
+We find that stochastic loss of diversity in this core set of microbial genomes is a hallmark of CD, and to a lesser extent, UC. 
+While reduced diversity is responsible for the majority of disease signatures, we find signatures of strain enrichment in disease. 
+Genes presumably associated with these strains occur more frequently in IBD metagenomes but are present in low abundance in nonIBD as well.
+Our findings highlight the need for strain-level analysis of metagenomic data sets, and provide future avenues for research into IBD therapeutics.
 
 ## References {.page_break_before}
 
