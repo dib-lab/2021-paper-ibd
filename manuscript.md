@@ -56,9 +56,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/aee3f2c4df77929ca60d56ccfe77fddfe66a5091/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/aee3f2c4df77929ca60d56ccfe77fddfe66a5091/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/aee3f2c4df77929ca60d56ccfe77fddfe66a5091/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,9 +80,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/aee3f2c4df77929ca60d56ccfe77fddfe66a5091/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@aee3f2c](https://github.com/taylorreiter/2021-paper-ibd/tree/aee3f2c4df77929ca60d56ccfe77fddfe66a5091)
+from [taylorreiter/2021-paper-ibd@284109d](https://github.com/taylorreiter/2021-paper-ibd/tree/284109dcd9f203cbb4b248c6f671da20ee230c4a)
 on November 24, 2021.
 </em></small>
 
@@ -213,6 +213,72 @@ We find that stochastic loss of diversity in this core set of microbial genomes 
 While reduced diversity is responsible for the majority of disease signatures, we find signatures of strain enrichment in disease. 
 Genes presumably associated with these strains occur more frequently in IBD metagenomes but are present in low abundance in nonIBD as well.
 Our findings highlight the need for strain-level analysis of metagenomic data sets, and provide future avenues for research into IBD therapeutics.
+
+# Results
+
+## K-mers are weakly predictive of IBD subtype
+
+| Cohort      |   Name        | Country      |Total   |CD      |UC      |nonIBD  | Reference |
+|:------------|:-------------:|:------------:|:------:|:------:|:------:|:------:|:----------|
+| iHMP        | IBDMDB                   | USA              | 106   | 50  | 30  | 26 |  @lloyd2019|
+| PRJEB2054   | MetaHIT                  | Denmark, Spain   | 124   | 4   | 21  | 99 | @qin2010 |
+| SRP057027   | NA                       | Canada, USA      | 112   | 87  | 0   | 25 | @lewis2015 |
+| PRJNA385949 | PRISM, STiNKi            | USA              | 17    | 9   | 5   | 3 | @hall2017 |
+| PRJNA400072 | PRISM, LLDeep, and NLIBD | USA, Netherlands | 218   | 87  | 76  | 55 | @franzosa2019|
+| PRJNA237362 | RISK                     | North America    | 28    | 23  | 0   | 5 | @gevers2014 | 
+| Total       |                          |                  | 605   | 260 | 132 | 213| |
+Table: Six IBD shotgun metagenome sequencing cohorts used in this meta-cohort analysis.
+{#tbl:cohort}
+
+We developed a reference-free pipeline to fully characterize gut metagenomes of IBD patients (**Figure @fig:overview**).
+After consistent pre-processing, we use scaled MinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample [@pierce2019], and use these profiles to perform metagenome-wide k-mer association with IBD subtype. 
+We refer to scaled MinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*. 
+In total, we profiled 7,376,151 subsampled k-mers across all samples in all cohorts, representing approximately 14 billion total k-mers. 
+We detected variation due to IBD diagnosis in k-mer profiles of gut metagenomes from different cohorts.
+We calculated pairwise distance matrices using jaccard distance and angular distance between k-mer profiles, where jaccard distance captured sample richness and angular distance captured sample diversity. 
+We performed principle coordinate analysis and PERMANOVA with these distance matrices (**Figure @fig:compplts**), using the variables study accession, diagnosis, library size, and number of k-mers observed in a sample (**Table @tbl:permanova**). 
+Number of k-mers observed in a sample accounted for the highest variation, possibly reflecting reduced diversity in stool metagenomes of CD and UC patients (reviewed in [@schirmer2019microbial]). 
+Study accounted for the second highest variation, emphasizing that technical artifacts can introduce strong signals that may influence heterogeneity in IBD microbiome studies but that can be mitigated through meta-cohort analysis [@wirbel2019].
+Diagnosis accounted for a similar amount of variation as study, indicating that there is a small but detectable signal of IBD subtype in stool metagenomes.
+
+
+|Variable          |Jaccard distance | Angular distance|
+|:-----------------|:---------------:|:---------------:|
+| Number of k-mers | 9.9%           | 6.2% |
+| Study accession  | 6.6%           | 13.5 |
+| Diagnosis        | 6.2%           | 3.3% |
+| Library size     | 0.009%        | 0.01% |
+Table: Results from PERMANOVA performed on Jaccard and Angular distance matrices. Number of k-mers refers to the number of k-mers in a signature, while library size refers to the number of raw reads per sample. All test were significant at p < .001.
+{#tbl:permanova}
+
+To evaluate whether the variation captured by diagnosis is predictive of IBD subtype, we built random forests classifiers to predict CD, UC, or nonIBD subtype.
+Random forests is a supervised learning classification model that estimates how predictive k-mers are of IBD subtype, and weights individual k-mers as more or less predictive using a metric called variable importance.
+To assess whether disease signatures generalize across study populations, we used a leave-one-study-out cross-validation approach where we built and optimized a classifier using five cohorts and validated on the sixth.
+We built each model six times, using a separate random seed each time, to hone in on cross-study and cross-model signal.
+Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set [@janitza2018; @degenhardt2017].
+Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (**Table \@ref(tab:varselhashes)**). 
+<!-- @TR: RECALCULATE REDUCTION) -->
+Using this reduced set of k-mers, we then optimized each random forests classifier on the training set, producing 36 optimized models. 
+We validated each model on the left-out study.
+The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:acc**), outperforming a previously published model built on metagenomic data alone [@franzosa2019].
+
+<!-- TR UPDATE TO GENOME APPROACH -->
+
+To understand which species were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in the GTDB rs202 representatives database using sourmash gather.
+Sourmash gather determines the minimum set of genomes in database necessary to cover all of the k-mers in a query (CITE: Gather).
+We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers.
+Of XX total genomes detected across all classifiers, 360 genomes were shared between all classifiers (supplemental upset figure? will be atrocious bc 36 is a lot of sets).
+The presence of shared k-mers between classifiers indicates that there is a weak but consistent biological signal in metagenomes for IBD subtype between cohorts.
+
+K-mers that anchored to these shared genomes represented XX% of all k-mers used to build the optimized classifiers, but accounted for an outsize proportion of variable importance in the optimized classifiers.
+After normalizing variable importance across classifiers, XX% of the total variable importance was held by these k-mers. 
+These k-mers contribute a large fraction of predictive power for classification of IBD subtype, and the genomes in which they are found represent a microbial core that contains predictive power in IBD subtype classification.
+
+INCLUDE DETAILS OF HOW WE GOT FROM 360 GENOMES TO 54.
+
+## nbhds
+
+To recover strain variation in the metagenomes but not in the reference databases for these 54 genomes...
 
 # Methods
 
