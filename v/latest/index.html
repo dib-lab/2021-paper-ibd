@@ -85,9 +85,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/e58ecd16644457980e7e2af9e12e469b88eeb40d/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e58ecd16644457980e7e2af9e12e469b88eeb40d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e58ecd16644457980e7e2af9e12e469b88eeb40d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/284109dcd9f203cbb4b248c6f671da20ee230c4a/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/e58ecd16644457980e7e2af9e12e469b88eeb40d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/284109dcd9f203cbb4b248c6f671da20ee230c4a">taylorreiter/2021-paper-ibd@284109d</a>
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/e58ecd16644457980e7e2af9e12e469b88eeb40d">taylorreiter/2021-paper-ibd@e58ecd1</a>
 on November 24, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -365,7 +365,7 @@ Random forests is a supervised learning classification model that estimates how 
 To assess whether disease signatures generalize across study populations, we used a leave-one-study-out cross-validation approach where we built and optimized a classifier using five cohorts and validated on the sixth.
 We built each model six times, using a separate random seed each time, to hone in on cross-study and cross-model signal.
 Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set <span class="citation" data-cites="janitza2018 degenhardt2017">[<a href="#ref-janitza2018" role="doc-biblioref"><strong>janitza2018?</strong></a>,<a href="#ref-degenhardt2017" role="doc-biblioref"><strong>degenhardt2017?</strong></a>]</span>.
-Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (<strong>Table @ref(tab:varselhashes)</strong>).
+Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (<strong>Table ??)</strong>).
 <!-- @TR: RECALCULATE REDUCTION) -->
 Using this reduced set of k-mers, we then optimized each random forests classifier on the training set, producing 36 optimized models.
 We validated each model on the left-out study.
@@ -382,6 +382,46 @@ These k-mers contribute a large fraction of predictive power for classification 
 <p>INCLUDE DETAILS OF HOW WE GOT FROM 360 GENOMES TO 54.</p>
 <h2 id="nbhds">nbhds</h2>
 <p>To recover strain variation in the metagenomes but not in the reference databases for these 54 genomes…</p>
+<h2 id="ibd-gut-microbiomes-have-decreased-diversity-in-strict-anaerobes-that-is-punctuated-by-strain-switches-for-some-facultative-anaerobes">IBD gut microbiomes have decreased diversity in strict anaerobes that is punctuated by strain switches for some facultative anaerobes</h2>
+<!-- TR: This paragraph was originally written for k-mers, and now writing it for dominating sets is clunky so may need to be revised. But i like its biology tie ins -->
+<p>Many beneficial bacteria, in particular those that are oxygen sensitive, decreased in abundance in CD and UC.
+Nine of the 54 species we investigated were <em>Faecalibacterium prausnitzii</em> of some sort in GTDB (<strong>Figure </strong>).
+<!-- TR: how to properly talk about this -- they're different species in GTDB but the same in the literature... -->
+<em>F. prausnitzii</em> is an obligate anaerobe and a key butyrate producer in the gut, and plays a crucial role in reducing intestinal inflammation <span class="citation" data-cites="lopez2017faecalibacterium">[<a href="#ref-lopez2017faecalibacterium" role="doc-biblioref"><strong>lopez2017faecalibacterium?</strong></a>]</span>.
+<em>F. prausnitzii</em> is extremely sensitive to oxygen, though it may be able to withstand oxygen exposure for up to 24 hours depending on the availability of metabolites for extracellular electron transfer <span class="citation" data-cites="lopez2017faecalibacterium">[<a href="#ref-lopez2017faecalibacterium" role="doc-biblioref"><strong>lopez2017faecalibacterium?</strong></a>]</span>.
+In the origianl models, <em>Acetatifactor sp900066565</em> held the largest variable importance largest variable importance, and dominating set pieces decreased in abundance in CD and to a lesser extent UC (<strong>Figure</strong>).
+<em>Acetatifactor</em> is a bile-acid producing bacteria associated with a healthy gut, but limited evidence has associated it with decreased abundance in IBD <span class="citation" data-cites="pathak2018intestine">[<a href="#ref-pathak2018intestine" role="doc-biblioref"><strong>pathak2018intestine?</strong></a>]</span>.
+In UC, <em>Gemmiger formicilis</em> had the most dominating set pieces decrease in abundance compared to nonIBD (<strong>Figure</strong>).
+<em>G. formicilis</em> is a strictly anaerobic bacteria that produces both formic acid and butyric acid <span class="citation" data-cites="gossling1975gemmiger">[<a href="#ref-gossling1975gemmiger" role="doc-biblioref"><strong>gossling1975gemmiger?</strong></a>]</span>.
+We also observed a decrease in other oxygen-sensitive species, including <em>Lachnospira eligens</em>.
+<em>L. eligans</em> is an obligate anaerobe that is unable to tolerate atmospheric oxygen for an hour <span class="citation" data-cites="hall2017">[<a href="#ref-hall2017" role="doc-biblioref"><strong>hall2017?</strong></a>]</span>.
+Collectively, the decrease in species diversity we observed in IBD, in particular CD, is consistent with a shift toward increased oxidative stress during disease that is intolerable for many gut microbes <span class="citation" data-cites="rigottier2013dysbiosis">[<a href="#ref-rigottier2013dysbiosis" role="doc-biblioref"><strong>rigottier2013dysbiosis?</strong></a>]</span>.</p>
+<p>A substantial fraction of dominating set pieces were more abundant in CD than nonIBD in the metapangenome graphs of five species (<strong>Figure</strong>).</p>
+<p>Only the increase in the distinct accessory genes is detectable amongst the backdrop of general loss of gene abundance due to decrease in other strains.
+…
+Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches <span class="citation" data-cites="costea2017subspecies">[<a href="#ref-costea2017subspecies" role="doc-biblioref"><strong>costea2017subspecies?</strong></a>]</span>.
+These four genomes annotated to <em>Ruminococcus gnavus</em> …
+<!-- *Clostridium bolteae* --></p>
+<p><em>F. gnavus</em> is an aerotolerant anaerobe, one clade of which was recently found to be enriched in CD <span class="citation" data-cites="hall2017">[<a href="#ref-hall2017" role="doc-biblioref"><strong>hall2017?</strong></a>]</span>, and to produce an inflammatory polysaccharide <span class="citation" data-cites="henke2019ruminococcus">[<a href="#ref-henke2019ruminococcus" role="doc-biblioref"><strong>henke2019ruminococcus?</strong></a>]</span>.
+<em>C. bolteae</em> is a member of the normal gut microbiota but is an opportunistic pathogen that exploits compromised intestinal barriers <span class="citation" data-cites="dehoux2016comparative">[<a href="#ref-dehoux2016comparative" role="doc-biblioref"><strong>dehoux2016comparative?</strong></a>]</span>.
+It is associated with disturbance succession and has increased gene expression during gut dysbiosis <span class="citation" data-cites="lozupone2012identifying lloyd2019">[<a href="#ref-lozupone2012identifying" role="doc-biblioref"><strong>lozupone2012identifying?</strong></a>,<a href="#ref-lloyd2019" role="doc-biblioref"><strong>lloyd2019?</strong></a>]</span>.</p>
+<h2 id="fractions-of-some-metapangenomes-are-more-abundant-in-but-not-exclusive-to-ibd">Fractions of some metapangenomes are more abundant in but not exclusive to IBD</h2>
+<p>ORPHEUM/PANMERS ANALYSIS FOR STRAIN SWITCHERS</p>
+<p>Given the signatures of strain enrichment we detected in metagenomes from CD and UC, we next investigated whether there is a disease-specific metapangenome in CD or UC – i.e., whether there are genes from a species that are only observed in IBD.
+To perform this anlysis in an assembly-free way, we used a recently developed approach that predicts open reading frames directly from short sequencing reads and then uses protein k-mers from those reads to estimate pangenomes (CITE: panmers).
+We generated standard pangenome metrics from reads from query genome neighborhoods.</p>
+<p>In general, we found no evidence for disease-specific pangenomes among the XX pangenomes.
+Instead, in almost all pangenomes all protein k-mers are observed in at least some CD, UC, and nonIBD metagenomes.
+On average, XX protein k-mers were unobserved in UC, XX in CD, and XX in nonIBD per metapangenome, accounting for less than 1% of protein k-mers in the complete metapangenome (Table XX).
+These results in part explain heterogeneous study findings in previous IBD gut microbiome investigations.</p>
+<!-- While we found no evidence of a general disease-specific metapangenome, we tested whether the biosynthetic cluster for the inflammatory polysaccharide produced by *F. gnavus* occurred in nonIBD as it had previously only been identified in CD [@henke2019ruminococcus].
+An average of more than 100 reads mapped per gene in the cluster in 10 of 213 nonIBD metagenomes.
+While more abundant in CD, this cluster is also identifiable within healthy human gut microbiomes, further supporting the lack of disease-specific pangenomes. -->
+<!-- TR: only do this if we orpheum/panmer everything? -->
+<!-- While the majority of genes were observed in CD, UC, and nonIBD, IBD metagenomes harbored fewer protein k-mers than nonIBD metagenomes (Table XX).
+When we counted the number of protein k-mers observed within each metagenome, XX of 54 metapangenomes for CD and XX of 54 metapangenomes for UC had a significantly lower number of genes observed per metagenome than nonIBD (ANOVA p < 0.05, Tukey's HSD p < 0.05). 
+Only *C. bolteae* in CD and *Romboutsia timonensis*, *Anaeromassilibacillus*, and *Actulibacter* in UC had a significantly more genes per sample within each pangenome.
+Only *F. gnavus* showed no significant difference in the number of genes per sample across all groups. -->
 <h1 id="methods">Methods</h1>
 <p>All code associated with our analyses is available at www.github.com/dib-lab/2020-ibd/.</p>
 <h2 id="ibd-metagenome-data-acquisition-and-processing">IBD metagenome data acquisition and processing</h2>
