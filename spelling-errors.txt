@@ -33,7 +33,7 @@ eligans
 eligens
 facultative
 Faecalibacterium
-FASTQ
+fastq
 formicilis
 Gemmiger
 ggMarginal
@@ -47,7 +47,7 @@ iHMP
 Illumina
 intra
 Irber
-Jaccard
+jaccard
 Lachnospira
 LLDeep
 LOOCV
@@ -57,7 +57,7 @@ mer
 mers
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenom
 metapangenome
@@ -82,8 +82,8 @@ origianl
 ORPHEUM
 pangenome
 pangenomes
-PANMERS
-permanova
+panmers
+PERMANOVA
 PFAM
 polysaccharide
 prausnitzii

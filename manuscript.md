@@ -74,9 +74,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,9 +98,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@72eb8a3](https://github.com/taylorreiter/2021-paper-ibd/tree/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55)
+from [taylorreiter/2021-paper-ibd@5fec107](https://github.com/taylorreiter/2021-paper-ibd/tree/5fec1073afc67ac10920d22f18a2c358c2870518)
 on December 2, 2021.
 </em></small>
 
@@ -226,7 +226,7 @@ However, such a signature has thus far remained elusive [@doi:10.1186/s12967-019
 
 The microbiome of CD and UC is heterogeneous, and studies that characterize the microbiome often produce conflicting results.
 This is likely in part driven by large inter- and intra-individual variation [@doi:10.1038/s41586-019-1237-9], but is also attributable to non-standardized laboratory, sequencing, and analysis techniques used to profile the gut microbiome [@doi:10.1186/s12967-019-02174-1]. 
-Dysbiosis is frequently observed in IBD, particularly in CD [@doi:10.1002/ibd.21319; @doi:10.1136/gutjnl-2013-304833; @doi:10.1016/j.chom.2015.09.008; @doi:10.1038/ctg.2017.58; @doi:doi.org/10.1038/nature08821], however dysbiosis alone is not a signature of IBD [@doi:10.1038/s41586-019-1237-9].
+Dysbiosis is frequently observed in IBD, particularly in CD [@doi:10.1002/ibd.21319; @doi:10.1136/gutjnl-2013-304833; @doi:10.1016/j.chom.2015.09.008; @doi:10.1038/ctg.2017.58; @doi:10.1038/nature08821], however dysbiosis alone is not a signature of IBD [@doi:10.1038/s41586-019-1237-9].
 Dysbiosis is defined as a decrease in gut microbial diversity that results in an imbalance between protective and harmful microorganisms, leading to intestinal inflammation [@doi:10.1007/s00018-017-2509-x].
 
 Strain-level differences may account for some heterogeneity in IBD gut microbiome profiles.
@@ -257,7 +257,7 @@ Genome queries often recover sequences not in reference databases or *de novo* a
 When a query has a Jaccard similarity between 10-2 and 10-3, 20-40% of a target genome sequence is recovered from a metagenome query [@doi:10.1186/s13059-020-02066-4]. 
 This jumps to >80% when Jaccard similarity exceeds 10-1 [@doi:10.1186/s13059-020-02066-4]. 
 
-Here we use k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 healthy controls (see **Table @tbl:cohorts)**) [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:doi.org/10.1038/nature08821].
+Here we use k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 healthy controls (see **Table @tbl:cohorts)**) [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:10.1038/nature08821].
 
 SUMMARY OF TECHNIQUES WE BUILT? 
 
@@ -282,7 +282,7 @@ Our findings highlight the need for strain-level analysis of metagenomic data se
 | Cohort      |   Name        | Country      |Total   |CD      |UC      |nonIBD  | Reference |
 |:------------|:-------------:|:------------:|:------:|:------:|:------:|:------:|:----------|
 | iHMP        | IBDMDB                   | USA              | 106   | 50  | 30  | 26 | [@doi:10.1038/s41586-019-1237-9] |
-| PRJEB2054   | MetaHIT                  | Denmark, Spain   | 124   | 4   | 21  | 99 | [@doi:doi.org/10.1038/nature08821] |
+| PRJEB2054   | MetaHIT                  | Denmark, Spain   | 124   | 4   | 21  | 99 | [@doi:10.1038/nature08821] |
 | SRP057027   | NA                       | Canada, USA      | 112   | 87  | 0   | 25 | [@doi:10.1016/j.chom.2015.09.008] |
 | PRJNA385949 | PRISM, STiNKi            | USA              | 17    | 9   | 5   | 3 | [@doi:10.1186/s13073-017-0490-5] |
 | PRJNA400072 | PRISM, LLDeep, and NLIBD | USA, Netherlands | 218   | 87  | 76  | 55 | [@doi:10.1038/s41564-018-0306-4] |
