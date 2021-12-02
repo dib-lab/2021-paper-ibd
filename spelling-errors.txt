@@ -32,7 +32,7 @@ eligans
 eligens
 facultative
 Faecalibacterium
-fastq
+FASTQ
 formicilis
 FracMinHash
 Gemmiger
@@ -48,8 +48,9 @@ iHMP
 Illumina
 intra
 Irber
-Jaccard
+jaccard
 kmers
+labelled
 Lachnospira
 LLDeep
 LOOCV
@@ -62,7 +63,7 @@ metagenomes
 metagenomic
 MetaHIT
 metapangenom
-Metapangenome
+metapangenome
 metapangenomes
 microbiome
 microbiomes
@@ -84,9 +85,10 @@ origianl
 ORPHEUM
 pangenome
 pangenomes
-PANMERS
+panmers
 PERMANOVA
 PFAM
+Phylogenetic
 polysaccharide
 prausnitzii
 pre
