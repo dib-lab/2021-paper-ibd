@@ -24,7 +24,7 @@ authors:
     email: lcirberjr@ucdavis.edu
     affiliations:
       - Graduate Group in Computer Science, UC Davis
-      - Department of Population Health and Reproduction, UC Davis
+      - Department of Population Health and Reproduction, University of California, Davis
     funders:
       - Grant XXXXXXXX
   - github: alicia-gingrich
@@ -33,13 +33,15 @@ authors:
     orcid: 0000-0002-7239-0154
     email: agingrich@ucdavis.edu
     affiliations: 
-      - Department of Surgery, UC Davis Medical Center
+      - Department of Surgery, University of California, Davis Medical Center
   - github: microgravitas
     name: Felix Reidl
-    orcid:
-    twitter:
-    email:
+    initials: FR
+    orcid: 0000-0002-2354-3003
+    twitter: quantumgravitas
+    email: f.reidl@bbk.ac.uk
     affiliations:
+      - Department of Computer Science and Information Systems, Birkbeck, University of London 
   - github: brooksph
     name: Phillip T. Brooks
     initials: PTB
@@ -47,9 +49,14 @@ authors:
     twitter: brooksph
     email: philliptbrooks@gmail.com
     affiliations:
-      - Department of Population Health and Reproduction, UC Davis
+      - Department of Population Health and Reproduction, University of California, Davis
   - github: mogproject
     name: Yosuke Mizutani
+    initials: YM
+    twitter: mogproject
+    email: yos@cs.utah.edu
+    affiliations:
+      - School of Computing, University of Utah
   - github: adw96
     name: Amy D. Willis
     initials: ADW
@@ -57,18 +64,19 @@ authors:
     twitter: AmyDWillis 
     email: adwillis@uw.edu
     affiliations:
-      - Department of Biostatistics, UW
+      - Department of Biostatistics, University of Washington
   - github: bdsullivan
     name: Blair D. Sullivan
     initials: BDS
-    orcid:
-    twitter:
-    email:
+    orcid: 0000-0001-7720-6208
+    twitter: BlairDSullivan
+    email: sulivan@cs.utah.edu
     affiliations:
+      - School of Computing, University of Utah
   - github: ctb
     name: C. Titus Brown
     initials: CTB
     orcid: 0000-0001-6001-2677
     email: ctbrown@ucdavis.edu
     affiliations:
-      - Department of Population Health and Reproduction, UC Davis
+      - Department of Population Health and Reproduction, University of California, Davis
