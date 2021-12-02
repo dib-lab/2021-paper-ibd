@@ -4,6 +4,7 @@ aerotolerant
 amongst
 AmyDWillis
 anlysis
+archaeal
 BBMap
 bdsullivan
 Bickhart
@@ -31,10 +32,11 @@ eligans
 eligens
 facultative
 Faecalibacterium
-FASTQ
+fastq
 formicilis
 FracMinHash
 Gemmiger
+GenBank
 ggMarginal
 ggplot
 gnavus
@@ -46,7 +48,7 @@ iHMP
 Illumina
 intra
 Irber
-jaccard
+Jaccard
 kmers
 Lachnospira
 LLDeep
@@ -60,7 +62,7 @@ metagenomes
 metagenomic
 MetaHIT
 metapangenom
-metapangenome
+Metapangenome
 metapangenomes
 microbiome
 microbiomes
@@ -70,8 +72,8 @@ MinHash
 Mizutani
 mogproject
 nbhd
-nbhds
 NCBI
+nieghborhoods
 NLIBD
 nonIBD
 novo
@@ -82,8 +84,8 @@ origianl
 ORPHEUM
 pangenome
 pangenomes
-panmers
-permanova
+PANMERS
+PERMANOVA
 PFAM
 polysaccharide
 prausnitzii
@@ -115,6 +117,7 @@ tunable
 tuneRanger
 UC
 ulcerative
+unannotated
 unitigs
 XXXXXXXX
 Yosuke
