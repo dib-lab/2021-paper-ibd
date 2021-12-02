@@ -32,7 +32,8 @@ authors:
     initials: AAG
     orcid: 0000-0002-7239-0154
     email: agingrich@ucdavis.edu
-    affiliations: Department of Surgery, UC Davis Medical Center
+    affiliations: 
+      - Department of Surgery, UC Davis Medical Center
   - github: microgravitas
     name: Felix Reidl
     orcid:
