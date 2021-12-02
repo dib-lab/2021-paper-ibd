@@ -74,9 +74,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,9 +98,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@5fec107](https://github.com/taylorreiter/2021-paper-ibd/tree/5fec1073afc67ac10920d22f18a2c358c2870518)
+from [taylorreiter/2021-paper-ibd@21fef18](https://github.com/taylorreiter/2021-paper-ibd/tree/21fef18d682ba124d17bd4d553f12855a6d438be)
 on December 2, 2021.
 </em></small>
 
@@ -277,6 +277,12 @@ Our findings highlight the need for strain-level analysis of metagenomic data se
 
 # Results
 
+![
+**Overview of the metagenome analysis technique used in this paper.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
+](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
+
+<!-- what should this first section say? -->
+
 ## K-mers are weakly predictive of IBD subtype
 
 | Cohort      |   Name        | Country      |Total   |CD      |UC      |nonIBD  | Reference |
@@ -292,12 +298,12 @@ Table: Six IBD shotgun metagenome sequencing cohorts used in this meta-cohort an
 {#tbl:cohort}
 
 We developed a reference-free pipeline to fully characterize gut metagenomes of IBD patients (**Figure @fig:overview**).
-After consistent pre-processing, we use scaled MinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1], and use these profiles to perform metagenome-wide k-mer association with IBD subtype. 
-We refer to scaled MinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*. 
+After consistent pre-processing, we use FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: Gather), and use these profiles to perform metagenome-wide k-mer association with IBD subtype. 
+We refer to FracMinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*. 
 In total, we profiled 7,376,151 subsampled k-mers across all samples in all cohorts, representing approximately 14 billion total k-mers. 
 We detected variation due to IBD diagnosis in k-mer profiles of gut metagenomes from different cohorts.
 We calculated pairwise distance matrices using jaccard distance and angular distance between k-mer profiles, where jaccard distance captured sample richness and angular distance captured sample diversity. 
-We performed principle coordinate analysis and PERMANOVA with these distance matrices (**Figure @fig:compplts**), using the variables study accession, diagnosis, library size, and number of k-mers observed in a sample (**Table @tbl:permanova**). 
+We performed principle coordinate analysis and PERMANOVA with these distance matrices (**Figure @fig:kmers**), using the variables study accession, diagnosis, library size, and number of k-mers observed in a sample (**Table @tbl:permanova**). 
 Number of k-mers observed in a sample accounted for the highest variation, possibly reflecting reduced diversity in stool metagenomes of CD and UC patients (reviewed in [@doi:10.1038/s41579-019-0213-6 ]). 
 Study accounted for the second highest variation, emphasizing that technical artifacts can introduce strong signals that may influence heterogeneity in IBD microbiome studies but that can be mitigated through meta-cohort analysis [@doi:10.1038/s41591-019-0406-6].
 Diagnosis accounted for a similar amount of variation as study, indicating that there is a small but detectable signal of IBD subtype in stool metagenomes.
@@ -306,7 +312,7 @@ Diagnosis accounted for a similar amount of variation as study, indicating that 
 |Variable          |Jaccard distance | Angular distance|
 |:-----------------|:---------------:|:---------------:|
 | Number of k-mers | 9.9%           | 6.2% |
-| Study accession  | 6.6%           | 13.5 |
+| Study accession  | 6.6%           | 13.5% |
 | Diagnosis        | 6.2%           | 3.3% |
 | Library size     | 0.009%        | 0.01% |
 Table: Results from PERMANOVA performed on Jaccard and Angular distance matrices. Number of k-mers refers to the number of k-mers in a signature, while library size refers to the number of raw reads per sample. All test were significant at p < .001.
@@ -317,11 +323,11 @@ Random forests is a supervised learning classification model that estimates how 
 To assess whether disease signatures generalize across study populations, we used a leave-one-study-out cross-validation approach where we built and optimized a classifier using five cohorts and validated on the sixth.
 We built each model six times, using a separate random seed each time, to hone in on cross-study and cross-model signal.
 Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set [@doi:10.1007/s11634-016-0276-4; @doi:10.1093/bib/bbx124].
-Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (**Table @tbl:varselhashes**). 
+Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 28,684-41,701 (mean = 35,673.1, sd = 4090.3) (**fig @fig:kmers**). 
 <!-- @TR: RECALCULATE REDUCTION) -->
 Using this reduced set of k-mers, we then optimized each random forests classifier on the training set, producing 36 optimized models. 
 We validated each model on the left-out study.
-The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:acc**), outperforming a previously published model built on metagenomic data alone [@doi:10.1038/s41564-018-0306-4].
+The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:kmers**), outperforming a previously published model built on metagenomic data alone [@doi:10.1038/s41564-018-0306-4].
 
 <!-- TR UPDATE TO GENOME APPROACH -->
 

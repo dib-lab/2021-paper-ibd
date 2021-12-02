@@ -103,9 +103,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -119,9 +119,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/5fec1073afc67ac10920d22f18a2c358c2870518/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/21fef18d682ba124d17bd4d553f12855a6d438be/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/5fec1073afc67ac10920d22f18a2c358c2870518">taylorreiter/2021-paper-ibd@5fec107</a>
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/21fef18d682ba124d17bd4d553f12855a6d438be">taylorreiter/2021-paper-ibd@21fef18</a>
 on December 2, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -270,6 +270,12 @@ While reduced diversity is responsible for the majority of disease signatures, w
 Genes presumably associated with these strains occur more frequently in IBD metagenomes but are present in low abundance in nonIBD as well.
 Our findings highlight the need for strain-level analysis of metagenomic data sets, and provide future avenues for research into IBD therapeutics.</p>
 <h1 id="results">Results</h1>
+<div id="fig:overview" class="fignos">
+<figure>
+<img src="images/ibd_overview_steps.svg" alt="Figure 1: Overview of the metagenome analysis technique used in this paper. Steps that are outlined in grey were developed in this paper. Step 1: Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. Step 2: For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [22]. Step 3: We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis." /><figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Overview of the metagenome analysis technique used in this paper.</strong> Steps that are outlined in grey were developed in this paper. <strong>Step 1:</strong> Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. <strong>Step 2:</strong> For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in <span class="citation" data-cites="VsLophuT">[<a href="#ref-VsLophuT" role="doc-biblioref">22</a>]</span>. <strong>Step 3:</strong> We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.</figcaption>
+</figure>
+</div>
+<!-- what should this first section say? -->
 <h2 id="k-mers-are-weakly-predictive-of-ibd-subtype">K-mers are weakly predictive of IBD subtype</h2>
 <div id="tbl:cohort" class="tablenos">
 <table id="tbl:cohort">
@@ -371,9 +377,9 @@ Our findings highlight the need for strain-level analysis of metagenomic data se
 </tbody>
 </table>
 </div>
-<p>We developed a reference-free pipeline to fully characterize gut metagenomes of IBD patients (<strong>Figure ??</strong>).
-After consistent pre-processing, we use scaled MinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample <span class="citation" data-cites="ART4gJKs">[<a href="#ref-ART4gJKs" role="doc-biblioref">20</a>]</span>, and use these profiles to perform metagenome-wide k-mer association with IBD subtype.
-We refer to scaled MinHash sketches as <em>signatures</em>, and for simplicity, continue referring to the sub-sampled k-mers in a signature as <em>k-mers</em>.
+<p>We developed a reference-free pipeline to fully characterize gut metagenomes of IBD patients (<strong>Figure <a href="#fig:overview">1</a></strong>).
+After consistent pre-processing, we use FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample <span class="citation" data-cites="ART4gJKs">[<a href="#ref-ART4gJKs" role="doc-biblioref">20</a>]</span> (CITE: Gather), and use these profiles to perform metagenome-wide k-mer association with IBD subtype.
+We refer to FracMinHash sketches as <em>signatures</em>, and for simplicity, continue referring to the sub-sampled k-mers in a signature as <em>k-mers</em>.
 In total, we profiled 7,376,151 subsampled k-mers across all samples in all cohorts, representing approximately 14 billion total k-mers.
 We detected variation due to IBD diagnosis in k-mer profiles of gut metagenomes from different cohorts.
 We calculated pairwise distance matrices using jaccard distance and angular distance between k-mer profiles, where jaccard distance captured sample richness and angular distance captured sample diversity.
@@ -401,7 +407,7 @@ Diagnosis accounted for a similar amount of variation as study, indicating that 
 <tr class="even">
 <td style="text-align: left;">Study accession</td>
 <td style="text-align: center;">6.6%</td>
-<td style="text-align: center;">13.5</td>
+<td style="text-align: center;">13.5%</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Diagnosis</td>
@@ -421,7 +427,7 @@ Random forests is a supervised learning classification model that estimates how 
 To assess whether disease signatures generalize across study populations, we used a leave-one-study-out cross-validation approach where we built and optimized a classifier using five cohorts and validated on the sixth.
 We built each model six times, using a separate random seed each time, to hone in on cross-study and cross-model signal.
 Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set <span class="citation" data-cites="gePakmgr y3cwAdm4">[<a href="#ref-gePakmgr" role="doc-biblioref">30</a>,<a href="#ref-y3cwAdm4" role="doc-biblioref">31</a>]</span>.
-Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (<strong>Table ??</strong>).
+Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 28,684-41,701 (mean = 35,673.1, sd = 4090.3) (<strong>fig ??</strong>).
 <!-- @TR: RECALCULATE REDUCTION) -->
 Using this reduced set of k-mers, we then optimized each random forests classifier on the training set, producing 36 optimized models.
 We validated each model on the left-out study.
