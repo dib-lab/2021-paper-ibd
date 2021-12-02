@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn's disease"
 keywords:
   - markdown
   - publishing
@@ -27,6 +27,18 @@ authors:
       - Department of Population Health and Reproduction, UC Davis
     funders:
       - Grant XXXXXXXX
+  - github: alicia-gingrich
+    name: Alicia A. Gingrich
+    initials: AAG
+    orcid: 0000-0002-7239-0154
+    email: agingrich@ucdavis.edu
+    affiliations: Department of Surgery, UC Davis Medical Center
+  - github: microgravitas
+    name: Felix Reidl
+    orcid:
+    twitter:
+    email:
+    affiliations:
   - github: brooksph
     name: Phillip T. Brooks
     initials: PTB
@@ -35,14 +47,23 @@ authors:
     email: philliptbrooks@gmail.com
     affiliations:
       - Department of Population Health and Reproduction, UC Davis
-  - github: ctb
+  - github: mogproject
+    name: Yosuke Mizutani
+  - github: adw96
     name: Amy D. Willis
-    initials: adw96
+    initials: ADW
     orcid: 0000-0002-2802-4317
     twitter: AmyDWillis 
     email: adwillis@uw.edu
     affiliations:
       - Department of Biostatistics, UW
+  - github: bdsullivan
+    name: Blair D. Sullivan
+    initials: BDS
+    orcid:
+    twitter:
+    email:
+    affiliations:
   - github: ctb
     name: C. Titus Brown
     initials: CTB
