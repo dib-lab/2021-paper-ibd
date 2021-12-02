@@ -1,13 +1,17 @@
 acc
 Acetatifactor
+adw
 aerotolerant
 amongst
 AmyDWillis
 anlysis
 BBMap
+bdsullivan
 Bickhart
 BioProject
 Biostatistics
+Birkbeck
+BlairDSullivan
 bolteae
 Bonferroni
 brooksph
@@ -23,8 +27,7 @@ compplts
 Crohn’s
 ctb
 dataset
-degenhardt
-dysbiosis
+Dysbiosis
 ecotypes
 eligans
 eligens
@@ -32,9 +35,7 @@ facultative
 Faecalibacterium
 FASTQ
 formicilis
-franzosa
 Gemmiger
-gevers
 ggMarginal
 ggplot
 gnavus
@@ -46,7 +47,7 @@ iHMP
 Illumina
 intra
 Irber
-jaccard
+Jaccard
 Lachnospira
 LLDeep
 LOOCV
@@ -56,7 +57,7 @@ mer
 mers
 metagenome
 metagenomes
-metagenomic
+Metagenomic
 MetaHIT
 metapangenom
 metapangenome
@@ -64,7 +65,10 @@ metapangenomes
 microbiome
 microbiomes
 microbiota
+microgravitas
 MinHash
+Mizutani
+mogproject
 nbhd
 nbhds
 NCBI
@@ -78,7 +82,7 @@ origianl
 ORPHEUM
 pangenome
 pangenomes
-panmers
+PANMERS
 permanova
 PFAM
 polysaccharide
@@ -87,7 +91,8 @@ pre
 preprocessing
 PRJEB
 PRJNA
-qin
+quantumgravitas
+Reidl
 Reiter
 ReiterTaylor
 Ruminococcus
@@ -95,7 +100,7 @@ runtimes
 scalable
 scalably
 SGC
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi
@@ -110,6 +115,6 @@ tuneRanger
 UC
 ulcerative
 unitigs
-UW
 varselhashes
 XXXXXXXX
+Yosuke

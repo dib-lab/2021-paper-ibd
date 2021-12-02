@@ -1,16 +1,20 @@
 ---
-title: Manuscript Title
+title: Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn's disease
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-11-29'
+date-meta: '2021-12-02'
 author-meta:
 - Taylor Elaine Reiter
 - Luiz Irber
+- Alicia A. Gingrich
+- Felix Reidl
 - Phillip T. Brooks
+- Yosuke Mizutani
 - Amy D. Willis
+- Blair D. Sullivan
 - C. Titus Brown
 header-includes: |-
   <!--
@@ -18,12 +22,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-11-29" />
-  <meta name="citation_publication_date" content="2021-11-29" />
+  <meta name="dc.title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
+  <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
+  <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
+  <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
+  <meta name="dc.date" content="2021-12-02" />
+  <meta name="citation_publication_date" content="2021-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,19 +40,33 @@ header-includes: |-
   <meta name="twitter:creator" content="@ReiterTaylor" />
   <meta name="citation_author" content="Luiz Irber" />
   <meta name="citation_author_institution" content="Graduate Group in Computer Science, UC Davis" />
-  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0003-4371-9659" />
   <meta name="twitter:creator" content="@luizirber" />
+  <meta name="citation_author" content="Alicia A. Gingrich" />
+  <meta name="citation_author_institution" content="Department of Surgery, University of California, Davis Medical Center" />
+  <meta name="citation_author_orcid" content="0000-0002-7239-0154" />
+  <meta name="citation_author" content="Felix Reidl" />
+  <meta name="citation_author_institution" content="Department of Computer Science and Information Systems, Birkbeck, University of London" />
+  <meta name="citation_author_orcid" content="0000-0002-2354-3003" />
+  <meta name="twitter:creator" content="@quantumgravitas" />
   <meta name="citation_author" content="Phillip T. Brooks" />
-  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0003-3987-244X" />
   <meta name="twitter:creator" content="@brooksph" />
+  <meta name="citation_author" content="Yosuke Mizutani" />
+  <meta name="citation_author_institution" content="School of Computing, University of Utah" />
+  <meta name="twitter:creator" content="@mogproject" />
   <meta name="citation_author" content="Amy D. Willis" />
-  <meta name="citation_author_institution" content="Department of Biostatistics, UW" />
+  <meta name="citation_author_institution" content="Department of Biostatistics, University of Washington" />
   <meta name="citation_author_orcid" content="0000-0002-2802-4317" />
   <meta name="twitter:creator" content="@AmyDWillis" />
+  <meta name="citation_author" content="Blair D. Sullivan" />
+  <meta name="citation_author_institution" content="School of Computing, University of Utah" />
+  <meta name="citation_author_orcid" content="0000-0001-7720-6208" />
+  <meta name="twitter:creator" content="@BlairDSullivan" />
   <meta name="citation_author" content="C. Titus Brown" />
-  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0001-6001-2677" />
   <link rel="canonical" href="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta property="og:url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
@@ -56,9 +74,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/e7c4a3b94057cf88b70cf02f73c0ee072d5a05b5/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e7c4a3b94057cf88b70cf02f73c0ee072d5a05b5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e7c4a3b94057cf88b70cf02f73c0ee072d5a05b5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,10 +98,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/e7c4a3b94057cf88b70cf02f73c0ee072d5a05b5/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@e7c4a3b](https://github.com/taylorreiter/2021-paper-ibd/tree/e7c4a3b94057cf88b70cf02f73c0ee072d5a05b5)
-on November 29, 2021.
+from [taylorreiter/2021-paper-ibd@72eb8a3](https://github.com/taylorreiter/2021-paper-ibd/tree/72eb8a35a54a2aa06e5d9550a6b9c975ac925c55)
+on December 2, 2021.
 </em></small>
 
 ## Authors
@@ -110,8 +128,28 @@ on November 29, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [luizirber](https://twitter.com/luizirber)<br>
   <small>
-     Graduate Group in Computer Science, UC Davis; Department of Population Health and Reproduction, UC Davis
+     Graduate Group in Computer Science, UC Davis; Department of Population Health and Reproduction, University of California, Davis
      · Funded by Grant XXXXXXXX
+  </small>
+
++ **Alicia A. Gingrich**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-7239-0154](https://orcid.org/0000-0002-7239-0154)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [alicia-gingrich](https://github.com/alicia-gingrich)<br>
+  <small>
+     Department of Surgery, University of California, Davis Medical Center
+  </small>
+
++ **Felix Reidl**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2354-3003](https://orcid.org/0000-0002-2354-3003)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [microgravitas](https://github.com/microgravitas)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [quantumgravitas](https://twitter.com/quantumgravitas)<br>
+  <small>
+     Department of Computer Science and Information Systems, Birkbeck, University of London
   </small>
 
 + **Phillip T. Brooks**<br>
@@ -122,18 +160,38 @@ on November 29, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [brooksph](https://twitter.com/brooksph)<br>
   <small>
-     Department of Population Health and Reproduction, UC Davis
+     Department of Population Health and Reproduction, University of California, Davis
+  </small>
+
++ **Yosuke Mizutani**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [mogproject](https://github.com/mogproject)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [mogproject](https://twitter.com/mogproject)<br>
+  <small>
+     School of Computing, University of Utah
   </small>
 
 + **Amy D. Willis**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-2802-4317](https://orcid.org/0000-0002-2802-4317)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [ctb](https://github.com/ctb)
+    [adw96](https://github.com/adw96)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [AmyDWillis](https://twitter.com/AmyDWillis)<br>
   <small>
-     Department of Biostatistics, UW
+     Department of Biostatistics, University of Washington
+  </small>
+
++ **Blair D. Sullivan**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-7720-6208](https://orcid.org/0000-0001-7720-6208)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [bdsullivan](https://github.com/bdsullivan)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [BlairDSullivan](https://twitter.com/BlairDSullivan)<br>
+  <small>
+     School of Computing, University of Utah
   </small>
 
 + **C. Titus Brown**<br>
@@ -142,7 +200,7 @@ on November 29, 2021.
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [ctb](https://github.com/ctb)<br>
   <small>
-     Department of Population Health and Reproduction, UC Davis
+     Department of Population Health and Reproduction, University of California, Davis
   </small>
 
 
@@ -155,7 +213,7 @@ on November 29, 2021.
 # Introduction
 
 Sub-species groupings of microorganisms have functional differences that govern important genome-environment interactions across diverse ecosystems. 
-For example, ecotypes of Escherichia coli have different gene complements that allow each group to thrive in diverse environments like the gut, soil, and freshwater [@doi:10.1073/pnas.1015622108]. 
+For example, ecotypes of *Escherichia coli* have different gene complements that allow each group to thrive in diverse environments like the gut, soil, and freshwater [@doi:10.1073/pnas.1015622108]. 
 Metagenomic sequencing data from communities of microorganisms contain information about specific strains present in a sample, but strain-resolved insights are lacking due to incomplete references or inability of current tools to retrieve such information [@doi:10.1186/s12915-019-0667-z]. 
 Here we use *strain* to refer to within-species variation that generates taxonomic grouping below the species level.
 
@@ -199,7 +257,7 @@ Genome queries often recover sequences not in reference databases or *de novo* a
 When a query has a Jaccard similarity between 10-2 and 10-3, 20-40% of a target genome sequence is recovered from a metagenome query [@doi:10.1186/s13059-020-02066-4]. 
 This jumps to >80% when Jaccard similarity exceeds 10-1 [@doi:10.1186/s13059-020-02066-4]. 
 
-Here we use k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 healthy controls (see **Table \@ref(tab:cohorts)**) [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:doi.org/10.1038/nature08821].
+Here we use k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 healthy controls (see **Table @tbl:cohorts)**) [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:doi.org/10.1038/nature08821].
 
 SUMMARY OF TECHNIQUES WE BUILT? 
 
@@ -223,25 +281,25 @@ Our findings highlight the need for strain-level analysis of metagenomic data se
 
 | Cohort      |   Name        | Country      |Total   |CD      |UC      |nonIBD  | Reference |
 |:------------|:-------------:|:------------:|:------:|:------:|:------:|:------:|:----------|
-| iHMP        | IBDMDB                   | USA              | 106   | 50  | 30  | 26 |  @lloyd2019|
-| PRJEB2054   | MetaHIT                  | Denmark, Spain   | 124   | 4   | 21  | 99 | @qin2010 |
-| SRP057027   | NA                       | Canada, USA      | 112   | 87  | 0   | 25 | @lewis2015 |
-| PRJNA385949 | PRISM, STiNKi            | USA              | 17    | 9   | 5   | 3 | @hall2017 |
-| PRJNA400072 | PRISM, LLDeep, and NLIBD | USA, Netherlands | 218   | 87  | 76  | 55 | @franzosa2019|
-| PRJNA237362 | RISK                     | North America    | 28    | 23  | 0   | 5 | @gevers2014 | 
+| iHMP        | IBDMDB                   | USA              | 106   | 50  | 30  | 26 | [@doi:10.1038/s41586-019-1237-9] |
+| PRJEB2054   | MetaHIT                  | Denmark, Spain   | 124   | 4   | 21  | 99 | [@doi:doi.org/10.1038/nature08821] |
+| SRP057027   | NA                       | Canada, USA      | 112   | 87  | 0   | 25 | [@doi:10.1016/j.chom.2015.09.008] |
+| PRJNA385949 | PRISM, STiNKi            | USA              | 17    | 9   | 5   | 3 | [@doi:10.1186/s13073-017-0490-5] |
+| PRJNA400072 | PRISM, LLDeep, and NLIBD | USA, Netherlands | 218   | 87  | 76  | 55 | [@doi:10.1038/s41564-018-0306-4] |
+| PRJNA237362 | RISK                     | North America    | 28    | 23  | 0   | 5 | [@doi:10.1016/j.chom.2014.02.005] | 
 | Total       |                          |                  | 605   | 260 | 132 | 213| |
 Table: Six IBD shotgun metagenome sequencing cohorts used in this meta-cohort analysis.
 {#tbl:cohort}
 
 We developed a reference-free pipeline to fully characterize gut metagenomes of IBD patients (**Figure @fig:overview**).
-After consistent pre-processing, we use scaled MinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample [@pierce2019], and use these profiles to perform metagenome-wide k-mer association with IBD subtype. 
+After consistent pre-processing, we use scaled MinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflect the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1], and use these profiles to perform metagenome-wide k-mer association with IBD subtype. 
 We refer to scaled MinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*. 
 In total, we profiled 7,376,151 subsampled k-mers across all samples in all cohorts, representing approximately 14 billion total k-mers. 
 We detected variation due to IBD diagnosis in k-mer profiles of gut metagenomes from different cohorts.
 We calculated pairwise distance matrices using jaccard distance and angular distance between k-mer profiles, where jaccard distance captured sample richness and angular distance captured sample diversity. 
 We performed principle coordinate analysis and PERMANOVA with these distance matrices (**Figure @fig:compplts**), using the variables study accession, diagnosis, library size, and number of k-mers observed in a sample (**Table @tbl:permanova**). 
-Number of k-mers observed in a sample accounted for the highest variation, possibly reflecting reduced diversity in stool metagenomes of CD and UC patients (reviewed in [@schirmer2019microbial]). 
-Study accounted for the second highest variation, emphasizing that technical artifacts can introduce strong signals that may influence heterogeneity in IBD microbiome studies but that can be mitigated through meta-cohort analysis [@wirbel2019].
+Number of k-mers observed in a sample accounted for the highest variation, possibly reflecting reduced diversity in stool metagenomes of CD and UC patients (reviewed in [@doi:10.1038/s41579-019-0213-6 ]). 
+Study accounted for the second highest variation, emphasizing that technical artifacts can introduce strong signals that may influence heterogeneity in IBD microbiome studies but that can be mitigated through meta-cohort analysis [@doi:10.1038/s41591-019-0406-6].
 Diagnosis accounted for a similar amount of variation as study, indicating that there is a small but detectable signal of IBD subtype in stool metagenomes.
 
 
@@ -258,12 +316,12 @@ To evaluate whether the variation captured by diagnosis is predictive of IBD sub
 Random forests is a supervised learning classification model that estimates how predictive k-mers are of IBD subtype, and weights individual k-mers as more or less predictive using a metric called variable importance.
 To assess whether disease signatures generalize across study populations, we used a leave-one-study-out cross-validation approach where we built and optimized a classifier using five cohorts and validated on the sixth.
 We built each model six times, using a separate random seed each time, to hone in on cross-study and cross-model signal.
-Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set [@janitza2018; @degenhardt2017].
-Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (**Table @tbl:varselhashes)**). 
+Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set [@doi:10.1007/s11634-016-0276-4; @doi:10.1093/bib/bbx124].
+Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 29,264-41,701 (**Table @tbl:varselhashes**). 
 <!-- @TR: RECALCULATE REDUCTION) -->
 Using this reduced set of k-mers, we then optimized each random forests classifier on the training set, producing 36 optimized models. 
 We validated each model on the left-out study.
-The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:acc**), outperforming a previously published model built on metagenomic data alone [@franzosa2019].
+The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:acc**), outperforming a previously published model built on metagenomic data alone [@doi:10.1038/s41564-018-0306-4].
 
 <!-- TR UPDATE TO GENOME APPROACH -->
 
@@ -289,27 +347,27 @@ To recover strain variation in the metagenomes but not in the reference database
 Many beneficial bacteria, in particular those that are oxygen sensitive, decreased in abundance in CD and UC.
 Nine of the 54 species we investigated were *Faecalibacterium prausnitzii* of some sort in GTDB (**Figure **). 
 <!-- TR: how to properly talk about this -- they're different species in GTDB but the same in the literature... -->
-*F. prausnitzii* is an obligate anaerobe and a key butyrate producer in the gut, and plays a crucial role in reducing intestinal inflammation [@lopez2017faecalibacterium].
-*F. prausnitzii* is extremely sensitive to oxygen, though it may be able to withstand oxygen exposure for up to 24 hours depending on the availability of metabolites for extracellular electron transfer [@lopez2017faecalibacterium].
+*F. prausnitzii* is an obligate anaerobe and a key butyrate producer in the gut, and plays a crucial role in reducing intestinal inflammation [@doi:10.1038/ismej.2016.176].
+*F. prausnitzii* is extremely sensitive to oxygen, though it may be able to withstand oxygen exposure for up to 24 hours depending on the availability of metabolites for extracellular electron transfer [@doi:10.1038/ismej.2016.176].
 In the origianl models, *Acetatifactor sp900066565* held the largest variable importance largest variable importance, and dominating set pieces decreased in abundance in CD and to a lesser extent UC (**Figure**).
-*Acetatifactor* is a bile-acid producing bacteria associated with a healthy gut, but limited evidence has associated it with decreased abundance in IBD [@pathak2018intestine].
+*Acetatifactor* is a bile-acid producing bacteria associated with a healthy gut, but limited evidence has associated it with decreased abundance in IBD [@doi:10.1002/hep.29857].
 In UC, *Gemmiger formicilis* had the most dominating set pieces decrease in abundance compared to nonIBD (**Figure**).
-*G. formicilis* is a strictly anaerobic bacteria that produces both formic acid and butyric acid [@gossling1975gemmiger].
+*G. formicilis* is a strictly anaerobic bacteria that produces both formic acid and butyric acid [@doi:10.1099/00207713-25-2-202].
 We also observed a decrease in other oxygen-sensitive species, including *Lachnospira eligens*. 
-*L. eligans* is an obligate anaerobe that is unable to tolerate atmospheric oxygen for an hour [@hall2017]. 
-Collectively, the decrease in species diversity we observed in IBD, in particular CD, is consistent with a shift toward increased oxidative stress during disease that is intolerable for many gut microbes [@rigottier2013dysbiosis].
+*L. eligans* is an obligate anaerobe that is unable to tolerate atmospheric oxygen for an hour [@doi:10.1186/s13073-017-0490-5]. 
+Collectively, the decrease in species diversity we observed in IBD, in particular CD, is consistent with a shift toward increased oxidative stress during disease that is intolerable for many gut microbes [@doi:10.1038/ismej.2013.80].
 
 A substantial fraction of dominating set pieces were more abundant in CD than nonIBD in the metapangenome graphs of five species (**Figure**).
 
 Only the increase in the distinct accessory genes is detectable amongst the backdrop of general loss of gene abundance due to decrease in other strains.
 ...
-Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@costea2017subspecies].
+Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@doi:10.15252/msb.20177589].
 These four genomes annotated to *Ruminococcus gnavus* ...
 <!-- *Clostridium bolteae* -->
 
-*F. gnavus* is an aerotolerant anaerobe, one clade of which was recently found to be enriched in CD [@hall2017], and to produce an inflammatory polysaccharide [@henke2019ruminococcus]. 
-*C. bolteae* is a member of the normal gut microbiota but is an opportunistic pathogen that exploits compromised intestinal barriers [@dehoux2016comparative].
-It is associated with disturbance succession and has increased gene expression during gut dysbiosis [@lozupone2012identifying; @lloyd2019].
+*F. gnavus* is an aerotolerant anaerobe, one clade of which was recently found to be enriched in CD [@doi:10.1186/s13073-017-0490-5], and to produce an inflammatory polysaccharide [@doi:10.1073/pnas.1904099116]. 
+*C. bolteae* is a member of the normal gut microbiota but is an opportunistic pathogen that exploits compromised intestinal barriers [@doi:10.1186/s12864-016-3152-x].
+It is associated with disturbance succession and has increased gene expression during gut dysbiosis [@doi:10.1101/gr.138198.112; @doi:10.1038/s41586-019-1237-9].
 
 
 
@@ -326,7 +384,7 @@ Instead, in almost all pangenomes all protein k-mers are observed in at least so
 On average, XX protein k-mers were unobserved in UC, XX in CD, and XX in nonIBD per metapangenome, accounting for less than 1% of protein k-mers in the complete metapangenome (Table XX).
 These results in part explain heterogeneous study findings in previous IBD gut microbiome investigations.
 
-<!-- While we found no evidence of a general disease-specific metapangenome, we tested whether the biosynthetic cluster for the inflammatory polysaccharide produced by *F. gnavus* occurred in nonIBD as it had previously only been identified in CD [@henke2019ruminococcus].
+<!-- While we found no evidence of a general disease-specific metapangenome, we tested whether the biosynthetic cluster for the inflammatory polysaccharide produced by *F. gnavus* occurred in nonIBD as it had previously only been identified in CD [@doi:10.1073/pnas.1904099116].
 An average of more than 100 reads mapped per gene in the cluster in 10 of 213 nonIBD metagenomes.
 While more abundant in CD, this cluster is also identifiable within healthy human gut microbiomes, further supporting the lack of disease-specific pangenomes. -->
 
