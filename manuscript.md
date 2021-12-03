@@ -78,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/5fa355f62606470dfbbf9864a69126c52f7ca4f9/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fa355f62606470dfbbf9864a69126c52f7ca4f9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/5fa355f62606470dfbbf9864a69126c52f7ca4f9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/5fa355f62606470dfbbf9864a69126c52f7ca4f9/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@e0f5829](https://github.com/taylorreiter/2021-paper-ibd/tree/e0f58298e324689de1d301db8b104c4d1c199411)
+from [taylorreiter/2021-paper-ibd@5fa355f](https://github.com/taylorreiter/2021-paper-ibd/tree/5fa355f62606470dfbbf9864a69126c52f7ca4f9)
 on December 3, 2021.
 </em></small>
 
@@ -465,6 +465,63 @@ While more abundant in CD, this cluster is also identifiable within healthy huma
 When we counted the number of protein k-mers observed within each metagenome, XX of 54 metapangenomes for CD and XX of 54 metapangenomes for UC had a significantly lower number of genes observed per metagenome than nonIBD (ANOVA p < 0.05, Tukey's HSD p < 0.05). 
 Only *C. bolteae* in CD and *Romboutsia timonensis*, *Anaeromassilibacillus*, and *Actulibacter* in UC had a significantly more genes per sample within each pangenome.
 Only *F. gnavus* showed no significant difference in the number of genes per sample across all groups. -->
+
+# Discussion
+
+## IBD 
+
+IBD is a heterogeneous disease characterized by periods of activity and remission. 
+While the underlying etiology remains poorly understood, IBD arises from a complex interaction between host genetics, environment, and the gut microbiome. 
+Here we present a new method to examine microbial associations of disease, and using this method, uncover signatures of IBD subtype. 
+These signatures demonstrate consistent loss of diversity of specific microorganisms, particularly in CD. 
+Meanwhile, our analysis was consistent with strain enrichment in four species in CD.
+The conserved signatures we detect warrant further research and may yield new diagnostics and therapeutics for IBD treatment.
+
+While we found conserved signatures in IBD subtype, we found no evidence for disease-specific microbiomes, or pangenomes of the organisms that comprise them. 
+The observation that almost all genes within a pangenome occur in CD, UC, and nonIBD suggests the presence of ecotypes -- subspecies that are adapted to different environments -- rather than pathotypes -- subspecies associated with a specific disease.
+Similarly, while a few strains appear to be enriched in IBD microbiomes, these strains were all detected in nonIBD at low frequency. 
+These patterns in part explain the inconsistent results generated in IBD subtype characterization, where no consistent microbiological signal has emerged in human gut microbiomes other than loss of diversity (reviewed in @kumar2019integrating). 
+However, the results presented herein demonstrate the need for reference-free analysis of metagenomes. 
+Strain-level resolution was essential for the detection of enriched organisms, but this resolution is precluded by reference-based methods. 
+Recent large-scale assembly efforts have dramatically improved our catalog of diversity for human microbiomes [@pasolli2019; @nayfach2019; @almeida2019], however many sequences that were signatures of IBD were not in these databases. 
+K-mer-based analysis combined with assembly graph queries provides a necessary window into strain-level dynamics in metagenomes. 
+
+Our models consistently performed the most poorly on the iHMP cohort. 
+The iHMP tracked the emergence and diagnosis of IBD through time series profiling of emergent cases [@lloyd2019]. 
+We selected the first sample in each time series for this analysis. 
+Given that our model performed poorly on these samples, this may suggest that disease onset is a distinct biological process. 
+One avenue of future research is analysis of these time series samples for emergence of disease signatures. 
+
+While k-mer-based analysis revealed signatures of IBD subtype, 9.1% of shared k-mers were uncharacterized by reference databases or assembly graph queries. 
+These k-mers may represent strain variants of the microbial core we detected, or may be novel sequences from other organisms, plasmids, or viruses. 
+Targeted graph-based queries may reveal the identity of these elements and their relationship to IBD. 
+
+
+## Method
+
+While we apply our pipeline to IBD classification, it is extensible to other large meta cohorts of metagenomic sequencing data. 
+This method may be particularly suitable for diseases such as colorectal cancer, where a recent meta-analysis using a marker gene approach was successful in classifying colorectal samples from healthy controls [@wirbel2019].
+Our method may bring strain-level resolution and generate hypothesis for further research.
+
+While we selected random forests to identify k-mers that discriminate IBD subtype, other machine learning methods may provide better classification accuracy. 
+In this study, we prioritized the interpretability of our models over accuracy. 
+
+Additionally, while we used long nucleotide k-mers (*k* = 31), k-mers from protein or reduced alphabets may improve accuracy. 
+Protein k-mers XXX and were recently shown to XXX.
+Given that long k-mers of are species specific (CITE: metapalette, tessa?), nucleotide k-mers may maximize strain or species specific differences, may not be as well suited to disease classification. 
+This remains an area of future research.
+
+The first part of the pipeline is diconnectable from the second part of the pipeline -- that is, the discovery of potentially discriminatory genomes between groups is not a prerequisite for dominating set differential abundance analysis as these genomes could be selected arbitrarily.
+
+The methods presented here are applicable to metagenome analysis for samples originating from diverse environments. 
+The theoretical requirements for the application of dominating set differential abundance are sufficient samples for statistical testing (e.g., a minimum of three cases and three controls, with the typical caveats associated with detected statistically significant differences from small sample sizes as has been extensively explored in the context of differential expression analysis (CITE)) and a reference genome or metagenome-assembled genome bin to query with, and sufficient compute resources to run spacegraphcats (CITE SGC). 
+These requirements make the application of dominating set differential abundance analysis available to metagenomes from diverse environments, not just the well-studied human gut microbiome. 
+
++ assembly graphs are rising in popularity as they accomodate the representation of pangenomic variants present outside of reference genomes. 
+
++ assembly graphs can be built with a combination of long and short reads or from long or short reads alone, so dominating set differential abundance analysis is a flexible method to compare groups of metagenomes that will accommodate the field as metagenome sequencing continues to improve
+
++ the framework is theoretically extensible to metatranscriptomes, but this remains a point of future research
 
 # Methods
 
