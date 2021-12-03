@@ -34,14 +34,13 @@ authors:
     email: agingrich@ucdavis.edu
     affiliations: 
       - Department of Surgery, University of California, Davis Medical Center
-  - github: microgravitas
-    name: Felix Reidl
-    initials: FR
-    orcid: 0000-0002-2354-3003
-    twitter: quantumgravitas
-    email: f.reidl@bbk.ac.uk
+  - github: dylan-haynes
+    name: Dylan Haynes
+    initials: DRH
+    orcid: 0000-0001-8986-8196
+    email: haynedy@ohsu.edu
     affiliations:
-      - Department of Computer Science and Information Systems, Birkbeck, University of London 
+      - School of Medicine, Oregon Health & Science University
   - github: brooksph
     name: Phillip T. Brooks
     initials: PTB
@@ -57,6 +56,14 @@ authors:
     email: yos@cs.utah.edu
     affiliations:
       - School of Computing, University of Utah
+  - github: microgravitas
+    name: Felix Reidl
+    initials: FR
+    orcid: 0000-0002-2354-3003
+    twitter: quantumgravitas
+    email: f.reidl@bbk.ac.uk
+    affiliations:
+      - Department of Computer Science and Information Systems, Birkbeck, University of London 
   - github: adw96
     name: Amy D. Willis
     initials: ADW
