@@ -13,6 +13,7 @@ BioProject
 Biostatistics
 Birkbeck
 BlairDSullivan
+bluegenes
 bolteae
 Bonferroni
 brooksph
@@ -33,6 +34,8 @@ differentially
 disconnectable
 domatin
 dominator
+Dominik
+domoritz
 dysbiosis
 ecotypes
 facultative
@@ -53,7 +56,7 @@ iHMP
 Illumina
 intra
 Irber
-jaccard
+Jaccard
 kmers
 labelled
 LLDeep
@@ -67,7 +70,7 @@ metagenomes
 Metagenomic
 MetaHIT
 metapangenom
-metapangenome
+Metapangenome
 metapangenomes
 metatranscriptomes
 microbiome
@@ -77,6 +80,7 @@ microgravitas
 MinHash
 Mizutani
 mogproject
+Moritz
 nbhd
 NCBI
 nieghborhoods
@@ -90,7 +94,7 @@ ORPHEUM
 pangenome
 pangenomes
 pangenomic
-panmers
+PANMERS
 pathophysiology
 pathotypes
 PERMANOVA
@@ -109,10 +113,11 @@ Reiter
 ReiterTaylor
 Ruminococcus
 runtimes
+saltyscientist
 scalable
 scalably
 SGC
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi

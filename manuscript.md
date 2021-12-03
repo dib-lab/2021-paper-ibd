@@ -11,8 +11,10 @@ author-meta:
 - Luiz Irber
 - Alicia A. Gingrich
 - Dylan Haynes
+- N. Tessa Pierce-Ward
 - Phillip T. Brooks
 - Yosuke Mizutani
+- Dominik Moritz
 - Felix Reidl
 - Amy D. Willis
 - Blair D. Sullivan
@@ -50,6 +52,10 @@ header-includes: |-
   <meta name="citation_author" content="Dylan Haynes" />
   <meta name="citation_author_institution" content="School of Medicine, Oregon Health &amp; Science University" />
   <meta name="citation_author_orcid" content="0000-0001-8986-8196" />
+  <meta name="citation_author" content="N. Tessa Pierce-Ward" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
+  <meta name="citation_author_orcid" content="0000-0002-2942-5331" />
+  <meta name="twitter:creator" content="@saltyscientist" />
   <meta name="citation_author" content="Phillip T. Brooks" />
   <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0003-3987-244X" />
@@ -57,6 +63,10 @@ header-includes: |-
   <meta name="citation_author" content="Yosuke Mizutani" />
   <meta name="citation_author_institution" content="School of Computing, University of Utah" />
   <meta name="twitter:creator" content="@mogproject" />
+  <meta name="citation_author" content="Dominik Moritz" />
+  <meta name="citation_author_institution" content="Human-Computer Interaction Institute, Carnegie Mellon University" />
+  <meta name="citation_author_orcid" content="0000-0002-3110-1053" />
+  <meta name="twitter:creator" content="@domoritz" />
   <meta name="citation_author" content="Felix Reidl" />
   <meta name="citation_author_institution" content="Department of Computer Science and Information Systems, Birkbeck, University of London" />
   <meta name="citation_author_orcid" content="0000-0002-2354-3003" />
@@ -78,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/2aecb1c1ef3ac754662afad370526d5e23614a6f/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/2aecb1c1ef3ac754662afad370526d5e23614a6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/2aecb1c1ef3ac754662afad370526d5e23614a6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/d2297b966d2f36625e8c971ea510fbc9d0248365/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/d2297b966d2f36625e8c971ea510fbc9d0248365/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/d2297b966d2f36625e8c971ea510fbc9d0248365/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/2aecb1c1ef3ac754662afad370526d5e23614a6f/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/d2297b966d2f36625e8c971ea510fbc9d0248365/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@2aecb1c](https://github.com/taylorreiter/2021-paper-ibd/tree/2aecb1c1ef3ac754662afad370526d5e23614a6f)
+from [taylorreiter/2021-paper-ibd@d2297b9](https://github.com/taylorreiter/2021-paper-ibd/tree/d2297b966d2f36625e8c971ea510fbc9d0248365)
 on December 3, 2021.
 </em></small>
 
@@ -154,6 +164,18 @@ on December 3, 2021.
      School of Medicine, Oregon Health & Science University
   </small>
 
++ **N. Tessa Pierce-Ward**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2942-5331](https://orcid.org/0000-0002-2942-5331)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [bluegenes](https://github.com/bluegenes)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [saltyscientist](https://twitter.com/saltyscientist)<br>
+  <small>
+     Department of Population Health and Reproduction, University of California, Davis
+     · Funded by NSF 1711984
+  </small>
+
 + **Phillip T. Brooks**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-3987-244X](https://orcid.org/0000-0003-3987-244X)
@@ -172,6 +194,17 @@ on December 3, 2021.
     [mogproject](https://twitter.com/mogproject)<br>
   <small>
      School of Computing, University of Utah
+  </small>
+
++ **Dominik Moritz**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-3110-1053](https://orcid.org/0000-0002-3110-1053)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [domoritz](https://github.com/domoritz)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [domoritz](https://twitter.com/domoritz)<br>
+  <small>
+     Human-Computer Interaction Institute, Carnegie Mellon University
   </small>
 
 + **Felix Reidl**<br>
