@@ -41,6 +41,15 @@ authors:
     email: haynedy@ohsu.edu
     affiliations:
       - School of Medicine, Oregon Health & Science University
+  - github: bluegenes
+    name: N. Tessa Pierce-Ward
+    initials: NTP
+    orcid: 0000-0002-2942-5331
+    twitter: saltyscientist
+    email: ntpierce@ucdavis.edu
+    affiliations:
+     - Department of Population Health and Reproduction, University of California, Davis
+    funders: NSF 1711984
   - github: brooksph
     name: Phillip T. Brooks
     initials: PTB
@@ -56,6 +65,14 @@ authors:
     email: yos@cs.utah.edu
     affiliations:
       - School of Computing, University of Utah
+  - github: domoritz
+    name: Dominik Moritz 
+    initials: DM
+    orcid: 0000-0002-3110-1053
+    twitter: domoritz 
+    email: domoritz@cmu.edu
+    affiliations:
+      - Human-Computer Interaction Institute, Carnegie Mellon University
   - github: microgravitas
     name: Felix Reidl
     initials: FR
