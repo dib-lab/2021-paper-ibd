@@ -26,7 +26,7 @@ coli
 Crohn’s
 ctb
 dataset
-dysbiosis
+Dysbiosis
 ecotypes
 eligans
 eligens
@@ -60,10 +60,10 @@ mer
 mers
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenom
-Metapangenome
+metapangenome
 metapangenomes
 microbiome
 microbiomes
@@ -104,7 +104,7 @@ runtimes
 scalable
 scalably
 SGC
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi

@@ -74,9 +74,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,9 +98,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@4e5a978](https://github.com/taylorreiter/2021-paper-ibd/tree/4e5a978de8bf98d3943fa681b7c667b666ffa789)
+from [taylorreiter/2021-paper-ibd@dafad5a](https://github.com/taylorreiter/2021-paper-ibd/tree/dafad5a584fc9ad35c90840749f6ac3159ed56de)
 on December 3, 2021.
 </em></small>
 
