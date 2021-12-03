@@ -39,7 +39,7 @@ Dysbiosis
 ecotypes
 facultative
 Faecalibacterium
-FASTQ
+fastq
 FracMinHash
 GenBank
 genomic
@@ -55,7 +55,7 @@ iHMP
 illumina
 intra
 Irber
-Jaccard
+jaccard
 kmers
 labelled
 LLDeep
@@ -67,10 +67,10 @@ mer
 mers
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenom
-Metapangenome
+metapangenome
 metapangenomes
 metatranscriptomes
 microbiome
@@ -118,7 +118,7 @@ saltyscientist
 scalable
 scalably
 SGC
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi

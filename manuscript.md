@@ -88,9 +88,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c71867e7c186147e99f78796f956d9b01f0efeab/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c71867e7c186147e99f78796f956d9b01f0efeab/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c71867e7c186147e99f78796f956d9b01f0efeab/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,9 +112,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/c71867e7c186147e99f78796f956d9b01f0efeab/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@c71867e](https://github.com/taylorreiter/2021-paper-ibd/tree/c71867e7c186147e99f78796f956d9b01f0efeab)
+from [taylorreiter/2021-paper-ibd@1d4de25](https://github.com/taylorreiter/2021-paper-ibd/tree/1d4de25bb8c4e227e204e05b70879b52c3368a2e)
 on December 3, 2021.
 </em></small>
 
@@ -303,7 +303,7 @@ Genome queries often recover sequences not in reference databases or *de novo* a
 When a query has a Jaccard similarity between 10^-2^ and 10^-3^, 20-40% of a target genome sequence is recovered from a metagenome query [@doi:10.1186/s13059-020-02066-4]. 
 This jumps to >80% when Jaccard similarity exceeds 10^-1^ [@doi:10.1186/s13059-020-02066-4]. 
 
-Here we develop k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 healthy controls [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:10.1038/nature08821].
+Here we develop k-mer- and assembly graph-based techniques to perform a meta-cohort analysis of six studies of IBD gut metagenome cohorts comprising 260 CD, 132 UC and 213 controls (**Table tbl:cohorts**) [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:10.1038/nature08821].
 
 SUMMARY OF TECHNIQUES WE BUILT? 
 
@@ -326,6 +326,11 @@ Our approach provides a solution for strain-level analysis of short read metagen
 We developed XXX. 
 <!-- what should this first section say? -->
 
+
+![
+**Overview of the metagenome analysis technique used in this paper.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
+](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
+
 We applied this approach to the analysis of IBD gut microbiomes via meta-analysis.
 Meta-analyses have recently shown success in improving detection of microbial signatures of colorectal cancer (CITE: wirbel, others). 
 To this end, we identified studies that performed metagenomic sequencing of individuals with CD, UC, or nonIBD and combined these to perform a meta-analysis (**Table @tbl:cohorts**).
@@ -335,9 +340,6 @@ In many studies, samples were taken in time series to profile disease progressio
 In these cases we included the first sample in the time series so organized interventions would not skew our results.
 In addition, many of the nonIBD samples, particularly those from the iHMP, profiled sick individuals that were not diagnosed with IBD, meaning some of these samples are not healthy controls.
 
-![
-**Overview of the metagenome analysis technique used in this paper.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
-](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
 
 | Cohort      |   Name        | Country      |Total   |CD      |UC      |nonIBD  | Reference |
 |:------------|:-------------:|:------------:|:------:|:------:|:------:|:------:|:----------|
@@ -349,7 +351,7 @@ In addition, many of the nonIBD samples, particularly those from the iHMP, profi
 | PRJNA237362 | RISK                     | North America    | 28    | 23  | 0   | 5 | [@doi:10.1016/j.chom.2014.02.005] | 
 | Total       |                          |                  | 605   | 260 | 132 | 213| |
 Table: Six IBD shotgun metagenome sequencing cohorts used in this meta-cohort analysis.
-{#tbl:cohort}
+{#tbl:cohorts}
 
 ## K-mers are weakly predictive of IBD subtype
 
