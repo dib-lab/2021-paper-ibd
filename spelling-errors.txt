@@ -32,7 +32,7 @@ eligans
 eligens
 facultative
 Faecalibacterium
-FASTQ
+fastq
 formicilis
 FracMinHash
 Gemmiger
@@ -60,10 +60,10 @@ mer
 mers
 metagenome
 metagenomes
-metagenomic
+Metagenomic
 MetaHIT
 metapangenom
-metapangenome
+Metapangenome
 metapangenomes
 microbiome
 microbiomes
@@ -104,7 +104,7 @@ runtimes
 scalable
 scalably
 SGC
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi

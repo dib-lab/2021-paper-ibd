@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-12-02'
+date-meta: '2021-12-03'
 author-meta:
 - Taylor Elaine Reiter
 - Luiz Irber
@@ -26,8 +26,8 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2021-12-02" />
-  <meta name="citation_publication_date" content="2021-12-02" />
+  <meta name="dc.date" content="2021-12-03" />
+  <meta name="citation_publication_date" content="2021-12-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -74,9 +74,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/d02ef5d33e76eb462fcb38ebfb09f7e5005dce01/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/d02ef5d33e76eb462fcb38ebfb09f7e5005dce01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/d02ef5d33e76eb462fcb38ebfb09f7e5005dce01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,10 +98,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/d02ef5d33e76eb462fcb38ebfb09f7e5005dce01/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/4e5a978de8bf98d3943fa681b7c667b666ffa789/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@d02ef5d](https://github.com/taylorreiter/2021-paper-ibd/tree/d02ef5d33e76eb462fcb38ebfb09f7e5005dce01)
-on December 2, 2021.
+from [taylorreiter/2021-paper-ibd@4e5a978](https://github.com/taylorreiter/2021-paper-ibd/tree/4e5a978de8bf98d3943fa681b7c667b666ffa789)
+on December 3, 2021.
 </em></small>
 
 ## Authors
@@ -325,8 +325,8 @@ Random forests is a supervised learning classification model that estimates how 
 To assess whether disease signatures generalize across study populations, we used a leave-one-study-out cross-validation approach where we built and optimized a classifier using five cohorts and validated on the sixth.
 We built each model six times, using a different random seed each time, to hone in on cross-study and cross-model signal.
 Given the high-dimensional structure of this data set (e.g. many more k-mers than metagenomes), we first used variable selection to narrow the set of predictive k-mers in the training set [@doi:10.1007/s11634-016-0276-4; @doi:10.1093/bib/bbx124].
-Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 28,684-41,701 (mean = 35,673.1, sd = 4090.3) (**fig @fig:kmers B**). 
-<!-- @TR: RECALCULATE REDUCTION) -->
+Variable selection reduced the number of k-mers used in each model by two orders of magnitude, from 7,376,151 to 28,684-41,701 (mean = 35,673.1, sd = 4090.3) (**Figure @fig:kmers B**). 
+
 Using this reduced set of k-mers, we then optimized each random forests classifier on the training set, producing 36 optimized models. 
 We validated each model on the left-out study.
 The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:kmers B**), outperforming a previously published model built on metagenomic data alone [@doi:10.1038/s41564-018-0306-4].
@@ -340,7 +340,7 @@ To understand which genomes were responsible for disease signatures detected by 
 Sourmash gather determines the minimum set of genomes in database necessary to cover all of the k-mers in a query (CITE: Gather).
 We used the GTDB rs202 representatives database, which contains bacterial and archaeal genomes, and the GenBank viral, fungal, and protozoa databases.
 We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers.
-Of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers.
+Of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:tree**).
 The presence of shared k-mers between classifiers indicates that there is a weak but consistent biological signal in metagenomes for IBD subtype between cohorts.
 
 K-mers that anchored to these shared genomes represented 65% of all k-mers used to build the optimized classifiers, but accounted for an outsize proportion of variable importance in the optimized classifiers.
@@ -348,7 +348,7 @@ After normalizing variable importance across classifiers, 76% of the total varia
 These k-mers contribute a large fraction of predictive power for classification of IBD subtype, and the genomes in which they are found represent a microbial core that contains predictive power in IBD subtype classification.
 
 Given that 360 genomes anchored the majority of k-mers and variable importance across all models, we were curious whether a smaller number of genomes could still retain the majority of variable importance. 
-Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance. 
+Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:tree**). 
 We assume these genomes represent the strongest candidates for discriminating IBD subtype and focused on them for the remainder of our analyses.
 
 ![
@@ -359,8 +359,17 @@ We assume these genomes represent the strongest candidates for discriminating IB
 
 While we were able to identify the majority of k-mers that were important for predicting IBD subtype, 26% of k-mers remained unannotated. 
 We hypothesized that these k-mers represented strain variable sequences not in reference databases but belonging to species represented by annotated k-mers.
-To test this hypothesis, we performed genome queries on assembly graphs of each metagenome using the 54 candidate genomes that discriminated IBD subtype.
+To test this hypothesis, we performed genome queries on assembly graphs of each metagenome using the 54 candidate genomes that discriminated IBD subtype (**Figure @fig:overview**).
+Assembly graph genome queries recover sequences in a metagenome that match the query, as well as those that are nearby in the assembly graph (**Figure @fig:overview**) [@doi:10.1186/s13059-020-02066-4].
+The resulting genome query neighborhood contains all reads in the metagenome that encode these sequences.
 
+![
+**Alluvial plot of .**
+](images/alluvial_percent_of_hashes.png){#fig:alluvial}
+
+<!--
+I think part of why this might occur is because a lot of the sequences that were important for predicting IBD subtype, some of which were not in reference databases, encoded marker genes, including 16s and 23s. But the reason I know this is from multifasta queries. I would really rather not get in to the whole 16s/23s marker gene stuff, as it now seems tangential to the dominating set differential abundance (e.g., I'm trying to minimize the random forests component, bc while it's cool from a discovery perspective, all I use it for now it to pick out candidate genomes to analyze more closely). Also, I don't want to go into all of this stuff bc a good 1/2 of the results were generated from the old catlases and I have no intention of regenerating all of those results. So. It feels good knowing that some of the stuff gets scooped in bc 16s/23s should organize stuff close together in graph land, but i think I can safely hide that insight from the reads and not feel too silly about it.
+-->
 
 ## IBD gut microbiomes have decreased diversity in strict anaerobes that is punctuated by strain switches for some facultative anaerobes
 
