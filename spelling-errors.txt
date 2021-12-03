@@ -25,7 +25,6 @@ chemistries
 clade
 coli
 colorectal
-combinted
 Crohn’s
 ctb
 dataset
@@ -36,11 +35,11 @@ domatin
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 facultative
 Faecalibacterium
-fastq
+FASTQ
 FracMinHash
 GenBank
 genomic
@@ -53,7 +52,7 @@ IBD
 IBDMDB
 idbmdb
 iHMP
-Illumina
+illumina
 intra
 Irber
 Jaccard
@@ -63,6 +62,7 @@ LLDeep
 LOOCV
 Luiz
 luizirber
+matricx
 mer
 mers
 metagenome
@@ -88,13 +88,14 @@ NLIBD
 nonIBD
 novo
 ntcard
+occr
 omics
 operon
 ORPHEUM
 pangenome
 pangenomes
 pangenomic
-PANMERS
+panmers
 pathophysiology
 pathotypes
 PERMANOVA
@@ -134,6 +135,6 @@ UC
 ulcerative
 unannotated
 unitigs
-wre
+wirbel
 XXXXXXXX
 Yosuke
