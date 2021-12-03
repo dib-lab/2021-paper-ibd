@@ -12,14 +12,15 @@
       "Taylor Elaine Reiter",
       "Luiz Irber",
       "Alicia A. Gingrich",
-      "Felix Reidl",
+      "Dylan Haynes",
       "Phillip T. Brooks",
       "Yosuke Mizutani",
+      "Felix Reidl",
       "Amy D. Willis",
       "Blair D. Sullivan",
       "C. Titus Brown"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta name=\"citation_title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta property=\"og:title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta property=\"twitter:title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta name=\"dc.date\" content=\"2021-12-03\" />\n<meta name=\"citation_publication_date\" content=\"2021-12-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Taylor Elaine Reiter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, UC Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7388-421X\" />\n<meta name=\"twitter:creator\" content=\"@ReiterTaylor\" />\n<meta name=\"citation_author\" content=\"Luiz Irber\" />\n<meta name=\"citation_author_institution\" content=\"Graduate Group in Computer Science, UC Davis\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4371-9659\" />\n<meta name=\"twitter:creator\" content=\"@luizirber\" />\n<meta name=\"citation_author\" content=\"Alicia A. Gingrich\" />\n<meta name=\"citation_author_institution\" content=\"Department of Surgery, University of California, Davis Medical Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7239-0154\" />\n<meta name=\"citation_author\" content=\"Felix Reidl\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science and Information Systems, Birkbeck, University of London\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2354-3003\" />\n<meta name=\"twitter:creator\" content=\"@quantumgravitas\" />\n<meta name=\"citation_author\" content=\"Phillip T. Brooks\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3987-244X\" />\n<meta name=\"twitter:creator\" content=\"@brooksph\" />\n<meta name=\"citation_author\" content=\"Yosuke Mizutani\" />\n<meta name=\"citation_author_institution\" content=\"School of Computing, University of Utah\" />\n<meta name=\"twitter:creator\" content=\"@mogproject\" />\n<meta name=\"citation_author\" content=\"Amy D. Willis\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, University of Washington\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2802-4317\" />\n<meta name=\"twitter:creator\" content=\"@AmyDWillis\" />\n<meta name=\"citation_author\" content=\"Blair D. Sullivan\" />\n<meta name=\"citation_author_institution\" content=\"School of Computing, University of Utah\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7720-6208\" />\n<meta name=\"twitter:creator\" content=\"@BlairDSullivan\" />\n<meta name=\"citation_author\" content=\"C. Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6001-2677\" />\n<link rel=\"canonical\" href=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta property=\"og:url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta property=\"twitter:url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta name=\"citation_pdf_url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta name=\"citation_title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta property=\"og:title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta property=\"twitter:title\" content=\"Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease\" />\n<meta name=\"dc.date\" content=\"2021-12-03\" />\n<meta name=\"citation_publication_date\" content=\"2021-12-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Taylor Elaine Reiter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, UC Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7388-421X\" />\n<meta name=\"twitter:creator\" content=\"@ReiterTaylor\" />\n<meta name=\"citation_author\" content=\"Luiz Irber\" />\n<meta name=\"citation_author_institution\" content=\"Graduate Group in Computer Science, UC Davis\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4371-9659\" />\n<meta name=\"twitter:creator\" content=\"@luizirber\" />\n<meta name=\"citation_author\" content=\"Alicia A. Gingrich\" />\n<meta name=\"citation_author_institution\" content=\"Department of Surgery, University of California, Davis Medical Center\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-7239-0154\" />\n<meta name=\"citation_author\" content=\"Dylan Haynes\" />\n<meta name=\"citation_author_institution\" content=\"School of Medicine, Oregon Health &amp; Science University\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8986-8196\" />\n<meta name=\"citation_author\" content=\"Phillip T. Brooks\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3987-244X\" />\n<meta name=\"twitter:creator\" content=\"@brooksph\" />\n<meta name=\"citation_author\" content=\"Yosuke Mizutani\" />\n<meta name=\"citation_author_institution\" content=\"School of Computing, University of Utah\" />\n<meta name=\"twitter:creator\" content=\"@mogproject\" />\n<meta name=\"citation_author\" content=\"Felix Reidl\" />\n<meta name=\"citation_author_institution\" content=\"Department of Computer Science and Information Systems, Birkbeck, University of London\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2354-3003\" />\n<meta name=\"twitter:creator\" content=\"@quantumgravitas\" />\n<meta name=\"citation_author\" content=\"Amy D. Willis\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, University of Washington\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2802-4317\" />\n<meta name=\"twitter:creator\" content=\"@AmyDWillis\" />\n<meta name=\"citation_author\" content=\"Blair D. Sullivan\" />\n<meta name=\"citation_author_institution\" content=\"School of Computing, University of Utah\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-7720-6208\" />\n<meta name=\"twitter:creator\" content=\"@BlairDSullivan\" />\n<meta name=\"citation_author\" content=\"C. Titus Brown\" />\n<meta name=\"citation_author_institution\" content=\"Department of Population Health and Reproduction, University of California, Davis\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6001-2677\" />\n<link rel=\"canonical\" href=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta property=\"og:url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta property=\"twitter:url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/\" />\n<meta name=\"citation_pdf_url\" content=\"https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -81,14 +82,13 @@
         ]
       },
       {
-        "github": "microgravitas",
-        "name": "Felix Reidl",
-        "initials": "FR",
-        "orcid": "0000-0002-2354-3003",
-        "twitter": "quantumgravitas",
-        "email": "f.reidl@bbk.ac.uk",
+        "github": "dylan-haynes",
+        "name": "Dylan Haynes",
+        "initials": "DRH",
+        "orcid": "0000-0001-8986-8196",
+        "email": "haynedy@ohsu.edu",
         "affiliations": [
-          "Department of Computer Science and Information Systems, Birkbeck, University of London"
+          "School of Medicine, Oregon Health & Science University"
         ],
         "affiliation_numbers": [
           5
@@ -122,6 +122,20 @@
         ]
       },
       {
+        "github": "microgravitas",
+        "name": "Felix Reidl",
+        "initials": "FR",
+        "orcid": "0000-0002-2354-3003",
+        "twitter": "quantumgravitas",
+        "email": "f.reidl@bbk.ac.uk",
+        "affiliations": [
+          "Department of Computer Science and Information Systems, Birkbeck, University of London"
+        ],
+        "affiliation_numbers": [
+          7
+        ]
+      },
+      {
         "github": "adw96",
         "name": "Amy D. Willis",
         "initials": "ADW",
@@ -132,7 +146,7 @@
           "Department of Biostatistics, University of Washington"
         ],
         "affiliation_numbers": [
-          7
+          8
         ]
       },
       {
@@ -181,7 +195,7 @@
         "affiliation_number": 4
       },
       {
-        "affiliation": "Department of Computer Science and Information Systems, Birkbeck, University of London",
+        "affiliation": "School of Medicine, Oregon Health & Science University",
         "affiliation_number": 5
       },
       {
@@ -189,8 +203,12 @@
         "affiliation_number": 6
       },
       {
-        "affiliation": "Department of Biostatistics, University of Washington",
+        "affiliation": "Department of Computer Science and Information Systems, Birkbeck, University of London",
         "affiliation_number": 7
+      },
+      {
+        "affiliation": "Department of Biostatistics, University of Washington",
+        "affiliation_number": 8
       }
     ],
     "ci_source": {
@@ -198,19 +216,19 @@
       "repo_slug": "taylorreiter/2021-paper-ibd",
       "repo_owner": "taylorreiter",
       "repo_name": "2021-paper-ibd",
-      "commit": "dafad5a584fc9ad35c90840749f6ac3159ed56de",
-      "triggering_commit": "dafad5a584fc9ad35c90840749f6ac3159ed56de",
-      "build_url": "https://github.com/taylorreiter/2021-paper-ibd/commit/dafad5a584fc9ad35c90840749f6ac3159ed56de/checks",
-      "job_url": "https://github.com/taylorreiter/2021-paper-ibd/actions/runs/1533099049"
+      "commit": "e0f58298e324689de1d301db8b104c4d1c199411",
+      "triggering_commit": "e0f58298e324689de1d301db8b104c4d1c199411",
+      "build_url": "https://github.com/taylorreiter/2021-paper-ibd/commit/e0f58298e324689de1d301db8b104c4d1c199411/checks",
+      "job_url": "https://github.com/taylorreiter/2021-paper-ibd/actions/runs/1533657872"
     },
     "html_url": "https://taylorreiter.github.io/2021-paper-ibd/",
     "pdf_url": "https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf",
-    "html_url_versioned": "https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/",
-    "pdf_url_versioned": "https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/manuscript.pdf",
+    "html_url_versioned": "https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/",
+    "pdf_url_versioned": "https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": "8086a3985300c203353acbe44a2fc908f677d563",
     "manuscript_stats": {
-      "word_count": 5861
+      "word_count": 6286
     }
   }
 }

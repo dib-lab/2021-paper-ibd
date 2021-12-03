@@ -10,9 +10,10 @@ author-meta:
 - Taylor Elaine Reiter
 - Luiz Irber
 - Alicia A. Gingrich
-- Felix Reidl
+- Dylan Haynes
 - Phillip T. Brooks
 - Yosuke Mizutani
+- Felix Reidl
 - Amy D. Willis
 - Blair D. Sullivan
 - C. Titus Brown
@@ -46,10 +47,9 @@ header-includes: |-
   <meta name="citation_author" content="Alicia A. Gingrich" />
   <meta name="citation_author_institution" content="Department of Surgery, University of California, Davis Medical Center" />
   <meta name="citation_author_orcid" content="0000-0002-7239-0154" />
-  <meta name="citation_author" content="Felix Reidl" />
-  <meta name="citation_author_institution" content="Department of Computer Science and Information Systems, Birkbeck, University of London" />
-  <meta name="citation_author_orcid" content="0000-0002-2354-3003" />
-  <meta name="twitter:creator" content="@quantumgravitas" />
+  <meta name="citation_author" content="Dylan Haynes" />
+  <meta name="citation_author_institution" content="School of Medicine, Oregon Health &amp; Science University" />
+  <meta name="citation_author_orcid" content="0000-0001-8986-8196" />
   <meta name="citation_author" content="Phillip T. Brooks" />
   <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0003-3987-244X" />
@@ -57,6 +57,10 @@ header-includes: |-
   <meta name="citation_author" content="Yosuke Mizutani" />
   <meta name="citation_author_institution" content="School of Computing, University of Utah" />
   <meta name="twitter:creator" content="@mogproject" />
+  <meta name="citation_author" content="Felix Reidl" />
+  <meta name="citation_author_institution" content="Department of Computer Science and Information Systems, Birkbeck, University of London" />
+  <meta name="citation_author_orcid" content="0000-0002-2354-3003" />
+  <meta name="twitter:creator" content="@quantumgravitas" />
   <meta name="citation_author" content="Amy D. Willis" />
   <meta name="citation_author_institution" content="Department of Biostatistics, University of Washington" />
   <meta name="citation_author_orcid" content="0000-0002-2802-4317" />
@@ -74,9 +78,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,9 +102,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/dafad5a584fc9ad35c90840749f6ac3159ed56de/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/e0f58298e324689de1d301db8b104c4d1c199411/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@dafad5a](https://github.com/taylorreiter/2021-paper-ibd/tree/dafad5a584fc9ad35c90840749f6ac3159ed56de)
+from [taylorreiter/2021-paper-ibd@e0f5829](https://github.com/taylorreiter/2021-paper-ibd/tree/e0f58298e324689de1d301db8b104c4d1c199411)
 on December 3, 2021.
 </em></small>
 
@@ -141,15 +145,13 @@ on December 3, 2021.
      Department of Surgery, University of California, Davis Medical Center
   </small>
 
-+ **Felix Reidl**<br>
++ **Dylan Haynes**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-2354-3003](https://orcid.org/0000-0002-2354-3003)
+    [0000-0001-8986-8196](https://orcid.org/0000-0001-8986-8196)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [microgravitas](https://github.com/microgravitas)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [quantumgravitas](https://twitter.com/quantumgravitas)<br>
+    [dylan-haynes](https://github.com/dylan-haynes)<br>
   <small>
-     Department of Computer Science and Information Systems, Birkbeck, University of London
+     School of Medicine, Oregon Health & Science University
   </small>
 
 + **Phillip T. Brooks**<br>
@@ -170,6 +172,17 @@ on December 3, 2021.
     [mogproject](https://twitter.com/mogproject)<br>
   <small>
      School of Computing, University of Utah
+  </small>
+
++ **Felix Reidl**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-2354-3003](https://orcid.org/0000-0002-2354-3003)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [microgravitas](https://github.com/microgravitas)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [quantumgravitas](https://twitter.com/quantumgravitas)<br>
+  <small>
+     Department of Computer Science and Information Systems, Birkbeck, University of London
   </small>
 
 + **Amy D. Willis**<br>
@@ -373,19 +386,48 @@ I think part of why this might occur is because a lot of the sequences that were
 
 ## IBD gut microbiomes have decreased diversity in strict anaerobes that is punctuated by strain switches for some facultative anaerobes
 
-<!-- TR: This paragraph was originally written for k-mers, and now writing it for dominating sets is clunky so may need to be revised. But i like its biology tie ins -->
-Many beneficial bacteria, in particular those that are oxygen sensitive, decreased in abundance in CD and UC.
-Nine of the 54 species we investigated were *Faecalibacterium prausnitzii* of some sort in GTDB (**Figure **). 
-<!-- TR: how to properly talk about this -- they're different species in GTDB but the same in the literature... -->
-*F. prausnitzii* is an obligate anaerobe and a key butyrate producer in the gut, and plays a crucial role in reducing intestinal inflammation [@doi:10.1038/ismej.2016.176].
+<!-- Is this a results heading of its own? From here until the empty comment mark -->
+
+After recovering all sequences in metagenomes in the neighborhoods of the species that discriminate IBD subtypes, we next sought to determine the specific genome segments that were differentially abundant in IBD. 
+Differential abundance analysis is a common step in metagenome analysis, however it is typically applied to gene counts (CITE), which require assembly or mapping prior to abundance estimation.
+<!--TR: Also commonly applied to species counts. Should this be added? -->
+To avoid assembly or mapping and the accompanying loss of reads (CITE), we developed an abundance estimation approach that works directly on the assembly graphs, enabling differential abundance analysis directly on the assembly graph.
+Our abundance estimation approach was based on *R*-dominating sets, an algorithm introduced in (CITE: SGC) that efficiently computes the dominating nodes in a cDBG so that every node is no more that distance *R* from a dominator.
+The dominating set is used to carve the graph into pieces, each of which contains one dominating node. 
+Here, we first build a species-level assembly graph that contains all genome query neighborhood sequences from every metagenome, which we call a *metapangenome graph*.
+We then partition the graph into pieces using a large radius (*R* = 10). 
+The large radius carves the graph int pieces that average XX k-mers in size (Supplementary XX), enabling meaningful comparisons between groups; we aimed for a piece size similar to the average bacterial gene length of 1000 base pairs (CITE). 
+We next estimated the abundance of each piece within each metagenome using average k-mer abundance.
+We also annotated the graph pieces using XXX.
+Using this information, we performed dominating set differential abundance analysis using corncob, a statistical package that tests for differential relative abundance in the presences of variable sequencing depth and excessive zeroes for unobserved observations (CITE: corncob), a condition which occurs in abundances from dominating sets (Supplementary XX). 
+
+We applied this method for each of our genome queries, building 54 metapangenome graphs and performing dominating set differential abundance analysis on each. 
+Given that corncob fits a model for each dominating set piece and therefore does not require abundance information for all pieces (CITE: corncob), and given that we sought differences that characterized the majority of our samples within a group, we tested for differential abundance in pieces that occurred in at least 100 metagenomes.
+On average, this condition was met in XX% of dominating set pieces.
+
+![
+**Dominating set differential abundance analysis revealed genome segments that were significantly different in CD and UC compared to nonIBD.**  
+](images/gtdb_and_corncob_res.png){#fig:dda}
+
+We found that the majority of species decreased in abundance in CD, and to a lesser extent, UC (**Figure @fig:dda**).
+The majority of these species are strictly anaerobic (**Figure @fig:dda**), so their decreased abundance is consistent with a shift toward oxidative stress during disease that is intolerable for many gut microbes [@doi:10.1038/ismej.2013.80].
+Many of these species are generally regarded as beneficial bacteria. 
+For example, nine of the 54 species we investigated were *Faecalibacterium prausnitzii*, the phylogroups of which are separated in the GTDB taxonomy but combinted into a single species in the NCBI taxonomy. 
+*F. prausnitzii* a key butyrate producer in the gut, and plays a crucial role in reducing intestinal inflammation [@doi:10.1038/ismej.2016.176].
+Similarly, *Acetatifactor* is a bile-acid producing bacteria associated with a healthy gut, but limited evidence has associated it with decreased abundance in IBD [@doi:10.1002/hep.29857].
+We found that four species were less likely to occur in CD, and to a lesser extent, UC.
+
+<!--*Gemmiger formicilis* had the most dominating set pieces decrease in abundance in UC, and was also decreased in CD (**Figure @fig:dda**).
+*G. formicilis* is a strictly anaerobic bacteria that produces both formic acid and butyric acid [@doi:10.1099/00207713-25-2-202]. 
+See 10.3390/cells10113243 for new association with Gemmiger formicilis being reduced in pouchitis.
+-->
+
+<!-- strict anaerobe citations:
+*F. prausnitzii* is an obligate anaerobe  [@doi:10.1038/ismej.2016.176].
 *F. prausnitzii* is extremely sensitive to oxygen, though it may be able to withstand oxygen exposure for up to 24 hours depending on the availability of metabolites for extracellular electron transfer [@doi:10.1038/ismej.2016.176].
-In the origianl models, *Acetatifactor sp900066565* held the largest variable importance largest variable importance, and dominating set pieces decreased in abundance in CD and to a lesser extent UC (**Figure**).
-*Acetatifactor* is a bile-acid producing bacteria associated with a healthy gut, but limited evidence has associated it with decreased abundance in IBD [@doi:10.1002/hep.29857].
-In UC, *Gemmiger formicilis* had the most dominating set pieces decrease in abundance compared to nonIBD (**Figure**).
 *G. formicilis* is a strictly anaerobic bacteria that produces both formic acid and butyric acid [@doi:10.1099/00207713-25-2-202].
-We also observed a decrease in other oxygen-sensitive species, including *Lachnospira eligens*. 
-*L. eligans* is an obligate anaerobe that is unable to tolerate atmospheric oxygen for an hour [@doi:10.1186/s13073-017-0490-5]. 
-Collectively, the decrease in species diversity we observed in IBD, in particular CD, is consistent with a shift toward increased oxidative stress during disease that is intolerable for many gut microbes [@doi:10.1038/ismej.2013.80].
+*Lachnospira eligens* is an obligate anaerobe that is unable to tolerate atmospheric oxygen for an hour [@doi:10.1186/s13073-017-0490-5]. 
+-->
 
 A substantial fraction of dominating set pieces were more abundant in CD than nonIBD in the metapangenome graphs of five species (**Figure**).
 
@@ -395,7 +437,7 @@ Enrichment of specific metabolic pathways is consistent with functional speciali
 These four genomes annotated to *Ruminococcus gnavus* ...
 <!-- *Clostridium bolteae* -->
 
-*F. gnavus* is an aerotolerant anaerobe, one clade of which was recently found to be enriched in CD [@doi:10.1186/s13073-017-0490-5], and to produce an inflammatory polysaccharide [@doi:10.1073/pnas.1904099116]. 
+*R. gnavus* is an aerotolerant anaerobe, one clade of which was recently found to be enriched in CD [@doi:10.1186/s13073-017-0490-5], and to produce an inflammatory polysaccharide [@doi:10.1073/pnas.1904099116]. 
 *C. bolteae* is a member of the normal gut microbiota but is an opportunistic pathogen that exploits compromised intestinal barriers [@doi:10.1186/s12864-016-3152-x].
 It is associated with disturbance succession and has increased gene expression during gut dysbiosis [@doi:10.1101/gr.138198.112; @doi:10.1038/s41586-019-1237-9].
 
