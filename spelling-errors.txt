@@ -37,15 +37,15 @@ disconnectable
 dominator
 Dominik
 domoritz
-Dysbiosis
+dysbiosis
 ecotypes
 Enterocloster
 facultative
 Faecalibacterium
-FASTQ
+fastq
 FracMinHash
 GenBank
-genomic
+Genomic
 ggMarginal
 ggplot
 gnavus
@@ -55,7 +55,7 @@ IBD
 IBDMDB
 idbmdb
 iHMP
-illumina
+Illumina
 intra
 Irber
 Jaccard
@@ -95,7 +95,7 @@ orthologs
 pangenome
 pangenomes
 pangenomic
-panmers
+PANMERS
 pathophysiology
 pathotypes
 PERMANOVA
