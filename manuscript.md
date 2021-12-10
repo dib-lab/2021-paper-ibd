@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/4908e8303addd2db59403bd9225c66f6ce982b2f/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4908e8303addd2db59403bd9225c66f6ce982b2f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4908e8303addd2db59403bd9225c66f6ce982b2f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/32f10f1b024c0591dd5053857bdee20aef8d59b9/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/32f10f1b024c0591dd5053857bdee20aef8d59b9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/32f10f1b024c0591dd5053857bdee20aef8d59b9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/4908e8303addd2db59403bd9225c66f6ce982b2f/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/32f10f1b024c0591dd5053857bdee20aef8d59b9/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@4908e83](https://github.com/taylorreiter/2021-paper-ibd/tree/4908e8303addd2db59403bd9225c66f6ce982b2f)
+from [taylorreiter/2021-paper-ibd@32f10f1](https://github.com/taylorreiter/2021-paper-ibd/tree/32f10f1b024c0591dd5053857bdee20aef8d59b9)
 on December 10, 2021.
 </em></small>
 
@@ -498,17 +498,27 @@ Among all five metapangenome graphs, XX orthologs were annotated...
 XX pathways were enriched (NOS/ROS/abx res).
 Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@doi:10.15252/msb.20177589].
 
-While dominating set differential abundance analysis identified genomic sequences that were more abundant in CD, the nature of short shotgun metagenomic sequencing reads precludes haplotype phasing or lineage resolution (CITE: Bickhart), meaning our results likely represent genomic variants from many distinct genomes that would not all naturally occur together in a single isolate genome.
-Therefore, to identify isolate genomes that contain the genomic sequences that were more abundant in CD, we searched the GTDB rs202 database with the significantly differentially abundant sequences.
-On average, the top matching genome contained XX% of the sequences that were more abundant in CD, while the sequences that were more abundant in CD contained XX% of these genomes (SUPP TAB X).
+| metapangenome graph species    | closest strain match                 | containment |
+|:--------------------------------:|:--------------------------------------:|:-------------:|
+|*Enterocloster clostridioformis*| *Enterocloster clostridioformis* MSK.2.78| 0.71 |
+|*Enterocloster bolteae*         | *[Clostridium] bolteae* 90A5             | 0.68 |
+|*Ruminococcus_B gnavus*            | *[Ruminococcus] gnavus* RJX1122          | 0.66 |
+|*Enterocloster clostridioformis_A* | *[Clostridium] clostridioforme* AGR2157  | 0.61 |
+|*Enterocloster sp005845215*        | *Enterocloster clostridioformis* MSK.2.78| 0.50 |
+Table: Containment between sequences that were increased in abundance in CD and isolate genomes.
+{#tbl:sim}
 
-For two of the four *Enterocloster* species, the top matching isolate sequence was the same (*Enterocloster clostridioformis* MSK.2.78): for GCF_005845215.1 it was 0.50 containment, while for GCF_900113155.1 it was 0.71.
+While dominating set differential abundance analysis identified genomic sequences that were more abundant in CD, the nature of short shotgun metagenomic sequencing reads precludes haplotype phasing or lineage resolution (CITE: Bickhart), meaning our results likely represent genomic variants from many distinct genomes that would not all naturally occur together in a single isolate genome.
+Therefore, to identify isolate genomes that contain the genomic sequences that were more abundant in CD, we searched the GTDB rs202 database with the significantly differentially abundant sequences (SUPP TAB X).
+On average, the top matching isolate genome contained 63% of the sequences that were more abundant in CD (Table @tbl:sim).
+
+For two of the four *Enterocloster* species, the top matching isolate sequence was the same (*Enterocloster clostridioformis* MSK.2.78)
 This points to overlap in the genomic sequences we identified as differentially abundant across these metapangenome graphs. 
 Indeed, the average jaccard similarity between the sequences that were increased in CD in the *Enterocloster* graphs was XXX, while the containment was XXX.
 <!-- concluding statment... -->
 
 One aerotolerant clade of *R. gnavus* was previously identified as being enriched in CD [@doi:10.1186/s13073-017-0490-5], and to produce an inflammatory polysaccharide that induce TNF-alpha [@doi:10.1073/pnas.1904099116].
-The top three isolate genomes we identified (RJX1122, RJX1127, RJX1128) were among that that induce TNF-alpha secretion [@doi:10.1073/pnas.1904099116], suggesting our method identified the same strain swtich previously discovered [@doi:10.1186/s13073-017-0490-5; @doi:10.1073/pnas.1904099116].
+The top three isolate genomes we identified (RJX1122, RJX1127, RJX1128, SUPP TAB X) were among that that induce TNF-alpha secretion [@doi:10.1073/pnas.2007595118], suggesting our method identified the same strain switch previously discovered [@doi:10.1186/s13073-017-0490-5; @doi:10.1073/pnas.1904099116; @doi:10.1073/pnas.2007595118].
 In further support of this, we found that 17 of the 23 genes in the operon that encodes the proteins responsible for producing the inflammatory polysaccharide were annotated in the dominating set pieces that were more abundant in CD.
 These genes were encoded across 66 dominating set pieces, with multiple neighboring genes in the operon annotated in 6 of these dominating set pieces.
 Taken together, our ability to recover a previously validated sub-species association with IBD (*R. gnavus*) suggests that the three new *Enterocloster* isolates we identified should be further investigated for their potential role in eliciting CD-like symptoms in the gut.

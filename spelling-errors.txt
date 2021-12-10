@@ -3,6 +3,7 @@ accuracies
 Acetatifactor
 adw
 aerotolerant
+AGR
 AmyDWillis
 anlysis
 archaeal
@@ -23,7 +24,9 @@ cDBG
 cDBGs
 chemistries
 clade
+clostridioforme
 clostridioformis
+Clostridium
 coli
 colorectal
 Crohn’s
@@ -34,16 +37,15 @@ disconnectable
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 Enterocloster
 facultative
 Faecalibacterium
-fastq
+FASTQ
 FracMinHash
-GCF
 GenBank
-Genomic
+genomic
 ggMarginal
 ggplot
 gnavus
@@ -93,7 +95,7 @@ orthologs
 pangenome
 pangenomes
 pangenomic
-PANMERS
+panmers
 pathophysiology
 pathotypes
 PERMANOVA
@@ -118,7 +120,7 @@ saltyscientist
 scalable
 scalably
 SGC
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
@@ -126,7 +128,6 @@ subsample
 subsampled
 subtype
 subtypes
-swtich
 taylorreiter
 TBD
 TNF
