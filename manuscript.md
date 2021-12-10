@@ -1,13 +1,14 @@
 ---
 title: Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn's disease
 keywords:
-- markdown
-- publishing
-- manubot
+- compact de Bruijn Graph
+- k-mer
+- inflammatory bowel disease
+- dominating set differential abundance
 lang: en-US
-date-meta: '2021-12-03'
+date-meta: '2021-12-10'
 author-meta:
-- Taylor Elaine Reiter
+- Taylor E. Reiter
 - Luiz Irber
 - Alicia A. Gingrich
 - Dylan Haynes
@@ -29,16 +30,16 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2021-12-03" />
-  <meta name="citation_publication_date" content="2021-12-03" />
+  <meta name="dc.date" content="2021-12-10" />
+  <meta name="citation_publication_date" content="2021-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Taylor Elaine Reiter" />
-  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, UC Davis" />
+  <meta name="citation_author" content="Taylor E. Reiter" />
+  <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0002-7388-421X" />
   <meta name="twitter:creator" content="@ReiterTaylor" />
   <meta name="citation_author" content="Luiz Irber" />
@@ -88,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/3505de2da2be6c076afb2487ab3208fb58127010/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3505de2da2be6c076afb2487ab3208fb58127010/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3505de2da2be6c076afb2487ab3208fb58127010/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -112,17 +113,17 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/1d4de25bb8c4e227e204e05b70879b52c3368a2e/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/3505de2da2be6c076afb2487ab3208fb58127010/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@1d4de25](https://github.com/taylorreiter/2021-paper-ibd/tree/1d4de25bb8c4e227e204e05b70879b52c3368a2e)
-on December 3, 2021.
+from [taylorreiter/2021-paper-ibd@3505de2](https://github.com/taylorreiter/2021-paper-ibd/tree/3505de2da2be6c076afb2487ab3208fb58127010)
+on December 10, 2021.
 </em></small>
 
 ## Authors
 
 
 
-+ **Taylor Elaine Reiter**<br>
++ **Taylor E. Reiter**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-7388-421X](https://orcid.org/0000-0002-7388-421X)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
@@ -130,7 +131,7 @@ on December 3, 2021.
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [ReiterTaylor](https://twitter.com/ReiterTaylor)<br>
   <small>
-     Department of Population Health and Reproduction, UC Davis
+     Department of Population Health and Reproduction, University of California, Davis
      · Funded by Grant XXXXXXXX
   </small>
 
@@ -481,6 +482,10 @@ See 10.3390/cells10113243 for new association with Gemmiger formicilis being red
 
 A substantial fraction of dominating set pieces were more abundant in CD than nonIBD in the metapangenome graphs of five species (**Figure**).
 
+INTRODUCE SPECIES
+
+INTRODUCE SHARED SEQ CONTENT IN ENTEROCLOSTER SPECIES
+
 Only the increase in the distinct accessory genes is detectable amongst the backdrop of general loss of gene abundance due to decrease in other strains.
 ...
 Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@doi:10.15252/msb.20177589].
@@ -488,6 +493,9 @@ These four genomes annotated to *Ruminococcus gnavus* ...
 <!-- *Clostridium bolteae* -->
 
 *R. gnavus* is an aerotolerant anaerobe, one clade of which was recently found to be enriched in CD [@doi:10.1186/s13073-017-0490-5], and to produce an inflammatory polysaccharide [@doi:10.1073/pnas.1904099116]. 
+We found evidence that at least 17 of the 23 genes that encode the operon that encodes the proteins responsible for producing this inflammatory polysaccharide were encoded in dominating set pieces that were more abundant in CD.
+These genes were encoded across 66 dominating set pieces, with multiple neighboring genes in the operon annotated on 6 of these dominating set pieces.
+
 *C. bolteae* is a member of the normal gut microbiota but is an opportunistic pathogen that exploits compromised intestinal barriers [@doi:10.1186/s12864-016-3152-x].
 It is associated with disturbance succession and has increased gene expression during gut dysbiosis [@doi:10.1101/gr.138198.112; @doi:10.1038/s41586-019-1237-9].
 

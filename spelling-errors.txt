@@ -35,8 +35,9 @@ domatin
 dominator
 Dominik
 domoritz
-Dysbiosis
+dysbiosis
 ecotypes
+ENTEROCLOSTER
 facultative
 Faecalibacterium
 fastq
@@ -52,7 +53,7 @@ IBD
 IBDMDB
 idbmdb
 iHMP
-illumina
+Illumina
 intra
 Irber
 jaccard
@@ -67,7 +68,7 @@ mer
 mers
 metagenome
 metagenomes
-metagenomic
+Metagenomic
 MetaHIT
 metapangenom
 metapangenome
@@ -118,7 +119,7 @@ saltyscientist
 scalable
 scalably
 SGC
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
