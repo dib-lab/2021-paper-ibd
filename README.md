@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/taylorreiter/2021-paper-ibd/tree/gh-pages) branch hosts the contents of this directory at <https://taylorreiter.github.io/2021-paper-ibd/>.
-The permalink for this webpage version is <https://taylorreiter.github.io/2021-paper-ibd/v/4908e8303addd2db59403bd9225c66f6ce982b2f/>.
+The permalink for this webpage version is <https://taylorreiter.github.io/2021-paper-ibd/v/32f10f1b024c0591dd5053857bdee20aef8d59b9/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://taylorreiter.github.io/2021-paper-ibd/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`4908e8303addd2db59403bd9225c66f6ce982b2f`](https://github.com/taylorreiter/2021-paper-ibd/commit/4908e8303addd2db59403bd9225c66f6ce982b2f).
+[`32f10f1b024c0591dd5053857bdee20aef8d59b9`](https://github.com/taylorreiter/2021-paper-ibd/commit/32f10f1b024c0591dd5053857bdee20aef8d59b9).
