@@ -1,19 +1,20 @@
 ---
 title: "Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn's disease"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - compact de Bruijn Graph
+  - k-mer
+  - inflammatory bowel disease
+  - dominating set differential abundance
 lang: en-US
 authors:
   - github: taylorreiter
-    name: Taylor Elaine Reiter
+    name: Taylor E. Reiter
     initials: TER
     orcid: 0000-0002-7388-421X
     twitter: ReiterTaylor
     email: tereiter@ucdavis.edu
     affiliations:
-      - Department of Population Health and Reproduction, UC Davis 
+      - Department of Population Health and Reproduction, University of California, Davis 
     funders:
       - Grant XXXXXXXX
   - github: luizirber
