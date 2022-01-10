@@ -41,7 +41,7 @@ ecotypes
 Enterocloster
 facultative
 Faecalibacterium
-fastq
+FASTQ
 FracMinHash
 GenBank
 Genomic
@@ -57,7 +57,7 @@ iHMP
 Illumina
 intra
 Irber
-jaccard
+Jaccard
 kmers
 labelled
 LLDeep
@@ -68,7 +68,7 @@ mer
 mers
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenome
 metapangenomes
@@ -81,7 +81,6 @@ mogproject
 Moritz
 nbhd
 NCBI
-nieghborhoods
 NLIBD
 nonIBD
 novo
@@ -115,7 +114,7 @@ saltyscientist
 scalable
 scalably
 SGC
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi

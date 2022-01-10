@@ -231,7 +231,6 @@ content/03.results.md:90:labelled
 content/03.results.md:90:Phylogenetic
 content/03.results.md:90:subtype
 content/03.results.md:93:metagenome
-content/03.results.md:93:nieghborhoods
 content/03.results.md:95:IBD
 content/03.results.md:95:mers
 content/03.results.md:95:mers
@@ -363,16 +362,16 @@ content/03.results.md:197:differentially
 content/03.results.md:197:genomic
 content/03.results.md:197:metapangenome
 content/03.results.md:198:Enterocloster
-content/03.results.md:198:jaccard
+content/03.results.md:198:Jaccard
 content/03.results.md:199:genomic
 content/03.results.md:199:GTDB
 content/03.results.md:199:GTDB
-content/03.results.md:199:jaccard
+content/03.results.md:199:Jaccard
 content/03.results.md:199:metapangenome
 content/03.results.md:201:differentially
 content/03.results.md:201:Enterocloster
 content/03.results.md:201:metapangenome
-content/03.results.md:202:jaccard
+content/03.results.md:202:Jaccard
 content/03.results.md:202:metapangenome
 content/03.results.md:203:Enterocloster
 content/03.results.md:203:gnavus
@@ -534,7 +533,7 @@ content/06.methods.md:22:mer
 content/06.methods.md:23:mer
 content/06.methods.md:24:mers
 content/06.methods.md:28:FracMinHash
-content/06.methods.md:28:jaccard
+content/06.methods.md:28:Jaccard
 content/06.methods.md:28:sourmash
 content/06.methods.md:31:ggMarginal
 content/06.methods.md:32:PERMANOVA

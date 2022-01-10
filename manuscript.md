@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@0b4e2d4](https://github.com/taylorreiter/2021-paper-ibd/tree/0b4e2d4c9974eb875b62ae775af19f11f19c2707)
+from [taylorreiter/2021-paper-ibd@b155ad1](https://github.com/taylorreiter/2021-paper-ibd/tree/b155ad1e897f55e3a100d615ccac2aab000eb11e)
 on January 10, 2022.
 </em></small>
 
@@ -414,7 +414,7 @@ We assume these genomes represent the strongest candidates for discriminating IB
 **Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models.** Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name with the GTDB database.
 ](images/genome360.png "tree"){#fig:tree}
 
-## Genome queries into metagenome assembly graphs recover nieghborhoods of sequence variation and establish species umbrellas
+## Genome queries into metagenome assembly graphs recover neighborhoods of sequence variation and establish species umbrellas
 
 While we were able to identify the majority of k-mers that were important for predicting IBD subtype, 26% of k-mers remained unannotated. 
 We hypothesized that these k-mers represented strain variable sequences not in reference databases but belonging to species represented by annotated k-mers.
@@ -519,11 +519,11 @@ These genes were encoded across 66 dominating set pieces, with multiple neighbor
 
 For two of the four *Enterocloster* species, the top matching isolate sequence was the same (*Enterocloster clostridioformis* MSK.2.78)
 This points to overlap in the genomic sequences we identified as differentially abundant across these metapangenome graphs. 
-Indeed, the average jaccard similarity between the sequences that were increased in CD in the *Enterocloster* graphs was XXX, while the containment was XXX.
-Given that the jaccard similarity required to recover XX% of a genome is 0.1, which approximately corresponds to an average nucleotide identity of 93% (CITE: TESSA), and that species boundaries in GTDB are drawn at 95% average nucleotide identity (CITE: GTDB?), the metapangenome graphs likely store genomic sequences associated with both the query genome species and closely related species.
+Indeed, the average Jaccard similarity between the sequences that were increased in CD in the *Enterocloster* graphs was XXX, while the containment was XXX.
+Given that the Jaccard similarity required to recover XX% of a genome is 0.1, which approximately corresponds to an average nucleotide identity of 93% (CITE: TESSA), and that species boundaries in GTDB are drawn at 95% average nucleotide identity (CITE: GTDB?), the metapangenome graphs likely store genomic sequences associated with both the query genome species and closely related species.
 <!-- are marker genes more likely to overlap? -->
 However, the metapangenome graphs presented here, as well as the differentially abundant sequences, contain both common and distinct nucleotide sequences, suggesting that multiple closely related *Enterocloster* species/genomes are associated with CD.
-<!-- supp tab jaccard similarity and containment for all metapangenome graphs and for all the entero increased abund seqs). -->
+<!-- supp tab Jaccard similarity and containment for all metapangenome graphs and for all the entero increased abund seqs). -->
 Taken together, our ability to recover a previously validated sub-species association with IBD (*R. gnavus*) suggests that the three new *Enterocloster* isolates we identified should be further investigated for their potential role in eliciting CD-like symptoms in the gut.
 
 <!--
@@ -635,7 +635,7 @@ We retained all k-mers that were present in multiple samples.
 
 ## Principle Coordinates Analysis
 
-We used jaccard distance and cosine distance implemented in `sourmash compare` to pairwise compare FracMinHash signatures. 
+We used Jaccard distance and cosine distance implemented in `sourmash compare` to pairwise compare FracMinHash signatures. 
 We then used the `dist()` function in base R to compute distance matrices. 
 We used the `cmdscale()` function to perform principle coordinate analysis [@doi:10.2307/2333639]. 
 We used ggplot2 and ggMarginal to visualize the principle coordinate analysis [@doi:10.21105/joss.01686]. 
