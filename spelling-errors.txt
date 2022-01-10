@@ -5,11 +5,9 @@ adw
 aerotolerant
 AGR
 AmyDWillis
-anlysis
 archaeal
 BBMap
 bdsullivan
-Bickhart
 BioProject
 Biostatistics
 Birkbeck
@@ -29,6 +27,7 @@ clostridioformis
 Clostridium
 coli
 colorectal
+complexUpset
 Crohn’s
 ctb
 dda
@@ -58,7 +57,7 @@ iHMP
 Illumina
 intra
 Irber
-Jaccard
+jaccard
 kmers
 labelled
 LLDeep
@@ -69,10 +68,10 @@ mer
 mers
 metagenome
 metagenomes
-metagenomic
+Metagenomic
 MetaHIT
-Metapangenome
-metatranscriptomes
+metapangenome
+metapangenomes
 microbiome
 microbiomes
 microgravitas
@@ -87,15 +86,11 @@ NLIBD
 nonIBD
 novo
 ntcard
+occurence
 omics
 operon
-ORPHEUM
 ortholog
 orthologs
-pangenome
-pangenomes
-pangenomic
-PANMERS
 pathophysiology
 pathotypes
 PERMANOVA
@@ -128,6 +123,7 @@ subsample
 subsampled
 subtype
 subtypes
+SX
 taylorreiter
 TBD
 TNF
