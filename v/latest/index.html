@@ -117,9 +117,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,9 +133,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/0b4e2d4c9974eb875b62ae775af19f11f19c2707/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/b155ad1e897f55e3a100d615ccac2aab000eb11e/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/0b4e2d4c9974eb875b62ae775af19f11f19c2707">taylorreiter/2021-paper-ibd@0b4e2d4</a>
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/b155ad1e897f55e3a100d615ccac2aab000eb11e">taylorreiter/2021-paper-ibd@b155ad1</a>
 on January 10, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -480,7 +480,7 @@ We assume these genomes represent the strongest candidates for discriminating IB
 <img src="images/genome360.png" alt="Figure 3: Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models. Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name with the GTDB database." /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models.</strong> Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name with the GTDB database.</figcaption>
 </figure>
 </div>
-<h2 id="genome-queries-into-metagenome-assembly-graphs-recover-nieghborhoods-of-sequence-variation-and-establish-species-umbrellas">Genome queries into metagenome assembly graphs recover nieghborhoods of sequence variation and establish species umbrellas</h2>
+<h2 id="genome-queries-into-metagenome-assembly-graphs-recover-neighborhoods-of-sequence-variation-and-establish-species-umbrellas">Genome queries into metagenome assembly graphs recover neighborhoods of sequence variation and establish species umbrellas</h2>
 <p>While we were able to identify the majority of k-mers that were important for predicting IBD subtype, 26% of k-mers remained unannotated.
 We hypothesized that these k-mers represented strain variable sequences not in reference databases but belonging to species represented by annotated k-mers.
 To test this hypothesis, we performed genome queries on assembly graphs of each metagenome using the 54 candidate genomes that discriminated IBD subtype (<strong>Figure <a href="#fig:overview">1</a></strong>).
@@ -605,11 +605,11 @@ In further support of this, we found that 17 of the 23 genes in the operon that 
 These genes were encoded across 66 dominating set pieces, with multiple neighboring genes in the operon annotated in 6 of these dominating set pieces.</p>
 <p>For two of the four <em>Enterocloster</em> species, the top matching isolate sequence was the same (<em>Enterocloster clostridioformis</em> MSK.2.78)
 This points to overlap in the genomic sequences we identified as differentially abundant across these metapangenome graphs.
-Indeed, the average jaccard similarity between the sequences that were increased in CD in the <em>Enterocloster</em> graphs was XXX, while the containment was XXX.
-Given that the jaccard similarity required to recover XX% of a genome is 0.1, which approximately corresponds to an average nucleotide identity of 93% (CITE: TESSA), and that species boundaries in GTDB are drawn at 95% average nucleotide identity (CITE: GTDB?), the metapangenome graphs likely store genomic sequences associated with both the query genome species and closely related species.
+Indeed, the average Jaccard similarity between the sequences that were increased in CD in the <em>Enterocloster</em> graphs was XXX, while the containment was XXX.
+Given that the Jaccard similarity required to recover XX% of a genome is 0.1, which approximately corresponds to an average nucleotide identity of 93% (CITE: TESSA), and that species boundaries in GTDB are drawn at 95% average nucleotide identity (CITE: GTDB?), the metapangenome graphs likely store genomic sequences associated with both the query genome species and closely related species.
 <!-- are marker genes more likely to overlap? -->
 However, the metapangenome graphs presented here, as well as the differentially abundant sequences, contain both common and distinct nucleotide sequences, suggesting that multiple closely related <em>Enterocloster</em> species/genomes are associated with CD.
-<!-- supp tab jaccard similarity and containment for all metapangenome graphs and for all the entero increased abund seqs). -->
+<!-- supp tab Jaccard similarity and containment for all metapangenome graphs and for all the entero increased abund seqs). -->
 Taken together, our ability to recover a previously validated sub-species association with IBD (<em>R. gnavus</em>) suggests that the three new <em>Enterocloster</em> isolates we identified should be further investigated for their potential role in eliciting CD-like symptoms in the gut.</p>
 <!--
 *C. bolteae* is a member of the normal gut microbiota but is an opportunistic pathogen that exploits compromised intestinal barriers [@doi:10.1186/s12864-016-3152-x].
@@ -697,7 +697,7 @@ At a scaled value of 2000, an average of one k-mer will be detected in each 2000
 We selected a k-mer size of 31 because of its species-level specificity <span class="citation" data-cites="mAjlUXL2">[<a href="#ref-mAjlUXL2" role="doc-biblioref">19</a>]</span>.
 We retained all k-mers that were present in multiple samples.</p>
 <h2 id="principle-coordinates-analysis">Principle Coordinates Analysis</h2>
-<p>We used jaccard distance and cosine distance implemented in <code>sourmash compare</code> to pairwise compare FracMinHash signatures.
+<p>We used Jaccard distance and cosine distance implemented in <code>sourmash compare</code> to pairwise compare FracMinHash signatures.
 We then used the <code>dist()</code> function in base R to compute distance matrices.
 We used the <code>cmdscale()</code> function to perform principle coordinate analysis <span class="citation" data-cites="gpnF30mH">[<a href="#ref-gpnF30mH" role="doc-biblioref">44</a>]</span>.
 We used ggplot2 and ggMarginal to visualize the principle coordinate analysis <span class="citation" data-cites="EWll2pyF">[<a href="#ref-EWll2pyF" role="doc-biblioref">45</a>]</span>.
