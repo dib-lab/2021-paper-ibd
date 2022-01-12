@@ -30,6 +30,7 @@ colorectal
 complexUpset
 Crohn’s
 ctb
+cytokine
 dda
 differentially
 disconnectable
@@ -61,14 +62,13 @@ Jaccard
 kmers
 labelled
 LLDeep
-LOOCV
 Luiz
 luizirber
 mer
 mers
 metagenome
 metagenomes
-metagenomic
+Metagenomic
 MetaHIT
 metapangenome
 metapangenomes
@@ -79,13 +79,12 @@ MinHash
 Mizutani
 mogproject
 Moritz
-nbhd
 NCBI
 NLIBD
 nonIBD
 novo
 ntcard
-occurence
+occured
 omics
 operon
 ortholog
@@ -114,7 +113,7 @@ saltyscientist
 scalable
 scalably
 SGC
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
@@ -125,6 +124,7 @@ subtypes
 SX
 taylorreiter
 TBD
+techniuqes
 TNF
 Trimmomatic
 tunable
