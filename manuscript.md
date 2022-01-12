@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@4add973](https://github.com/taylorreiter/2021-paper-ibd/tree/4add973ef8685b6352b360af12777223c5298ee9)
+from [taylorreiter/2021-paper-ibd@09feaf2](https://github.com/taylorreiter/2021-paper-ibd/tree/09feaf28ec557e3697840830b76d50d9bdc26f91)
 on January 12, 2022.
 </em></small>
 
@@ -264,7 +264,7 @@ For example, ecotypes of *Escherichia coli* have different gene complements that
 Metagenomic sequencing data from communities of microorganisms contain information about specific strains present in a sample, but strain-resolved insights are lacking due to incomplete references or inability of current tools to retrieve such information [@doi:10.1186/s12915-019-0667-z]. 
 Here we use *strain* to refer to within-species variation that generates taxonomic grouping below the species level.
 
-Inflammatory bowel disease (IBD) is a f disorders that are characterized by chronic inflammation of the intestines that is likely caused by host-mediated inflammatory responses elicited in part by microorganisms [@doi:10.1053/j.gastro.2014.02.009].
+Inflammatory bowel disease (IBD) is a group of disorders that are characterized by chronic inflammation of the intestines that is likely caused by host-mediated inflammatory responses elicited in part by microorganisms [@doi:10.1053/j.gastro.2014.02.009].
 IBD classically manifests in three subtypes depending on clinical presentation, including Crohn's disease (CD), which presents as discontinuous patches of inflammation throughout the gastrointestinal tract, ulcerative colitis (UC), which presents as continuous inflammation isolated to the colon, and undetermined, which cannot be distinguished as CD or UC.
 Diagnosis can be clinically difficult, with ramifications associated with over- or under-treatment resulting in patient morbidity associated with inappropriate treatment. 
 Detection of microbial signatures associated with IBD subtype may lead to improved diagnostic criteria and therapeutics that extend periods of remission.

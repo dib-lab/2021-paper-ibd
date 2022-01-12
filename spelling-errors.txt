@@ -37,7 +37,7 @@ disconnectable
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 Enterocloster
 facultative
@@ -45,7 +45,7 @@ Faecalibacterium
 fastq
 FracMinHash
 GenBank
-Genomic
+genomic
 ggMarginal
 ggplot
 gnavus
@@ -68,7 +68,7 @@ mer
 mers
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenome
 metapangenomes
