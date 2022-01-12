@@ -113,7 +113,7 @@ saltyscientist
 scalable
 scalably
 SGC
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi
@@ -121,7 +121,6 @@ subsample
 subsampled
 subtype
 subtypes
-SX
 taylorreiter
 TBD
 techniuqes
@@ -133,6 +132,6 @@ UC
 ulcerative
 unannotated
 unitigs
-wirbel
+varimp
 XXXXXXXX
 Yosuke

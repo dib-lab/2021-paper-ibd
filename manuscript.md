@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/3e5499791bdfcd2e4588166d4a41e05e80a709f8/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3e5499791bdfcd2e4588166d4a41e05e80a709f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3e5499791bdfcd2e4588166d4a41e05e80a709f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/3e5499791bdfcd2e4588166d4a41e05e80a709f8/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@3e54997](https://github.com/taylorreiter/2021-paper-ibd/tree/3e5499791bdfcd2e4588166d4a41e05e80a709f8)
+from [taylorreiter/2021-paper-ibd@cf8599b](https://github.com/taylorreiter/2021-paper-ibd/tree/cf8599be25bb98b0c4dc85a1310fe7089ab526c5)
 on January 12, 2022.
 </em></small>
 
@@ -319,7 +319,7 @@ Our approach provides a solution for strain-level analysis of short read metagen
 
 We developed a computational approach to resolve sub-species level differences between groups of short read shotgun metagenomes (**Figure @fig:overview**).
 While our pipeline relies on many published algorithms, we developed two new approaches that, when combined with existing tools, generated insights into microbial sequences associated with IBD subtype.
-After consistent pre-processing, we used FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflected the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: Gather), and used these profiles to perform metagenome-wide k-mer association with IBD subtype. 
+After consistent pre-processing, we used FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflected the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: gather), and used these profiles to perform metagenome-wide k-mer association with IBD subtype. 
 We refer to FracMinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*.
 Retaining only k-mers associated with IBD, we used the minimum set cover approach to identify the genomes that best encompassed these k-mers.
 
@@ -333,9 +333,9 @@ We estimated the abundance of each piece in this graph within each metagenome, a
 ](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
 
 We applied this approach to the analysis of IBD gut microbiomes via meta-analysis.
-Meta-analyses have recently shown success in improving detection of microbial signatures of colorectal cancer (CITE: wirbel, others). 
+Meta-analyses have recently shown success in improving detection of microbial signatures of colorectal cancer [@doi:10.1038/s41591-019-0406-6; @doi:10.1038/s41591-019-0405-7; @doi:10.1128/mSystems.00332-18]. 
 To this end, we identified studies that performed metagenomic sequencing of individuals with CD, UC, or nonIBD and combined these to perform a meta-analysis (**Table @tbl:cohorts**).
-All studies profiled fecal gut microbiomes via illumina shotgun metagenome sequencing.
+All studies profiled fecal gut microbiomes via Illumina shotgun metagenome sequencing.
 Individuals were from five distinct countries and seven cohorts (**Table @tbl:cohorts**).
 In many studies, samples were taken in time series to profile disease progression or individual response to treatment. 
 In these cases we included the first sample in the time series so organized interventions would not skew our results.
@@ -396,7 +396,7 @@ The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:kmers 
 ](images/kmers.png "kmer results"){#fig:kmers}
 
 To understand which genomes were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in reference databases using sourmash gather (CITE: gather).
-Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query (CITE: Gather).
+Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query (CITE: gather).
 We used the GTDB rs202 representatives database, which contains bacterial and archaeal genomes, and the GenBank viral, fungal, and protozoa databases.
 We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:tree**).
 The presence of shared k-mers between classifiers indicates that there is a weak but consistent biological signal in metagenomes for IBD subtype between cohorts.
@@ -406,7 +406,7 @@ After normalizing variable importance across classifiers, 76% of the total varia
 These k-mers contribute a large fraction of predictive power for classification of IBD subtype, and the genomes in which they are found represent a microbial core that contains predictive power in IBD subtype classification.
 
 Given that 360 genomes anchored the majority of k-mers and variable importance across all models, we were curious whether a smaller number of genomes could still retain the majority of variable importance. 
-Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:tree**). 
+Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:tree**, **Figure @fig:varimp**). 
 We assumed these genomes represent the strongest candidates for discriminating IBD subtype and focused on them for the remainder of our analyses.
 
 ![
@@ -439,21 +439,22 @@ I think part of why this might occur is because a lot of the sequences that were
 ## IBD gut microbiomes have decreased diversity in strict anaerobes that is punctuated by strain switches for some facultative anaerobes
 
 After recovering all sequences in metagenomes in the neighborhoods of the species that discriminate IBD subtypes, we next sought to determine the specific genome segments that were differentially abundant in IBD. 
-Differential abundance analysis is a common step in metagenome analysis, however it is typically applied to gene counts (CITE), which requires assembly or mapping prior to abundance estimation.
+Differential abundance analysis is a common step in metagenome analysis, however it is typically applied to gene counts [@doi:10.1186/s12864-018-4637-6; @doi:10.1186/s12864-016-2386-y], which requires assembly or mapping prior to abundance estimation.
 <!--TR: Also commonly applied to species counts. Should this be added? -->
 To avoid assembly or mapping and the accompanying loss of reads [@doi:doi.org/10.1186/s13059-020-02066-4], we developed an abundance estimation approach that works directly on the assembly graphs, enabling differential abundance analysis from the assembly graph.
 Our abundance estimation approach was based on *R*-dominating sets, an algorithm introduced in [@doi:10.1186/s13059-020-02066-4] that efficiently computes the dominating nodes in a cDBG so that every node is no more that distance *R* from a dominator.
 The dominating set is used to carve the graph into pieces, each of which contains one dominating node. 
 Here, we first build a species-level assembly graph that contains all genome query neighborhood sequences for a given genome from every metagenome, which we call a *metapangenome graph*.
 We then partition the graph into pieces using a large radius (*R* = 10). 
-The large radius carves the graph into pieces that average XX k-mers in size, enabling meaningful comparisons between groups; we aimed for a piece size similar to the average bacterial gene length of 1000 base pairs (CITE). 
+The large radius carves the graph into pieces that average 103 k-mers in size.
 We next estimated the abundance of each piece within each metagenome using average k-mer abundance.
 We also annotated the graph pieces using XXX.
 Using this information, we performed dominating set differential abundance analysis using corncob, a statistical package that tests for differential relative abundance in the presence of variable sequencing depth and excessive zeroes for unobserved observations [@doi:10.1214/19-aoas1283], conditions which occur in abundances from dominating sets. 
 
 We applied this method for each of our genome queries, building 54 metapangenome graphs and performing dominating set differential abundance analysis on each. 
 Given that corncob fits a model for each dominating set piece and therefore does not require abundance information for all pieces [@doi:10.1214/19-aoas1283], and given that we sought differences that characterized the majority of our samples within a group, we tested for differential abundance in pieces that occurred in at least 100 metagenomes.
-On average, this condition was met in XX% of dominating set pieces.
+On average, this condition was met in 6.4% of dominating set pieces.
+Focusing on pieces that occurred in many metagenome increased the average piece size to 1088 k-mers, which is similar to the average bacterial gene length of approximately 1000 base pairs [@doi:10.1093/dnares/dsn027] and enabled biologically meaningful comparisons across groups. 
 
 ![
 **Dominating set differential abundance analysis revealed genome segments that were significantly different in CD and UC compared to nonIBD.** Results are organized by GTDB taxonomy, with a tree representing the 54 species and colored by family on the far left. The percent of dominating set pieces tested is labelled in grey, and the percent of significantly differentially abundant pieces are colored by increased (blue) or decreased (brown) abundance.
@@ -516,7 +517,7 @@ These genes were encoded across 66 dominating set pieces, with multiple neighbor
 
 For two of the four *Enterocloster* species, the top matching isolate sequence was the same (*Enterocloster clostridioformis* MSK.2.78).
 This points to overlap in the genomic sequences we identified as differentially abundant across these metapangenome graphs. 
-Indeed, the average Jaccard similarity between the sequences that were increased in CD in the *Enterocloster* graphs was XXX, while the containment was XXX.
+Indeed, the average Jaccard similarity between the sequences that were increased in CD in the *Enterocloster* graphs was 0.53, while the average max containment was 0.74.
 Given that a Jaccard similarity of 0.1 is required to recover at least 80% of a genome via assembly graph query, which approximately corresponds to an average nucleotide identity of 93% (CITE: TESSA), and that species boundaries in GTDB are drawn at 95% average nucleotide identity [@doi:10.1093/nar/gkab776], the metapangenome graphs likely store genomic sequences associated with both the query genome species and closely related species.
 <!-- are marker genes more likely to overlap? -->
 However, the metapangenome graphs presented here, as well as the differentially abundant sequences, contain both common and distinct nucleotide sequences, suggesting that multiple closely related *Enterocloster* species/genomes are associated with CD.
@@ -534,7 +535,7 @@ Given that genome sequences belonging to many species were differentially abunda
 Using FracMinHash sketches from the differentially abundant sequences, we identified the differentially abundant sequences in each metagenome and compared their occurrence and distribution across diagnoses. 
 
 In general, we found no evidence for disease-specific sequences among the 54 species we investigated.
-Instead, we observed almost all sequences in at least some CD, UC, and nonIBD metagenomes (**Figure @fig:exclusive**, **Figure SX**).
+Instead, we observed almost all sequences in at least some CD, UC, and nonIBD metagenomes (**Figure @fig:exclusive**, **Figure S@fig:exclusive**).
 Across all species, an average of 14.9% differentially abundant k-mers were unobserved in either CD, UC, or nonIBD.
 These results in part explain heterogeneous study findings in previous IBD gut microbiome investigations.
 
@@ -622,7 +623,7 @@ We then removed human DNA using BBMap and a masked version of hg19 [@url:http://
 Next, we trimmed low-abundance k-mers from sequences with high coverage using khmer's `trim-low-abund.py` [@doi:10.12688/f1000research.6924.1].  
 
 Using these trimmed reads, we generated FracMinHash signatures for each library using sourmash (k-size 31, scaled 2000, abundance tracking on) [@doi:10.21105/joss.00027]. 
-FracMinHash sketching produces compressed representations of k-mers in a metagenome while retaining the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: gather paper).
+FracMinHash sketching produces compressed representations of k-mers in a metagenome while retaining the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: gather).
 This approach creates a consistent set of k-mers across samples by retaining the same k-mers when the same k-mers were observed. 
 This enables comparisons between metagenomes.
 We refer to FracMinHash sketches as *signatures*, and to each sub-sampled k-mer in a signature as a *k-mer*. 
@@ -662,7 +663,7 @@ We then followed the same model building procedure as the k-mer models. -->
 ## Anchoring predictive k-mers to genomes
 
 We used sourmash `gather` with parameters `k 31` and `--scaled 2000` to anchor predictive k-mers to known genomes [@doi:10.21105/joss.00027]. 
-Sourmash `gather` searches a database of known k-mers for matches with a query (CITE: gather paper).
+Sourmash `gather` searches a database of known k-mers for matches with a query (CITE: gather).
 We used the sourmash GTDB rs202 representatives data base (https://osf.io/w4bcm/download).
 To calculate the cumulative variable importance attributable to a single genome, we used an iterative winner-takes-all approach.
 The genome with the largest fraction of predictive k-mers won the variable importance for all k-mers contained within its genome.
@@ -748,3 +749,21 @@ We used the `hmmscan` command from HMMER against the Resfam database with a thre
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
+
+# Supplementary information
+
+
+![
+**Fifty-four genomes are important across models and anchor the majority of variable importance.**.
+The bottom panel depicts a heat map of the scale variable importance contributed by k-mers that anchored to each of the top 54 genomes that were important for predicting IBD subtype. 
+Models are labelled by the validation study and by the random seed used to build the model.Rank corresponds to the genome that anchored the most variable importance. 
+Rank:species can be decoded using the tree in the main manuscript. The top panels depict bar charts that correspond to the minimum (lower) or maximum (upper) variable importance a genome could anchor. 
+The minimum variable importance was estimated following the sourmash gather algorithm, where each important k-mer was assigned to only one genome, and the genome it was assigned to was determined by a greedy winner-takes-all approach. 
+Therefore, in the minimum bar chart, variable importance attributable to a k-mer was only summed once per k-mer, even if that k-mer occurred in multiple genomes. 
+The maximum variable importance was estimated by allowing k-mers to be anchored to multiple genomes, so all k-mers were assigned to all possible genomes even if that meant a k-mer was assigned multiple times.
+](images/varimp54.png){#fig:varimp}
+
+![
+**Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.** Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.
+](images/dda_kmers_shared_across_diagnosis_upset_decreased_supplemental.png){#fig:exclusive2}
