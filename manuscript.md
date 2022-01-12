@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/cf8599be25bb98b0c4dc85a1310fe7089ab526c5/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@cf8599b](https://github.com/taylorreiter/2021-paper-ibd/tree/cf8599be25bb98b0c4dc85a1310fe7089ab526c5)
+from [taylorreiter/2021-paper-ibd@6a99e32](https://github.com/taylorreiter/2021-paper-ibd/tree/6a99e32c4bc62dc683565ea037685b8c548afe11)
 on January 12, 2022.
 </em></small>
 
@@ -314,9 +314,6 @@ Our approach provides a solution for strain-level analysis of short read metagen
 
 # Results
 
-  5. SGC R10 metapangenome graphs
-  6. Dominating set differential abundance analysis 
-
 We developed a computational approach to resolve sub-species level differences between groups of short read shotgun metagenomes (**Figure @fig:overview**).
 While our pipeline relies on many published algorithms, we developed two new approaches that, when combined with existing tools, generated insights into microbial sequences associated with IBD subtype.
 After consistent pre-processing, we used FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflected the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: gather), and used these profiles to perform metagenome-wide k-mer association with IBD subtype. 
@@ -406,7 +403,7 @@ After normalizing variable importance across classifiers, 76% of the total varia
 These k-mers contribute a large fraction of predictive power for classification of IBD subtype, and the genomes in which they are found represent a microbial core that contains predictive power in IBD subtype classification.
 
 Given that 360 genomes anchored the majority of k-mers and variable importance across all models, we were curious whether a smaller number of genomes could still retain the majority of variable importance. 
-Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:tree**, **Figure @fig:varimp**). 
+Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:tree**, **Figure S @fig:varimp**). 
 We assumed these genomes represent the strongest candidates for discriminating IBD subtype and focused on them for the remainder of our analyses.
 
 ![
@@ -535,7 +532,7 @@ Given that genome sequences belonging to many species were differentially abunda
 Using FracMinHash sketches from the differentially abundant sequences, we identified the differentially abundant sequences in each metagenome and compared their occurrence and distribution across diagnoses. 
 
 In general, we found no evidence for disease-specific sequences among the 54 species we investigated.
-Instead, we observed almost all sequences in at least some CD, UC, and nonIBD metagenomes (**Figure @fig:exclusive**, **Figure S@fig:exclusive**).
+Instead, we observed almost all sequences in at least some CD, UC, and nonIBD metagenomes (**Figure @fig:exclusive**, **Figure S @fig:exclusive**).
 Across all species, an average of 14.9% differentially abundant k-mers were unobserved in either CD, UC, or nonIBD.
 These results in part explain heterogeneous study findings in previous IBD gut microbiome investigations.
 

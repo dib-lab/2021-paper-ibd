@@ -37,7 +37,7 @@ disconnectable
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 Enterocloster
 facultative
@@ -68,7 +68,7 @@ mer
 mers
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenome
 metapangenomes
@@ -112,8 +112,7 @@ runtimes
 saltyscientist
 scalable
 scalably
-SGC
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
