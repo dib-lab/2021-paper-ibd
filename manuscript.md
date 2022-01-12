@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/6a99e32c4bc62dc683565ea037685b8c548afe11/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/4add973ef8685b6352b360af12777223c5298ee9/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@6a99e32](https://github.com/taylorreiter/2021-paper-ibd/tree/6a99e32c4bc62dc683565ea037685b8c548afe11)
+from [taylorreiter/2021-paper-ibd@4add973](https://github.com/taylorreiter/2021-paper-ibd/tree/4add973ef8685b6352b360af12777223c5298ee9)
 on January 12, 2022.
 </em></small>
 
@@ -264,17 +264,16 @@ For example, ecotypes of *Escherichia coli* have different gene complements that
 Metagenomic sequencing data from communities of microorganisms contain information about specific strains present in a sample, but strain-resolved insights are lacking due to incomplete references or inability of current tools to retrieve such information [@doi:10.1186/s12915-019-0667-z]. 
 Here we use *strain* to refer to within-species variation that generates taxonomic grouping below the species level.
 
-Inflammatory bowel disease (IBD) is a spectrum of diseases characterized by chronic inflammation of the intestines that is likely caused by host-mediated inflammatory responses elicited in part by microorganisms [@doi:10.1053/j.gastro.2014.02.009].
-IBD is cyclical with periods of active disease and remission. 
-IBD manifests in three subtypes depending on clinical presentation, including Crohn's disease (CD), which presents as discontinuous patches of inflammation throughout the gastrointestinal tract, ulcerative colitis (UC), which presents as continuous inflammation isolated to the colon, and undetermined, which cannot be distinguished as CD or UC.
-Diagnosis is often clinically difficult, with ramifications associated with over- or under-treatment that lead to decreased patient well-being. 
+Inflammatory bowel disease (IBD) is a f disorders that are characterized by chronic inflammation of the intestines that is likely caused by host-mediated inflammatory responses elicited in part by microorganisms [@doi:10.1053/j.gastro.2014.02.009].
+IBD classically manifests in three subtypes depending on clinical presentation, including Crohn's disease (CD), which presents as discontinuous patches of inflammation throughout the gastrointestinal tract, ulcerative colitis (UC), which presents as continuous inflammation isolated to the colon, and undetermined, which cannot be distinguished as CD or UC.
+Diagnosis can be clinically difficult, with ramifications associated with over- or under-treatment resulting in patient morbidity associated with inappropriate treatment. 
 Detection of microbial signatures associated with IBD subtype may lead to improved diagnostic criteria and therapeutics that extend periods of remission.
 However, such signatures have thus far remained elusive [@doi:10.1186/s12967-019-02174-1].
 
 The microbiome of CD and UC is heterogeneous, and studies that characterize the microbiome often produce conflicting results [@doi:10.1186/s12967-019-02174-1].
 This is likely in part driven by large inter- and intra-individual variation [@doi:10.1038/s41586-019-1237-9], but is also attributable to non-standardized laboratory, sequencing, and analysis techniques used to profile the gut microbiome [@doi:10.1186/s12967-019-02174-1]. 
 Dysbiosis is frequently observed in IBD, particularly in CD [@doi:10.1002/ibd.21319; @doi:10.1136/gutjnl-2013-304833; @doi:10.1016/j.chom.2015.09.008; @doi:10.1038/ctg.2017.58; @doi:10.1038/nature08821], however dysbiosis alone is not a signature of IBD [@doi:10.1038/s41586-019-1237-9].
-Dysbiosis is defined as a decrease in gut microbial diversity that results in an imbalance between protective and harmful microorganisms, leading to intestinal inflammation [@doi:10.1007/s00018-017-2509-x].
+*Dysbiosis* is defined as a decrease in gut microbial diversity that results in an imbalance between protective and harmful microorganisms, leading to intestinal inflammation [@doi:10.1007/s00018-017-2509-x].
 
 Strain-level differences may account for some heterogeneity in IBD gut microbiome profiles.
 A recent investigation of time-series gut microbiome metagenomes found that one clade of *Ruminococcus gnavus* is enriched in CD [@doi:10.1186/s13073-017-0490-5]. 
@@ -287,7 +286,7 @@ The two biggest obstacles to strain-level analysis of short read data are data g
 While long reads have made strides toward resolving the latter issue [@doi:10.1038/s41587-021-01130-z], in habitats like the gut where communities are dominated by single strains of microbes [@doi:10.1038/nature11711], the largest barrier to strain-level analysis is using all of the data.
 New data analysis techniuqes are needed to overcome this challenge.
 
-K-mers, words of length *k* in nucleotide sequences, have previously been used for annotation-free characterization of sequencing data [@doi:10.1073/pnas.1305559110; @doi:10.1186/s12859-015-0875-7; @doi:10.1016/j.isci.2019.07.032].
+*K-mers*, words of length *k* in nucleotide sequences, have previously been used for annotation-free characterization of sequencing data [@doi:10.1073/pnas.1305559110; @doi:10.1186/s12859-015-0875-7; @doi:10.1016/j.isci.2019.07.032].
 K-mers are suitable for strain-resolved metagenome analysis because they do not need to be present in reference databases to be included in analysis, they do not rely on marker genes which are largely conserved at the strain level, and they are suitable for species- and strain-level classification [@doi:10.1128/mSystems.00020-16] (CITE: gather). 
 Investigating all k-mers in metagenomes is more computationally intensive than reference-based approaches [@doi:10.7717/peerj-cs.94], but data-reduction techniques like FracMinHash sketching make k-mer-based analysis scalable to large-scale sequence comparisons [@doi:10.12688/f1000research.19675.1; @doi:10.1186/s13059-019-1809-x]. 
 MinHash sketching sacrifices the fine-scaled resolution of reference-based techniques but is representative of the full sequencing sample and complete databases (CITE: gather), including strain-variable accessory elements that may be associated with diseases. 
@@ -305,11 +304,11 @@ When a query has a Jaccard similarity between 10^-2^ and 10^-3^, 20-40% of a tar
 This jumps to >80% when Jaccard similarity exceeds 10^-1^ [@doi:10.1186/s13059-020-02066-4]. 
 
 Here, we developed  k-mer- and assembly graph-based techniques to perform a meta-analysis of stool microbiome metagenomes from individuals with (CD, UC) and without (nonIBD) IBD [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:10.1038/nature08821].
-Using these approaches, we demonstrated a weak but consistent signature of IBD subtype in fecal microbiome metagenomes. 
+Using these approaches, we demonstrated a consistent signature of IBD subtype in fecal microbiome metagenomes. 
 We identified a small set of k-mers that were predictive of UC and CD, and found that these k-mers originated from a core set of microbial genomes. 
 We found that stochastic loss of diversity in this core set of microbial genomes was a hallmark of CD, and to a lesser extent, UC. 
-While reduced diversity was responsible for the majority of disease signatures, we found signatures of strain switches that occured in disease. 
-Sequences associated with these strains occured more frequently in IBD metagenomes but were present in low abundance in nonIBD metagenomes as well.
+While reduced diversity was responsible for the majority of disease signatures, we found signatures of strain switches that occurred in disease. 
+Sequences associated with these strains occurred more frequently in IBD metagenomes but were present in low abundance in nonIBD metagenomes as well.
 Our approach provides a solution for strain-level analysis of short read metagenomic data sets, and our findings provide future avenues for research into IBD therapeutics.
 
 # Results
@@ -326,7 +325,7 @@ For each genome query, we combined these sequences into a single assembly graph,
 We estimated the abundance of each piece in this graph within each metagenome, and used these abundances to perform differential abundance analysis.
 
 ![
-**Overview of the metagenome analysis technique used in this paper.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
+**Overview of the metagenome analysis technique.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
 ](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
 
 We applied this approach to the analysis of IBD gut microbiomes via meta-analysis.
@@ -493,7 +492,7 @@ Among all five metapangenome graphs, XX orthologs were annotated...
 XX pathways were enriched (NOS/ROS/abx res).
 Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@doi:10.15252/msb.20177589].
 
-| metapangenome graph species    | closest strain match                 | maximum containment |
+| Metapangenome graph species    | Closest strain match                 | Maximum containment |
 |:--------------------------------:|:--------------------------------------:|:-------------:|
 |*Enterocloster clostridioformis*| *Enterocloster clostridioformis* MSK.2.78| 0.71 |
 |*Enterocloster bolteae*         | *[Clostridium] bolteae* 90A5             | 0.68 |
