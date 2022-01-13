@@ -6,7 +6,7 @@ keywords:
 - inflammatory bowel disease
 - dominating set differential abundance
 lang: en-US
-date-meta: '2022-01-12'
+date-meta: '2022-01-13'
 author-meta:
 - Taylor E. Reiter
 - Luiz Irber
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-01-12" />
-  <meta name="citation_publication_date" content="2022-01-12" />
+  <meta name="dc.date" content="2022-01-13" />
+  <meta name="citation_publication_date" content="2022-01-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/063b16ed257c72e8e0a2f3f4a6d26d2c5d1e65d9/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/063b16ed257c72e8e0a2f3f4a6d26d2c5d1e65d9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/063b16ed257c72e8e0a2f3f4a6d26d2c5d1e65d9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,10 +113,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/09feaf28ec557e3697840830b76d50d9bdc26f91/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/063b16ed257c72e8e0a2f3f4a6d26d2c5d1e65d9/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@09feaf2](https://github.com/taylorreiter/2021-paper-ibd/tree/09feaf28ec557e3697840830b76d50d9bdc26f91)
-on January 12, 2022.
+from [taylorreiter/2021-paper-ibd@063b16e](https://github.com/taylorreiter/2021-paper-ibd/tree/063b16ed257c72e8e0a2f3f4a6d26d2c5d1e65d9)
+on January 13, 2022.
 </em></small>
 
 ## Authors
@@ -287,9 +287,9 @@ While long reads have made strides toward resolving the latter issue [@doi:10.10
 New data analysis techniuqes are needed to overcome this challenge.
 
 *K-mers*, words of length *k* in nucleotide sequences, have previously been used for annotation-free characterization of sequencing data [@doi:10.1073/pnas.1305559110; @doi:10.1186/s12859-015-0875-7; @doi:10.1016/j.isci.2019.07.032].
-K-mers are suitable for strain-resolved metagenome analysis because they do not need to be present in reference databases to be included in analysis, they do not rely on marker genes which are largely conserved at the strain level, and they are suitable for species- and strain-level classification [@doi:10.1128/mSystems.00020-16] (CITE: gather). 
+K-mers are suitable for strain-resolved metagenome analysis because they do not need to be present in reference databases to be included in analysis, they do not rely on marker genes which are largely conserved at the strain level, and they are suitable for species- and strain-level classification [@doi:10.1128/mSystems.00020-16; @doi:10.1101/2022.01.11.475838]. 
 Investigating all k-mers in metagenomes is more computationally intensive than reference-based approaches [@doi:10.7717/peerj-cs.94], but data-reduction techniques like FracMinHash sketching make k-mer-based analysis scalable to large-scale sequence comparisons [@doi:10.12688/f1000research.19675.1; @doi:10.1186/s13059-019-1809-x]. 
-MinHash sketching sacrifices the fine-scaled resolution of reference-based techniques but is representative of the full sequencing sample and complete databases (CITE: gather), including strain-variable accessory elements that may be associated with diseases. 
+MinHash sketching sacrifices the fine-scaled resolution of reference-based techniques but is representative of the full sequencing sample and complete databases [@doi:10.1101/2022.01.11.475838], including strain-variable accessory elements that may be associated with diseases. 
 
 Assembly graphs complement sketch-based analysis [@doi:10.1186/s13059-020-02066-4; @doi:10.1371/journal.pgen.1007758]. 
 While both k-mers and assembly graphs can be used to represent all sequences contained within a metagenome, assembly graphs retain important sequencing context and known functional and taxonomic annotations, recovering critical information lost through the MinHash sketching approach.
@@ -315,7 +315,7 @@ Our approach provides a solution for strain-level analysis of short read metagen
 
 We developed a computational approach to resolve sub-species level differences between groups of short read shotgun metagenomes (**Figure @fig:overview**).
 While our pipeline relies on many published algorithms, we developed two new approaches that, when combined with existing tools, generated insights into microbial sequences associated with IBD subtype.
-After consistent pre-processing, we used FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflected the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: gather), and used these profiles to perform metagenome-wide k-mer association with IBD subtype. 
+After consistent pre-processing, we used FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflected the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1; @doi:10.1101/2022.01.11.475838], and used these profiles to perform metagenome-wide k-mer association with IBD subtype. 
 We refer to FracMinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*.
 Retaining only k-mers associated with IBD, we used the minimum set cover approach to identify the genomes that best encompassed these k-mers.
 
@@ -391,8 +391,8 @@ The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:kmers 
 **Long nucleotide k-mers retain information about IBD subtype classification.** **A.** Principal coordinate analysis of distance matrices obtained from comparing FracMinHash signatures with abundances and PERMANOVA results that explain the variance. Number of k-mers refers to the number of k-mers in a signature, while library size refers to the number of raw reads per sample. All test were significant at p < .001. **B.** Random forests models built on FracMinHash signatures predicted IBD subtype better than chance. Variable selection reduced the number of k-mers used to build each model, and model performance varied by validation study.
 ](images/kmers.png "kmer results"){#fig:kmers}
 
-To understand which genomes were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in reference databases using sourmash gather (CITE: gather).
-Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query (CITE: gather).
+To understand which genomes were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in reference databases using sourmash gather [@doi:10.1101/2022.01.11.475838].
+Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query [@doi:10.1101/2022.01.11.475838].
 We used the GTDB rs202 representatives database, which contains bacterial and archaeal genomes, and the GenBank viral, fungal, and protozoa databases.
 We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:tree**).
 The presence of shared k-mers between classifiers indicates that there is a weak but consistent biological signal in metagenomes for IBD subtype between cohorts.
@@ -619,7 +619,7 @@ We then removed human DNA using BBMap and a masked version of hg19 [@url:http://
 Next, we trimmed low-abundance k-mers from sequences with high coverage using khmer's `trim-low-abund.py` [@doi:10.12688/f1000research.6924.1].  
 
 Using these trimmed reads, we generated FracMinHash signatures for each library using sourmash (k-size 31, scaled 2000, abundance tracking on) [@doi:10.21105/joss.00027]. 
-FracMinHash sketching produces compressed representations of k-mers in a metagenome while retaining the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1] (CITE: gather).
+FracMinHash sketching produces compressed representations of k-mers in a metagenome while retaining the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1; @doi:10.1101/2022.01.11.475838].
 This approach creates a consistent set of k-mers across samples by retaining the same k-mers when the same k-mers were observed. 
 This enables comparisons between metagenomes.
 We refer to FracMinHash sketches as *signatures*, and to each sub-sampled k-mer in a signature as a *k-mer*. 
@@ -659,7 +659,7 @@ We then followed the same model building procedure as the k-mer models. -->
 ## Anchoring predictive k-mers to genomes
 
 We used sourmash `gather` with parameters `k 31` and `--scaled 2000` to anchor predictive k-mers to known genomes [@doi:10.21105/joss.00027]. 
-Sourmash `gather` searches a database of known k-mers for matches with a query (CITE: gather).
+Sourmash `gather` searches a database of known k-mers for matches with a query [@doi:10.1101/2022.01.11.475838].
 We used the sourmash GTDB rs202 representatives data base (https://osf.io/w4bcm/download).
 To calculate the cumulative variable importance attributable to a single genome, we used an iterative winner-takes-all approach.
 The genome with the largest fraction of predictive k-mers won the variable importance for all k-mers contained within its genome.

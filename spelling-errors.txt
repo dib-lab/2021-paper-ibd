@@ -37,7 +37,7 @@ disconnectable
 dominator
 Dominik
 domoritz
-Dysbiosis
+dysbiosis
 ecotypes
 Enterocloster
 facultative
@@ -45,7 +45,7 @@ Faecalibacterium
 fastq
 FracMinHash
 GenBank
-genomic
+Genomic
 ggMarginal
 ggplot
 gnavus
