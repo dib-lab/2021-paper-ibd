@@ -42,7 +42,7 @@ ecotypes
 Enterocloster
 facultative
 Faecalibacterium
-fastq
+FASTQ
 FracMinHash
 GenBank
 Genomic
@@ -75,7 +75,6 @@ metapangenomes
 microbiome
 microbiomes
 microgravitas
-MinHash
 Mizutani
 mogproject
 Moritz
@@ -110,8 +109,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-scalably
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi
@@ -121,7 +119,6 @@ subtype
 subtypes
 taylorreiter
 TBD
-techniuqes
 TNF
 Trimmomatic
 tunable
