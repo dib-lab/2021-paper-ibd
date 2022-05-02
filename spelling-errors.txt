@@ -29,7 +29,7 @@ coli
 colorectal
 complexUpset
 Crohn’s
-CTB
+ctb
 cytokine
 dda
 differentially
@@ -42,7 +42,7 @@ ecotypes
 Enterocloster
 facultative
 Faecalibacterium
-FASTQ
+fastq
 FracMinHash
 GenBank
 genomic
@@ -71,7 +71,7 @@ metagenome
 metagenomes
 metagenomic
 MetaHIT
-Metapangenome
+metapangenome
 metapangenomes
 microbiome
 microbiomes
@@ -110,7 +110,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi

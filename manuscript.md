@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@c4914e2](https://github.com/taylorreiter/2021-paper-ibd/tree/c4914e28994d49192be6f5041874ce54cf04aeba)
+from [taylorreiter/2021-paper-ibd@c901522](https://github.com/taylorreiter/2021-paper-ibd/tree/c90152275f253e168130b02fa56a96dba685dd63)
 on May 2, 2022.
 </em></small>
 
@@ -394,7 +394,7 @@ The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:kmers 
 To understand which genomes were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in reference databases using sourmash gather [@doi:10.1101/2022.01.11.475838].
 Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query [@doi:10.1101/2022.01.11.475838].
 We used the GTDB rs202 representatives database, which contains bacterial and archaeal genomes, and the GenBank viral, fungal, and protozoa databases.
-We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:tree**).
+We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:metacoder**, **Figure @fig:tree**).
 The presence of shared k-mers between classifiers indicates that there is a weak but consistent biological signal in metagenomes for IBD subtype between cohorts.
 
 K-mers that anchored to these shared genomes represented 65% of all k-mers used to build the optimized classifiers, but accounted for an outsize proportion of variable importance in the optimized classifiers.
@@ -410,7 +410,7 @@ Nodes are summarized to the genus level.
 All taxa up to the class level are labelled. 
 Taxa that could account for at least 1% of the normalized variable importance across Random forests models are colored and labelled.
 Node size and node color reflects potential variable importance.
-](images/metacoder_by_varimp.png "tree"){#fig:metacoder}
+](images/metacoder_by_varimp.png){#fig:metacoder}
 
 ## Genome queries into metagenome assembly graphs recover neighborhoods of sequence variation and establish species umbrellas
 
