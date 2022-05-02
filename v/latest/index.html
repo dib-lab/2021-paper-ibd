@@ -16,7 +16,7 @@
   <meta name="author" content="Amy D. Willis" />
   <meta name="author" content="Blair D. Sullivan" />
   <meta name="author" content="C. Titus Brown" />
-  <meta name="dcterms.date" content="2022-04-29" />
+  <meta name="dcterms.date" content="2022-05-02" />
   <meta name="keywords" content="compact de Bruijn Graph, k-mer, inflammatory bowel disease, dominating set differential abundance" />
   <title>Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn’s disease</title>
   <style>
@@ -58,8 +58,8 @@
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-04-29" />
-  <meta name="citation_publication_date" content="2022-04-29" />
+  <meta name="dc.date" content="2022-05-02" />
+  <meta name="citation_publication_date" content="2022-05-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -117,9 +117,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/d7f185212d90bcfc6faa8c9bd7d9f8a9f536de30/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/d7f185212d90bcfc6faa8c9bd7d9f8a9f536de30/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/d7f185212d90bcfc6faa8c9bd7d9f8a9f536de30/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/d7f185212d90bcfc6faa8c9bd7d9f8a9f536de30/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/c4914e28994d49192be6f5041874ce54cf04aeba/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/d7f185212d90bcfc6faa8c9bd7d9f8a9f536de30">taylorreiter/2021-paper-ibd@d7f1852</a>
-on April 29, 2022.
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/c4914e28994d49192be6f5041874ce54cf04aeba">taylorreiter/2021-paper-ibd@c4914e2</a>
+on May 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -462,17 +462,21 @@ The accuracy on the validation studies ranged from 49%-77% (<strong>Figure <a hr
 <p>To understand which genomes were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in reference databases using sourmash gather <span class="citation" data-cites="IadOz4ol">[<a href="#ref-IadOz4ol" role="doc-biblioref">21</a>]</span>.
 Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query <span class="citation" data-cites="IadOz4ol">[<a href="#ref-IadOz4ol" role="doc-biblioref">21</a>]</span>.
 We used the GTDB rs202 representatives database, which contains bacterial and archaeal genomes, and the GenBank viral, fungal, and protozoa databases.
-We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (<strong>Figure <a href="#fig:tree">3</a></strong>).
+We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (<strong>Figure <a href="#fig:tree">7</a></strong>).
 The presence of shared k-mers between classifiers indicates that there is a weak but consistent biological signal in metagenomes for IBD subtype between cohorts.</p>
 <p>K-mers that anchored to these shared genomes represented 65% of all k-mers used to build the optimized classifiers, but accounted for an outsize proportion of variable importance in the optimized classifiers.
 After normalizing variable importance across classifiers, 76% of the total variable importance was held by these k-mers.
 These k-mers contribute a large fraction of predictive power for classification of IBD subtype, and the genomes in which they are found represent a microbial core that contains predictive power in IBD subtype classification.</p>
 <p>Given that 360 genomes anchored the majority of k-mers and variable importance across all models, we were curious whether a smaller number of genomes could still retain the majority of variable importance.
-Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (<strong>Figure <a href="#fig:tree">3</a></strong>, <strong>Figure S <a href="#fig:varimp">7</a></strong>).
+Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (<strong>Figure <a href="#fig:metacoder">3</a></strong>, <strong>Figure S <a href="#fig:tree">7</a></strong>, <strong>Figure S <a href="#fig:varimp">8</a></strong>).
 We assumed these genomes represent the strongest candidates for discriminating IBD subtype and focused on them for the remainder of our analyses.</p>
-<div id="fig:tree" class="fignos">
+<div id="fig:metacoder" class="fignos">
 <figure>
-<img src="images/genome360.png" alt="Figure 3: Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models. Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name within the GTDB database. CTB: why this figure; what is the point?" /><figcaption aria-hidden="true"><span>Figure 3:</span> <strong>Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models.</strong> Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name within the GTDB database. CTB: why this figure; what is the point?</figcaption>
+<img src="images/metacoder_by_varimp.png" alt="Figure 3: Tree of bacterial species that were predictive of IBD subtype in all models. Nodes are summarized to the genus level. All taxa up to the class level are labelled. Taxa that could account for at least 1% of the normalized variable importance across Random forests models are colored and labelled. Node size and node color reflects potential variable importance." /><figcaption aria-hidden="true"><span>Figure 3:</span> <em>Tree of bacterial species that were predictive of IBD subtype in all models.</em>
+Nodes are summarized to the genus level.
+All taxa up to the class level are labelled.
+Taxa that could account for at least 1% of the normalized variable importance across Random forests models are colored and labelled.
+Node size and node color reflects potential variable importance.</figcaption>
 </figure>
 </div>
 <h2 id="genome-queries-into-metagenome-assembly-graphs-recover-neighborhoods-of-sequence-variation-and-establish-species-umbrellas">Genome queries into metagenome assembly graphs recover neighborhoods of sequence variation and establish species umbrellas</h2>
@@ -965,12 +969,17 @@ We used the `hmmscan` command from HMMER against the Resfam database with a thre
 </div>
 </div>
 <h1 id="supplementary-information">Supplementary information</h1>
+<div id="fig:tree" class="fignos">
+<figure>
+<img src="images/genome360.png" alt="Figure 7: Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models. Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name within the GTDB database." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Phylogenetic tree of 360 bacterial species that were predictive of IBD subtype in all models.</strong> Tree was built from the GTDB rs202 tree with all tips except those represented by the 360 genomes removed. Tree tips are labelled by genomes that anchored at least 1% of the normalized variable importance. The inner ring annotates the rank of the genomes, with the genome holding the most normalized variable importance across models ranked as 1. The outer ring is the species name within the GTDB database.</figcaption>
+</figure>
+</div>
 <div id="fig:varimp" class="fignos">
 <figure>
-<img src="images/varimp54.png" alt="Figure 7: Fifty-four genomes are important across models and anchor the majority of variable importance.. The bottom panel depicts a heat map of the scale variable importance contributed by k-mers that anchored to each of the top 54 genomes that were important for predicting IBD subtype. Models are labelled by the validation study and by the random seed used to build the model.Rank corresponds to the genome that anchored the most variable importance. Rank:species can be decoded using the tree in the main manuscript. The top panels depict bar charts that correspond to the minimum (lower) or maximum (upper) variable importance a genome could anchor. The minimum variable importance was estimated following the sourmash gather algorithm, where each important k-mer was assigned to only one genome, and the genome it was assigned to was determined by a greedy winner-takes-all approach. Therefore, in the minimum bar chart, variable importance attributable to a k-mer was only summed once per k-mer, even if that k-mer occurred in multiple genomes. The maximum variable importance was estimated by allowing k-mers to be anchored to multiple genomes, so all k-mers were assigned to all possible genomes even if that meant a k-mer was assigned multiple times." /><figcaption aria-hidden="true"><span>Figure 7:</span> <strong>Fifty-four genomes are important across models and anchor the majority of variable importance.</strong>.
+<img src="images/varimp54.png" alt="Figure 8: Fifty-four genomes are important across models and anchor the majority of variable importance.. The bottom panel depicts a heat map of the scale variable importance contributed by k-mers that anchored to each of the top 54 genomes that were important for predicting IBD subtype. Models are labelled by the validation study and by the random seed used to build the model.Rank corresponds to the genome that anchored the most variable importance. Rank:species can be decoded using the tree in Figure S 7. The top panels depict bar charts that correspond to the minimum (lower) or maximum (upper) variable importance a genome could anchor. The minimum variable importance was estimated following the sourmash gather algorithm, where each important k-mer was assigned to only one genome, and the genome it was assigned to was determined by a greedy winner-takes-all approach. Therefore, in the minimum bar chart, variable importance attributable to a k-mer was only summed once per k-mer, even if that k-mer occurred in multiple genomes. The maximum variable importance was estimated by allowing k-mers to be anchored to multiple genomes, so all k-mers were assigned to all possible genomes even if that meant a k-mer was assigned multiple times." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Fifty-four genomes are important across models and anchor the majority of variable importance.</strong>.
 The bottom panel depicts a heat map of the scale variable importance contributed by k-mers that anchored to each of the top 54 genomes that were important for predicting IBD subtype.
 Models are labelled by the validation study and by the random seed used to build the model.Rank corresponds to the genome that anchored the most variable importance.
-Rank:species can be decoded using the tree in the main manuscript. The top panels depict bar charts that correspond to the minimum (lower) or maximum (upper) variable importance a genome could anchor.
+Rank:species can be decoded using the tree in <strong>Figure S <a href="#fig:tree">7</a></strong>. The top panels depict bar charts that correspond to the minimum (lower) or maximum (upper) variable importance a genome could anchor.
 The minimum variable importance was estimated following the sourmash gather algorithm, where each important k-mer was assigned to only one genome, and the genome it was assigned to was determined by a greedy winner-takes-all approach.
 Therefore, in the minimum bar chart, variable importance attributable to a k-mer was only summed once per k-mer, even if that k-mer occurred in multiple genomes.
 The maximum variable importance was estimated by allowing k-mers to be anchored to multiple genomes, so all k-mers were assigned to all possible genomes even if that meant a k-mer was assigned multiple times.</figcaption>
@@ -978,7 +987,7 @@ The maximum variable importance was estimated by allowing k-mers to be anchored 
 </div>
 <div id="fig:exclusive2" class="fignos">
 <figure>
-<img src="images/dda_kmers_shared_across_diagnosis_upset_decreased_supplemental.png" alt="Figure 8: Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD. Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes." /><figcaption aria-hidden="true"><span>Figure 8:</span> <strong>Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.</strong> Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.</figcaption>
+<img src="images/dda_kmers_shared_across_diagnosis_upset_decreased_supplemental.png" alt="Figure 9: Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD. Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes." /><figcaption aria-hidden="true"><span>Figure 9:</span> <strong>Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.</strong> Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.</figcaption>
 </figure>
 </div>
 <!-- default theme -->
