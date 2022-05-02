@@ -29,7 +29,7 @@ coli
 colorectal
 complexUpset
 Crohn’s
-ctb
+CTB
 cytokine
 dda
 differentially
@@ -45,7 +45,7 @@ Faecalibacterium
 FASTQ
 FracMinHash
 GenBank
-Genomic
+genomic
 ggMarginal
 ggplot
 gnavus
@@ -66,11 +66,12 @@ Luiz
 luizirber
 mer
 mers
+metacoder
 metagenome
 metagenomes
 metagenomic
 MetaHIT
-metapangenome
+Metapangenome
 metapangenomes
 microbiome
 microbiomes
@@ -109,7 +110,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
