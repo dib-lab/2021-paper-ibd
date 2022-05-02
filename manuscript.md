@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/c90152275f253e168130b02fa56a96dba685dd63/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@c901522](https://github.com/taylorreiter/2021-paper-ibd/tree/c90152275f253e168130b02fa56a96dba685dd63)
+from [taylorreiter/2021-paper-ibd@005a7c0](https://github.com/taylorreiter/2021-paper-ibd/tree/005a7c046eb9ca45e0326073c8f3c77e86ea7389)
 on May 2, 2022.
 </em></small>
 
@@ -405,7 +405,7 @@ Given that 360 genomes anchored the majority of k-mers and variable importance a
 Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:metacoder**, **Figure S @fig:tree**, **Figure S @fig:varimp**). 
 We assumed these genomes represent the strongest candidates for discriminating IBD subtype and focused on them for the remainder of our analyses.
 
-![*Tree of bacterial species that were predictive of IBD subtype in all models.*
+![**Tree of bacterial species that were predictive of IBD subtype in all models.**
 Nodes are summarized to the genus level.
 All taxa up to the class level are labelled. 
 Taxa that could account for at least 1% of the normalized variable importance across Random forests models are colored and labelled.

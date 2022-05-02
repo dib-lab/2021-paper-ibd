@@ -29,7 +29,7 @@ coli
 colorectal
 complexUpset
 Crohn’s
-ctb
+CTB
 cytokine
 dda
 differentially
@@ -69,9 +69,9 @@ mers
 metacoder
 metagenome
 metagenomes
-metagenomic
+Metagenomic
 MetaHIT
-metapangenome
+Metapangenome
 metapangenomes
 microbiome
 microbiomes
