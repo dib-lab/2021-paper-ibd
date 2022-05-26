@@ -6,7 +6,7 @@ keywords:
 - inflammatory bowel disease
 - dominating set differential abundance
 lang: en-US
-date-meta: '2022-05-02'
+date-meta: '2022-05-26'
 author-meta:
 - Taylor E. Reiter
 - Luiz Irber
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-05-02" />
-  <meta name="citation_publication_date" content="2022-05-02" />
+  <meta name="dc.date" content="2022-05-26" />
+  <meta name="citation_publication_date" content="2022-05-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,10 +113,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@005a7c0](https://github.com/taylorreiter/2021-paper-ibd/tree/005a7c046eb9ca45e0326073c8f3c77e86ea7389)
-on May 2, 2022.
+from [taylorreiter/2021-paper-ibd@c3f44d1](https://github.com/taylorreiter/2021-paper-ibd/tree/c3f44d1458ddd935a1af9ac37784423443a66c40)
+on May 26, 2022.
 </em></small>
 
 ## Authors
@@ -254,8 +254,17 @@ on May 2, 2022.
 
 ## Abstract {.page_break_before}
 
-
-
+Microbial strains have closely related genomes but may have different phenotypes in the same environment. 
+Shotgun metagenomic sequencing can capture the genomes of all strains present in a community but strain-resolved analysis from shotgun sequencing alone remains difficult.
+We developed an approach to identify and interrogate strain-level differences in groups of metagenomes. 
+We first developed a machine learning classifier based on compressed representations of complete metagenomes (FracMinHash sketches) and identified genomes that correlate with IBD subtype. 
+We next we used assembly graph genome queries to recover strain variation for correlated genomes.
+To rescue variation that may not have been present in the sketches, we then used assembly graph genome queries to recover strain variation for correlated genomes. 
+Lastly, we developed a novel differential abundance framework that works directly on the metagenome assembly graph to uncover all sequence variants correlated with IBD. 
+We refer to this approach as dominating set differential abundance analysis and have implemented it in the spacegraphcats software package (github.com/spacegraphcats/spacegraphcats). 
+We use these techniques to perform a meta-analysis of stool microbiomes from individuals with and without inflammatory bowel disease (Crohn's disease, ulcerative colitis; n = 605). 
+We identified five bacterial strains that are associated with Crohn’s disease. 
+Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.
 
 # Introduction
 

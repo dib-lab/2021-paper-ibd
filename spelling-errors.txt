@@ -29,7 +29,7 @@ coli
 colorectal
 complexUpset
 Crohn’s
-CTB
+ctb
 cytokine
 dda
 differentially
@@ -37,7 +37,7 @@ disconnectable
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 Enterocloster
 facultative
@@ -45,7 +45,7 @@ Faecalibacterium
 fastq
 FracMinHash
 GenBank
-genomic
+Genomic
 ggMarginal
 ggplot
 gnavus
@@ -69,7 +69,7 @@ mers
 metacoder
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 Metapangenome
 metapangenomes
@@ -92,6 +92,7 @@ pathophysiology
 pathotypes
 PERMANOVA
 PFAM
+phenotypes
 Phylogenetic
 phylogroups
 polysaccharide
@@ -110,7 +111,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
