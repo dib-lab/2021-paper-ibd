@@ -16,7 +16,7 @@
   <meta name="author" content="Amy D. Willis" />
   <meta name="author" content="Blair D. Sullivan" />
   <meta name="author" content="C. Titus Brown" />
-  <meta name="dcterms.date" content="2022-05-02" />
+  <meta name="dcterms.date" content="2022-05-26" />
   <meta name="keywords" content="compact de Bruijn Graph, k-mer, inflammatory bowel disease, dominating set differential abundance" />
   <title>Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn’s disease</title>
   <style>
@@ -58,8 +58,8 @@
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-05-02" />
-  <meta name="citation_publication_date" content="2022-05-02" />
+  <meta name="dc.date" content="2022-05-26" />
+  <meta name="citation_publication_date" content="2022-05-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -117,9 +117,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/005a7c046eb9ca45e0326073c8f3c77e86ea7389/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/c3f44d1458ddd935a1af9ac37784423443a66c40/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/005a7c046eb9ca45e0326073c8f3c77e86ea7389">taylorreiter/2021-paper-ibd@005a7c0</a>
-on May 2, 2022.
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/c3f44d1458ddd935a1af9ac37784423443a66c40">taylorreiter/2021-paper-ibd@c3f44d1</a>
+on May 26, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -257,6 +257,17 @@ Department of Population Health and Reproduction, University of California, Davi
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
+<p>Microbial strains have closely related genomes but may have different phenotypes in the same environment.
+Shotgun metagenomic sequencing can capture the genomes of all strains present in a community but strain-resolved analysis from shotgun sequencing alone remains difficult.
+We developed an approach to identify and interrogate strain-level differences in groups of metagenomes.
+We first developed a machine learning classifier based on compressed representations of complete metagenomes (FracMinHash sketches) and identified genomes that correlate with IBD subtype.
+We next we used assembly graph genome queries to recover strain variation for correlated genomes.
+To rescue variation that may not have been present in the sketches, we then used assembly graph genome queries to recover strain variation for correlated genomes.
+Lastly, we developed a novel differential abundance framework that works directly on the metagenome assembly graph to uncover all sequence variants correlated with IBD.
+We refer to this approach as dominating set differential abundance analysis and have implemented it in the spacegraphcats software package (github.com/spacegraphcats/spacegraphcats).
+We use these techniques to perform a meta-analysis of stool microbiomes from individuals with and without inflammatory bowel disease (Crohn’s disease, ulcerative colitis; n = 605).
+We identified five bacterial strains that are associated with Crohn’s disease.
+Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.</p>
 <h1 id="introduction">Introduction</h1>
 <p>Sub-species groupings of microorganisms have functional differences that govern important genome-environment interactions across diverse ecosystems.
 For example, ecotypes of <em>Escherichia coli</em> have different gene complements that allow each group to thrive in diverse environments like the gut, soil, and freshwater <span class="citation" data-cites="KY2dovBD">[<a href="#ref-KY2dovBD" role="doc-biblioref">1</a>]</span>.
@@ -833,7 +844,7 @@ We used the `hmmscan` command from HMMER against the Resfam database with a thre
 <div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Capsular polysaccharide correlates with immune response to the human gut microbe &lt;i&gt;Ruminococcus gnavus&lt;/i&gt;</strong> <div class="csl-block">Matthew T Henke, Eric M Brown, Chelsi D Cassilly, Hera Vlamakis, Ramnik J Xavier, Jon Clardy</div> <em>Proceedings of the National Academy of Sciences</em> (2021-05-18) <a href="https://doi.org/gnq78g">https://doi.org/gnq78g</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1073/pnas.2007595118">10.1073/pnas.2007595118</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33972416">33972416</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8157926">PMC8157926</a></div></div>
 </div>
 <div id="ref-10nUzxyHX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Generating lineage-resolved, complete metagenome-assembled genomes from complex microbial communities</strong> <div class="csl-block">Derek M Bickhart, Mikhail Kolmogorov, Elizabeth Tseng, Daniel M Portik, Anton Korobeynikov, Ivan Tolstoganov, Gherman Uritskiy, Ivan Liachko, Shawn T Sullivan, Sung Bong Shin, … Timothy PL Smith</div> <em>Nature Biotechnology</em> (2022-01-03) <a href="https://doi.org/gn3fkx">https://doi.org/gn3fkx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41587-021-01130-z">10.1038/s41587-021-01130-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34980911">34980911</a></div></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Generating lineage-resolved, complete metagenome-assembled genomes from complex microbial communities</strong> <div class="csl-block">Derek M Bickhart, Mikhail Kolmogorov, Elizabeth Tseng, Daniel M Portik, Anton Korobeynikov, Ivan Tolstoganov, Gherman Uritskiy, Ivan Liachko, Shawn T Sullivan, Sung Bong Shin, … Timothy PL Smith</div> <em>Nature Biotechnology</em> (2022-05) <a href="https://doi.org/gn3fkx">https://doi.org/gn3fkx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41587-021-01130-z">10.1038/s41587-021-01130-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34980911">34980911</a></div></div>
 </div>
 <div id="ref-yvK2iCjv" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Genomic variation landscape of the human gut microbiome</strong> <div class="csl-block">Siegfried Schloissnig, Manimozhiyan Arumugam, Shinichi Sunagawa, Makedonka Mitreva, Julien Tap, Ana Zhu, Alison Waller, Daniel R Mende, Jens Roat Kultima, John Martin, … Peer Bork</div> <em>Nature</em> (2013-01) <a href="https://doi.org/j5d">https://doi.org/j5d</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature11711">10.1038/nature11711</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23222524">23222524</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3536929">PMC3536929</a></div></div>
