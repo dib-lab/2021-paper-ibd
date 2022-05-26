@@ -90,6 +90,8 @@ authors:
     email: adwillis@uw.edu
     affiliations:
       - Department of Biostatistics, University of Washington
+    funders:
+      - NIGMS R35 GM133420 
   - github: bdsullivan
     name: Blair D. Sullivan
     initials: BDS
