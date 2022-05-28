@@ -62,6 +62,7 @@ Illumina
 intra
 Irber
 Jaccard
+KEGG
 kmers
 labelled
 LLDeep
@@ -74,7 +75,7 @@ metagenome
 metagenomes
 metagenomic
 MetaHIT
-metapangenome
+Metapangenome
 metapangenomes
 microbiome
 microbiomes

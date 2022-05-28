@@ -6,7 +6,7 @@ keywords:
 - inflammatory bowel disease
 - dominating set differential abundance
 lang: en-US
-date-meta: '2022-05-26'
+date-meta: '2022-05-28'
 author-meta:
 - Taylor E. Reiter
 - Luiz Irber
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-05-26" />
-  <meta name="citation_publication_date" content="2022-05-26" />
+  <meta name="dc.date" content="2022-05-28" />
+  <meta name="citation_publication_date" content="2022-05-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/508fc9261f2ca58e82783abc184b006f3190c310/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/508fc9261f2ca58e82783abc184b006f3190c310/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/508fc9261f2ca58e82783abc184b006f3190c310/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/179fb3a782fe018270800b577a582c53fb020d61/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/179fb3a782fe018270800b577a582c53fb020d61/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/179fb3a782fe018270800b577a582c53fb020d61/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,10 +113,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/508fc9261f2ca58e82783abc184b006f3190c310/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/179fb3a782fe018270800b577a582c53fb020d61/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@508fc92](https://github.com/taylorreiter/2021-paper-ibd/tree/508fc9261f2ca58e82783abc184b006f3190c310)
-on May 26, 2022.
+from [taylorreiter/2021-paper-ibd@179fb3a](https://github.com/taylorreiter/2021-paper-ibd/tree/179fb3a782fe018270800b577a582c53fb020d61)
+on May 28, 2022.
 </em></small>
 
 ## Authors
@@ -786,6 +786,9 @@ Therefore, in the minimum bar chart, variable importance attributable to a k-mer
 The maximum variable importance was estimated by allowing k-mers to be anchored to multiple genomes, so all k-mers were assigned to all possible genomes even if that meant a k-mer was assigned multiple times.
 ](images/varimp54.png){#fig:varimp}
 
+![**Pathways that were enriched among sets of differentially abundant sequences in CD compared to nonIBD**. Top: Some dominating set pieces that significantly increased in abundance were annotated as the same KEGG orthologs as dominating set pieces that were significantly decreased in abundance. Many of these pathways encode core functions. Middle: KEGG pathway enrichment from KEGG ortholog annotations that were only observed in dominating set pieces that were significantly increased in abundance in CD. Bottom: KEGG pathway enrichment from KEGG ortholog annotations that were only observed in dominating set pieces that were significantly decreased in abundance in CD. 
+
+](images/sig_ccs_enrichment.png){#fig:enrichment}
 ![
 **Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.** Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.
 ](images/dda_kmers_shared_across_diagnosis_upset_decreased_supplemental.png){#fig:exclusive2}
