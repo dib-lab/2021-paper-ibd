@@ -7,10 +7,12 @@ archaeal
 bakta
 BBMap
 bdsullivan
+biomarkers
 BioProject
 Biostatistics
 Birkbeck
 BlairDSullivan
+blastn
 bluegenes
 bolteae
 Bonferroni
@@ -26,6 +28,7 @@ clade
 clostridioforme
 clostridioformis
 Clostridium
+clusterProfiler
 coli
 colorectal
 complexUpset
@@ -41,7 +44,7 @@ dismutase
 dominator
 Dominik
 domoritz
-Dysbiosis
+dysbiosis
 ecotypes
 Enterocloster
 facultative
@@ -51,7 +54,7 @@ fastq
 flagellar
 FracMinHash
 GenBank
-genomic
+Genomic
 ggMarginal
 ggplot
 glutathione
@@ -79,7 +82,7 @@ metagenome
 metagenomes
 Metagenomic
 MetaHIT
-Metapangenome
+metapangenome
 metapangenomes
 methionine
 microbiome
@@ -88,6 +91,7 @@ microgravitas
 Mizutani
 mogproject
 Moritz
+mulitfasta
 mulitple
 multifasta
 NADPH
@@ -110,6 +114,7 @@ peroxiredoxin
 phenotypes
 Phylogenetic
 phylogroups
+polymorphisms
 polysaccharide
 prausnitzii
 pre
@@ -117,15 +122,20 @@ preprocessing
 PRJEB
 PRJNA
 quantumgravitas
+quence
 Reidl
 Reiter
 ReiterTaylor
 RJX
+rplC
+rplO
+rplQ
+rplT
 Ruminococcus
 runtimes
 saltyscientist
 scalable
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi

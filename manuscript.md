@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@80bb7a2](https://github.com/taylorreiter/2021-paper-ibd/tree/80bb7a200c4993cf825a59d6dc61800f640301c4)
+from [taylorreiter/2021-paper-ibd@480153c](https://github.com/taylorreiter/2021-paper-ibd/tree/480153cd1a448ff9b2a52526559a515d7683efe8)
 on May 29, 2022.
 </em></small>
 
@@ -257,13 +257,13 @@ on May 29, 2022.
 
 Microbial strains have closely related genomes but may have different phenotypes in the same environment. 
 Shotgun metagenomic sequencing can capture the genomes of all strains present in a community but strain-resolved analysis from shotgun sequencing alone remains difficult.
-We developed an approach to identify and interrogate strain-level differences in groups of metagenomes. 
+We developed an approach to identify and interrogate strain-level differences in groups of metagenomes.
+We use this approach to perform a meta-analysis of stool microbiomes from individuals with and without inflammatory bowel disease (IBD; Crohn's disease, ulcerative colitis; n = 605), a disease for which there are not specific microbial biomarkers but some evidence that microbial strain variation may stratify by disease state.
 We first developed a machine learning classifier based on compressed representations of complete metagenomes (FracMinHash sketches) and identified genomes that correlate with IBD subtype. 
 We next we used assembly graph genome queries to recover strain variation for correlated genomes.
 To rescue variation that may not have been present in the sketches, we then used assembly graph genome queries to recover strain variation for correlated genomes. 
 Lastly, we developed a novel differential abundance framework that works directly on the metagenome assembly graph to uncover all sequence variants correlated with IBD. 
 We refer to this approach as dominating set differential abundance analysis and have implemented it in the spacegraphcats software package (github.com/spacegraphcats/spacegraphcats). 
-We use these techniques to perform a meta-analysis of stool microbiomes from individuals with and without inflammatory bowel disease (Crohn's disease, ulcerative colitis; n = 605). 
 We identified five bacterial strains that are associated with Crohn’s disease. 
 Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.
 
@@ -274,9 +274,9 @@ For example, ecotypes of *Escherichia coli* have different gene complements that
 Metagenomic sequencing data from communities of microorganisms contain information about specific strains present in a sample, but strain-resolved insights are lacking due to incomplete references or inability of current tools to retrieve such information [@doi:10.1186/s12915-019-0667-z]. 
 Here we use *strain* to refer to within-species variation that generates taxonomic grouping below the species level.
 
-Inflammatory bowel disease (IBD) is a group of disorders that are characterized by chronic inflammation of the intestines that is likely caused by host-mediated inflammatory responses elicited in part by microorganisms [@doi:10.1053/j.gastro.2014.02.009].
+Inflammatory bowel disease (IBD) is a group of disorders that are characterized by chronic inflammation of the intestines which may in part be the result of host-mediated inflammatory responses to microorganisms [@doi:10.1053/j.gastro.2014.02.009].
 IBD classically manifests in three subtypes depending on clinical presentation, including Crohn's disease (CD), which presents as discontinuous patches of inflammation throughout the gastrointestinal tract, ulcerative colitis (UC), which presents as continuous inflammation isolated to the colon, and undetermined, which cannot be distinguished as CD or UC.
-Diagnosis can be clinically difficult, with ramifications associated with over- or under-treatment resulting in patient morbidity associated with inappropriate treatment. 
+Diagnosis can be clinically difficult, with ramifications associated with incorrect treatment resulting in patient morbidity. 
 Detection of microbial signatures associated with IBD subtype may lead to improved diagnostic criteria and therapeutics that extend periods of remission.
 However, such signatures have thus far remained elusive [@doi:10.1186/s12967-019-02174-1].
 
@@ -309,12 +309,12 @@ These algorithms center around dominating sets, which partition the graph into *
 This simplified graph enables efficient queries: querying with a sequence that overlaps any k-mer in a compact de Bruijn graph (cDBG) node returns all k-mers (or all reads containing those k-mers) from the graph neighborhood.
 Genome queries often recover sequences not in reference databases or *de novo* assemblies, which disproportionately include sequences from both low coverage regions and highly variable portions of the graph (e.g. sequencing reads that neither assemble nor bin) [@doi:10.1186/s13059-020-02066-4].
 When a query has a containment index between 10^-2^ and 10^-3^ with the assembly graph, 20-40% of a target genome sequence is recovered from a metagenome query, and for containment indices above 10^-1^ this increases to >80% [@doi:10.1186/s13059-020-02066-4].
-Containment index is calculated by comparing the relative size of the intersection to the union between k-mers in a query and k-mers in a metagenome [@doi:g/10.1016/j.amc.2019.02].
+Containment index is calculated by comparing the relative size of the intersection to the union between k-mers in a query and k-mers in a metagenome [@doi:10.1016/j.amc.2019.02].
 
 Here, we develop k-mer- and assembly graph-based techniques to perform a meta-analysis of stool microbiome metagenomes from individuals with (CD, UC) and without (nonIBD) IBD [@doi:10.1038/s41586-019-1237-9; @doi:10.1016/j.chom.2015.09.008; @doi:10.1186/s13073-017-0490-5; @doi:10.1038/s41564-018-0306-4; @doi:10.1016/j.chom.2014.02.005; @doi:10.1038/nature08821].
 Using these approaches, we detect a consistent signature of IBD subtype in fecal microbiome metagenomes. 
 We identify a small set of k-mers that are predictive of UC and CD, and find that these k-mers originate from a core set of microbial genomes. 
-We find that a stochastic loss of diversity in this core set of microbial genomes is a hallmark of CD, and to a lesser extent, UC.  (CTB: do we need to say "as previously shown via 16s" or something here? with citation?)
+We find that a stochastic loss of diversity in this core set of microbial genomes is a hallmark of CD, and to a lesser extent, UC, as has been previously demonstrated [@doi:10.1186/s12967-019-02174-1].
 While reduced diversity is responsible for the majority of disease signatures, we also find signatures of strains present in the disease state.
 Sequences associated with these strains occurred more frequently in IBD metagenomes but are present in low abundance in nonIBD metagenomes as well.
 Our approach provides a solution for strain-level analysis of short read metagenomic data sets, and our findings provide future avenues for research into IBD therapeutics.
@@ -325,7 +325,7 @@ Our approach provides a solution for strain-level analysis of short read metagen
 We developed a computational approach to resolve sub-species level differences between groups of short read shotgun metagenomes (**Figure @fig:overview**).
 While our pipeline relies on many published algorithms, we developed two new approaches that, when combined with existing tools, generated insights into microbial sequences associated with IBD subtype.
 After consistent pre-processing, we used FracMinHash sketching to produce subsampled k-mer abundance profiles of metagenomes that reflected the sequence diversity in a sample [@doi:10.12688/f1000research.19675.1; @doi:10.1101/2022.01.11.475838], and used these profiles to perform metagenome-wide k-mer association with IBD subtype. 
-We refer to FracMinHash sketches as *signatures*, and for simplicity, continue referring to the sub-sampled k-mers in a signature as *k-mers*.
+We refer to FracMinHash sketches as *sketches* or k-mer abundance profiles, and for simplicity, continue referring to the sub-sampled k-mers in a sketch as *k-mers*.
 Retaining only k-mers associated with IBD, we used a minimum set cover approach to identify the genomes that best encompassed these k-mers [@doi:10.1101/2022.01.11.475838].
 
 Next, we developed an approach to perform differential abundance analysis directly on assembly graphs in order to recover all sequences that were differentially abundant in each IBD subtype when compared to nonIBD.
@@ -334,12 +334,12 @@ For each genome query, we combined these sequences into a single assembly graph,
 We estimated the abundance of each piece in this graph within each metagenome, and used these abundances to perform differential abundance analysis.
 
 ![
-**Overview of the metagenome analysis technique.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associate these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a compact de Bruijn assembly graph from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
+**Overview of the metagenome analysis technique.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associated these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph (cDBG) that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a cDBG from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
 ](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
 
 We applied this approach to the analysis of IBD gut microbiomes via meta-analysis.
 Meta-analyses have recently shown success in improving the power to detect microbial signatures of colorectal cancer [@doi:10.1038/s41591-019-0406-6; @doi:10.1038/s41591-019-0405-7; @doi:10.1128/mSystems.00332-18]. 
-To this end, we identified studies that performed metagenomic sequencing of individuals with CD, UC, or nonIBD and combined these to perform a meta-analysis (**Table @tbl:cohorts**).
+To this end, we identified studies that performed metagenomic sequencing of individuals with CD, UC, or nonIBD and combined these to perform a meta-analysis (**Table @tbl:cohorts**) (SUPPLEMENTARY TABLE: `inputs/working_metadata.tsv`).
 All studies profiled fecal gut microbiomes via Illumina shotgun metagenome sequencing.
 Individuals were from five distinct countries and seven cohorts (**Table @tbl:cohorts**).
 In many studies, samples were taken in time series to profile disease progression or individual response to treatment. 
@@ -396,13 +396,13 @@ The accuracy on the validation studies ranged from 49%-77% (**Figure @fig:kmers 
 
 
 ![
-**Long nucleotide k-mers retain information about IBD subtype classification.** **A.** Principal coordinate analysis of distance matrices obtained from comparing FracMinHash signatures with abundances and PERMANOVA results that explain the variance. Number of k-mers refers to the number of k-mers in a signature, while library size refers to the number of raw reads per sample. All test were significant at p < .001. **B.** Random forests models built on FracMinHash signatures predicted IBD subtype better than chance. Vita variable selection reduced the number of k-mers used to build each model, and model performance varied by validation study.
+**Long nucleotide k-mers retain information about IBD subtype classification.** **A.** Principal coordinate analysis of distance matrices obtained from comparing FracMinHash sketches with abundances and PERMANOVA results that explain the variance. Number of k-mers refers to the number of k-mers in a sketch, while library size refers to the number of raw reads per sample. All tests were significant at p < .001. **B.** Random forests models built on FracMinHash sketches predicted IBD subtype better than chance. Vita variable selection reduced the number of k-mers used to build each model, and model performance varied by validation study.
 ](images/kmers.png "kmer results"){#fig:kmers}
 
 To understand which genomes were responsible for disease signatures detected by our models, we anchored k-mers in the models against genomes in reference databases using sourmash gather [@doi:10.1101/2022.01.11.475838].
 Sourmash gather determines the minimum set of genomes in a database necessary to cover all of the k-mers in a query [@doi:10.1101/2022.01.11.475838].
 We used the GTDB rs202 representatives database, which contains bacterial and archaeal genomes, and the GenBank viral, fungal, and protozoa databases.
-We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:metacoder**, **Figure @fig:tree**).
+We found that a substantial fraction of genomes were shared between models, indicating there is a consistent biological signal captured among classifiers: of 3,889 total genomes detected across all classifiers, 360 genomes were shared between all classifiers (**Figure @fig:metacoder**, **Figure S @fig:tree**) (SUPPLEMENTARY TABLE:`needs to be created`).
 The presence of shared k-mers between classifiers indicates that there is a consistent biological signal in metagenomes for IBD subtype between cohorts.
 
 K-mers that anchored to these shared genomes represented 65% of all k-mers used to build the optimized classifiers, but accounted for an outsize proportion of variable importance in the optimized classifiers.
@@ -410,14 +410,14 @@ After normalizing variable importance across classifiers, 76% of the total varia
 These k-mers contribute a large fraction of predictive power for classification of IBD subtype, and the genomes in which they are found represent a microbial core that contains predictive power in IBD subtype classification.
 
 Given that 360 genomes anchored the majority of k-mers and variable importance across all models, we were curious whether a smaller number of genomes could still retain the majority of variable importance. 
-Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:metacoder**, **Figure S @fig:tree**, **Figure S @fig:varimp**). 
+Limiting genomes to those that could hold at least 1% of the normalized variable importance, we found that 54 genomes accounted for 50% of the variable importance (**Figure @fig:metacoder**, **Figure S @fig:tree**, **Figure S @fig:varimp**) (SUPPLEMENTARY TABLE:`needs to be created`). 
 We assumed these genomes represent the strongest candidates for discriminating IBD subtype and focused on them for the remainder of our analyses.
 
 ![**Tree of bacterial species that were predictive of IBD subtype in all models.**
 Nodes are summarized to the genus level.
 All taxa up to the class level are labelled. 
-Taxa that could account for at least 1% of the normalized variable importance across Random forests models are colored and labelled.
-Node size and node color reflects potential variable importance.
+Taxa that could account for at least 1% of the normalized variable importance across random forests models are colored and labelled.
+Node size and node color reflect potential variable importance.
 ](images/metacoder_by_varimp.png){#fig:metacoder}
 
 ## Genome queries into metagenome assembly graphs recover neighborhoods of sequence variation and establish species umbrellas
@@ -497,16 +497,16 @@ Only the increase in the distinct accessory genes is detectable amongst the back
 -->
 
 <!-- section will need to be updated based on graph annot results.  currently relies on R. gnavus prelim results -->
-In support of this, when we annotated the differentially abundant pieces using KEGG orthologs, we found that in some cases pieces that were increased in abundance and pieces that were decreased in abundance were annotated with the same ortholog (average 1453.8 [SD = 727.2] pieces representing 64 [SD = 23.8] orthologs per graph, **Figure @fig:enrichment**).
+In support of this, when we annotated the differentially abundant pieces using KEGG orthologs, we found that in some cases pieces that were increased in abundance and pieces that were decreased in abundance were annotated with the same ortholog (mean = 1453.8, sd = 727.2 pieces representing mean = 64, sd = 23.8 orthologs per graph, **Figure @fig:enrichment**) (SUPPLEMENTAL TABLE:`outputs/sgc_pangenome_catlases_corncob_annotation_analysis/*overlap_kos_df.tsv`).
 These genes likely represent the portion of the core genome shared by the strain(s) that is more abundant in CD and the strain(s) that is more abundant in nonIBD, but that is encoded by distinct sequences.
-Some orthologs encoded single copy marker genes [@doi:10.1186/s13059-015-0610-8] (SUPPLEMENTAL TABLE).
-To understand whether multiple strains of the same species were represented by these sequences, we queried with these marker gene sequences, extracted the reads associated with those graph pieces, and mapped the reads back to the marker gene sequence.
+Some shared annotations encoded single copy marker genes [@doi:10.1186/s13059-015-0610-8].
+To confirm that multiple strains of the same species were represented by these sequences, we queried with these marker gene sequences, extracted the reads associated with those graph pieces, and mapped the reads back to the marker gene sequence.
 We then selected reads that aligned to the same portion of the marker gene and contained single nucleotide variants, and BLASTed those reads against the NCBI nr database.
 For the subset of reads that we tested, we confirmed that different strains of the same species were the best matches (SUPPLEMENTAL VISUALIZATION?).
 This demonstrates that mulitple strains of the same species were present in each species graph, and that these strains were differentially abundant in CD compared to nonIBD.
 
-In contrast to the annotations that were identified among sequences that were increased and decreased in abundance, many orthologs were only annotated among the pieces that were increased in abundance in CD (mean = 1193.4, SD = 155.7) (SUPPLEMENTAL TABLE).
-Many of the same pathways were enriched among these orthologs across the five species, including those associated with oxidative stress response (cysteine and methionine metabolism, the pentose phosphate pathway) (**Figure @fig:enrichment**) (SUPPLEMENTAL TABLE).
+In contrast to the annotations that were identified among sequences that were increased and decreased in abundance, many orthologs were only annotated among the pieces that were increased in abundance in CD (mean = 1193.4, SD = 155.7) (SUPPLEMENTAL TABLE:`outputs/sgc_pangenome_catlases_corncob_annotation_analysis/*_distinct_kos_df.tsv`).
+Many of the same pathways were enriched among these orthologs across the five species, including those associated with oxidative stress response (cysteine and methionine metabolism, the pentose phosphate pathway) (**Figure @fig:enrichment**).
 The oxidative branch of the pentose phosphate pathway regenerates NADPH, while cysteine is a precursor for the antioxidant glutathione.
 Given this, we investigated the presence of reactive oxygen species-scavenging orthologs [@doi:10.1016/j.freeradbiomed.2019.03.032]; sequences encoding superoxide dismutase (K04565), thioredoxin reductase (K00384), and peroxiredoxin (K03386) were increased in abundance in CD for all five species.
 Additionally, many enriched pathways were associated with virulence (quorum sensing, flagellar assembly, bacterial chemotaxis, vancomycin resistance).
@@ -730,6 +730,22 @@ To focus on the most common sequencing variants and to reduce runtimes, we first
 We performed differential abundance testing using the `bbdml()` function using a likelihood ratio test with `formula = ~ study_accession + diagnosis` and `formula_null = ~study_accession`. 
 We estimated the number of k-mers in the quality controlled metagenome reads using ntcard and used this as the denominator. 
 We performed Bonferroni p value correction and used a significance cut off of 0.05.
+
+To analyze the results of dominating set differential abundance analysis, we combined the significantly differentially abundant piece information with the results from the mulitfasta query annotations, and with the ortholog annotations for the multifasta query genomes.
+We focused our analysis on KEGG orthologs. 
+When a single gene was annotated by eggnog with multiple KEGG orthologs, we selected the first match.
+We identified the set of KEGG orthologs that were annotated among pieces that increased in abundance and pieces decreased in abundance in CD compared to nonIBD.
+To identify single copy marker genes within this set, we used the marker gene sequences with an average copy of one in [@doi:10.1186/s13059-015-0610-8].
+We then selected at least one marker gene for each species, focusing on `rpl` sequences that were only annotated on two differentially abundant pieces in the graph (*Enterocloster clostridioformis*, *rplT*; *Ruminococcus_B gnavus*, *rplQ*; *Enterocloster clostridioformis_A*, *rplO*, *rplC*; *Enterocloster sp005845215*, *rplO*; *Enterocloster bolteae*, *rplC*).
+We queried with the marker gene sequence that was used to perform the multifasta annotation and extracted the reads associated with that graph piece using `spacegraphcats extract_reads`.
+We then mapped the extracted reads back to the query sequence using `bwa mem` [@doi:10.48550/arXiv.1303.3997].
+We visualized alignments in the Integrative Genomics Viewer [@doi:10.1093/bib/bbs017] and selected reads that overlapped the same coordinates in the reference gene but that had different complements of single nucleotide polymorphisms.
+We BLASTed these reads using blastn against the NCBI nr database and found the best strain-level matches.
+
+We next identified KEGG orthologs that were only annotated in the either the pieces that were increased or decreased in abundance in CD compared to nonIBD.
+We performed KEGG enrichment analysis using clusterProfiler `enricher` [@doi:10.1089/omi.2011.0118], using TERM2GENE as all KEGG orthologs with pathway mappings and with argument `maxGSSize = 500`. 
+We considered pathways enriched to be enriched which had adjusted p values < 0 .05.
+Lastly, we searched for the presence of KEGG orthologs that quence reactive oxygen species using orthologs defined in [@doi:j.freeradbiomed.2019.03.032].
 
 ## Searching for isolates that contained differentially abundant genomic sequences
 
