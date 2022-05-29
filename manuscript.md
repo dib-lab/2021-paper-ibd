@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/816e0604ab7fa3176cf1f8985ce35bad1ac8f37c/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/816e0604ab7fa3176cf1f8985ce35bad1ac8f37c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/816e0604ab7fa3176cf1f8985ce35bad1ac8f37c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +113,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/816e0604ab7fa3176cf1f8985ce35bad1ac8f37c/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/80bb7a200c4993cf825a59d6dc61800f640301c4/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@816e060](https://github.com/taylorreiter/2021-paper-ibd/tree/816e0604ab7fa3176cf1f8985ce35bad1ac8f37c)
+from [taylorreiter/2021-paper-ibd@80bb7a2](https://github.com/taylorreiter/2021-paper-ibd/tree/80bb7a200c4993cf825a59d6dc61800f640301c4)
 on May 29, 2022.
 </em></small>
 
@@ -497,12 +497,19 @@ Only the increase in the distinct accessory genes is detectable amongst the back
 -->
 
 <!-- section will need to be updated based on graph annot results.  currently relies on R. gnavus prelim results -->
-In support of this, when we annotated the differentially abundant pieces using PFAM orthologs, we found that in some cases pieces that were increased in abundance and pieces that were decreased in abundance were annotated with the same ortholog (average XX per graph, SD).
-These genes likely represent the portion of the core genome shared by the strain(s) that is more abundant in CD and the strain(s) that is more abundant in nonIBD, but that is encoded by distinct sequences (PULL OUT MARKER GENES, MAKE FIGURE).
+In support of this, when we annotated the differentially abundant pieces using KEGG orthologs, we found that in some cases pieces that were increased in abundance and pieces that were decreased in abundance were annotated with the same ortholog (average 1453.8 [SD = 727.2] pieces representing 64 [SD = 23.8] orthologs per graph, **Figure @fig:enrichment**).
+These genes likely represent the portion of the core genome shared by the strain(s) that is more abundant in CD and the strain(s) that is more abundant in nonIBD, but that is encoded by distinct sequences.
+Some orthologs encoded single copy marker genes [@doi:10.1186/s13059-015-0610-8] (SUPPLEMENTAL TABLE).
+To understand whether multiple strains of the same species were represented by these sequences, we queried with these marker gene sequences, extracted the reads associated with those graph pieces, and mapped the reads back to the marker gene sequence.
+We then selected reads that aligned to the same portion of the marker gene and contained single nucleotide variants, and BLASTed those reads against the NCBI nr database.
+For the subset of reads that we tested, we confirmed that different strains of the same species were the best matches (SUPPLEMENTAL VISUALIZATION?).
+This demonstrates that mulitple strains of the same species were present in each species graph, and that these strains were differentially abundant in CD compared to nonIBD.
 
-Many orthologs were only annotated among the pieces that were increased in abundance in CD. 
-Among all five metapangenome graphs, XX orthologs were annotated...
-XX pathways were enriched (NOS/ROS/abx res).
+In contrast to the annotations that were identified among sequences that were increased and decreased in abundance, many orthologs were only annotated among the pieces that were increased in abundance in CD (mean = 1193.4, SD = 155.7) (SUPPLEMENTAL TABLE).
+Many of the same pathways were enriched among these orthologs across the five species, including those associated with oxidative stress response (cysteine and methionine metabolism, the pentose phosphate pathway) (**Figure @fig:enrichment**) (SUPPLEMENTAL TABLE).
+The oxidative branch of the pentose phosphate pathway regenerates NADPH, while cysteine is a precursor for the antioxidant glutathione.
+Given this, we investigated the presence of reactive oxygen species-scavenging orthologs [@doi:10.1016/j.freeradbiomed.2019.03.032]; sequences encoding superoxide dismutase (K04565), thioredoxin reductase (K00384), and peroxiredoxin (K03386) were increased in abundance in CD for all five species.
+Additionally, many enriched pathways were associated with virulence (quorum sensing, flagellar assembly, bacterial chemotaxis, vancomycin resistance).
 Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@doi:10.15252/msb.20177589].
 
 | Metapangenome graph species    | Closest strain match                 | Maximum containment |
@@ -551,17 +558,6 @@ These results in part explain heterogeneous study findings in previous IBD gut m
 ![
 **Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.** Upset plot of k-mers that were increased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.
 ](images/dda_kmers_shared_across_diagnosis_upset_increased.png){#fig:exclusive}
-
-<!-- While we found no evidence of a general disease-specific metapangenome, we tested whether the biosynthetic cluster for the inflammatory polysaccharide produced by *F. gnavus* occurred in nonIBD as it had previously only been identified in CD [@doi:10.1073/pnas.1904099116].
-An average of more than 100 reads mapped per gene in the cluster in 10 of 213 nonIBD metagenomes.
-While more abundant in CD, this cluster is also identifiable within healthy human gut microbiomes, further supporting the lack of disease-specific pangenomes. -->
-
-<!-- TR: only do this if we orpheum/panmer everything? -->
-<!-- While the majority of genes were observed in CD, UC, and nonIBD, IBD metagenomes harbored fewer protein k-mers than nonIBD metagenomes (Table XX).
-When we counted the number of protein k-mers observed within each metagenome, XX of 54 metapangenomes for CD and XX of 54 metapangenomes for UC had a significantly lower number of genes observed per metagenome than nonIBD (ANOVA p < 0.05, Tukey's HSD p < 0.05). 
-Only *C. bolteae* in CD and *Romboutsia timonensis*, *Anaeromassilibacillus*, and *Actulibacter* in UC had a significantly more genes per sample within each pangenome.
-Only *F. gnavus* showed no significant difference in the number of genes per sample across all groups. -->
-
 
 # Discussion
 
@@ -787,7 +783,7 @@ The maximum variable importance was estimated by allowing k-mers to be anchored 
 ](images/varimp54.png){#fig:varimp}
 
 ![**Pathways that were enriched among sets of differentially abundant sequences in CD compared to nonIBD**. The x axis represents the number of orthologs identified in the pathway, while the y axis annotates the pathway. Top: Some dominating set pieces that significantly increased in abundance were annotated as the same KEGG orthologs as dominating set pieces that were significantly decreased in abundance. Many of these pathways encode core functions. Middle: KEGG pathway enrichment from KEGG ortholog annotations that were only observed in dominating set pieces that were significantly increased in abundance in CD. Bottom: KEGG pathway enrichment from KEGG ortholog annotations that were only observed in dominating set pieces that were significantly decreased in abundance in CD. 
-](images/sig_ccs_enrichment.png){#fig:enrichment height=6in}
+](images/sig_ccs_enrichment.png){#fig:enrichment height=9in}
 
 ![
 **Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.** Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.
