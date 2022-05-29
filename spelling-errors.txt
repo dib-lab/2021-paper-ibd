@@ -39,13 +39,13 @@ disconnectable
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 Enterocloster
 facultative
 Faecalibacterium
 FASTA
-FASTQ
+fastq
 FracMinHash
 GenBank
 Genomic
@@ -118,7 +118,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi
