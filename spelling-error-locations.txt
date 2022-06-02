@@ -15,7 +15,7 @@ content/01.abstract.md:10:metagenome
 content/01.abstract.md:11:spacegraphcats
 content/01.abstract.md:11:spacegraphcats
 content/01.abstract.md:11:spacegraphcats
-content/01.abstract.md:12:Crohn’s
+content/01.abstract.md:12:Crohn's
 content/02.introduction.md:4:coli
 content/02.introduction.md:4:ecotypes
 content/02.introduction.md:5:Metagenomic
@@ -523,6 +523,7 @@ content/04.discussion.md:48:metagenomes
 content/04.discussion.md:48:microbiome
 content/04.discussion.md:52:metagenome
 content/04.discussion.md:52:metagenomes
+content/06.methods.md:3:ibd
 content/06.methods.md:3:ibd
 content/06.methods.md:5:IBD
 content/06.methods.md:5:metagenome

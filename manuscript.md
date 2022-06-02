@@ -6,7 +6,7 @@ keywords:
 - inflammatory bowel disease
 - dominating set differential abundance
 lang: en-US
-date-meta: '2022-05-29'
+date-meta: '2022-06-02'
 author-meta:
 - Taylor E. Reiter
 - Luiz Irber
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-05-29" />
-  <meta name="citation_publication_date" content="2022-05-29" />
+  <meta name="dc.date" content="2022-06-02" />
+  <meta name="citation_publication_date" content="2022-06-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -89,9 +89,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,10 +113,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@480153c](https://github.com/taylorreiter/2021-paper-ibd/tree/480153cd1a448ff9b2a52526559a515d7683efe8)
-on May 29, 2022.
+from [taylorreiter/2021-paper-ibd@dd90ba0](https://github.com/taylorreiter/2021-paper-ibd/tree/dd90ba08969589b6a13dfcb36c20a61698b377be)
+on June 2, 2022.
 </em></small>
 
 ## Authors
@@ -263,8 +263,8 @@ We first developed a machine learning classifier based on compressed representat
 We next we used assembly graph genome queries to recover strain variation for correlated genomes.
 To rescue variation that may not have been present in the sketches, we then used assembly graph genome queries to recover strain variation for correlated genomes. 
 Lastly, we developed a novel differential abundance framework that works directly on the metagenome assembly graph to uncover all sequence variants correlated with IBD. 
-We refer to this approach as dominating set differential abundance analysis and have implemented it in the spacegraphcats software package (github.com/spacegraphcats/spacegraphcats). 
-We identified five bacterial strains that are associated with Crohn’s disease. 
+We refer to this approach as dominating set differential abundance analysis and have implemented it in the [spacegraphcats software package](https://github.com/spacegraphcats/spacegraphcats). 
+We identified five bacterial strains that are associated with Crohn's disease. 
 Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.
 
 # Introduction
@@ -348,13 +348,13 @@ In addition, many of the nonIBD samples, particularly those from the iHMP, profi
 
 
 | Cohort      |   Name        | Country      |Total   |CD      |UC      |nonIBD  | Reference |
-|:------------|:-------------:|:------------:|:------:|:------:|:------:|:------:|:----------|
+|:------------|:--------------|:-------------|-------:|-------:|-------:|-------:|:----------|
 | iHMP        | IBDMDB                   | USA              | 106   | 50  | 30  | 26 | [@doi:10.1038/s41586-019-1237-9] |
 | PRJEB2054   | MetaHIT                  | Denmark, Spain   | 124   | 4   | 21  | 99 | [@doi:10.1038/nature08821] |
 | SRP057027   | NA                       | Canada, USA      | 112   | 87  | 0   | 25 | [@doi:10.1016/j.chom.2015.09.008] |
 | PRJNA385949 | PRISM, STiNKi            | USA              | 17    | 9   | 5   | 3 | [@doi:10.1186/s13073-017-0490-5] |
 | PRJNA400072 | PRISM, LLDeep, and NLIBD | USA, Netherlands | 218   | 87  | 76  | 55 | [@doi:10.1038/s41564-018-0306-4] |
-| PRJNA237362 | RISK                     | North America    | 28    | 23  | 0   | 5 | [@doi:10.1016/j.chom.2014.02.005] | 
+| PRJNA237362 | RISK                     | North America    | 28    | 23  | 0   | 5 | [@doi:10.1016/j.chom.2014.02.005] |
 | Total       |                          |                  | 605   | 260 | 132 | 213| |
 Table: Six IBD shotgun metagenome sequencing cohorts used in this meta-cohort analysis.
 {#tbl:cohorts}
@@ -430,7 +430,7 @@ Assembly graph genome queries recover sequences in a metagenome that match the q
 The resulting genome query neighborhood represents a species-level umbrella that contains sequence variation from the metagenome associated with a query.
 
 After performing genome queries, we re-anchored k-mers against the resulting query neighborhoods as well as the databases used previously. 
-We observed that the percent of unassigned k-mers decreased from 26% to 8% (**Figure @fig:alluvial**), supporting our hypothesis that many of these k-mers are sequence variants belonging to species identified in k-mers important for predicting IBD subtype.
+We observed that the fraction of unassigned k-mers decreased from 26% to 8% (**Figure @fig:alluvial**), supporting our hypothesis that many of these k-mers are sequence variants belonging to species identified in k-mers important for predicting IBD subtype.
 We further observed that many other k-mers previously anchored by other genomes were reassigned to the genome query neighborhoods (**Figure @fig:alluvial**).
 This suggests that the genome queries create species umbrellas that represent sequence variation for the query genome itself as well as other closely related genomes that occur within a metagenome.
  
@@ -513,7 +513,7 @@ Additionally, many enriched pathways were associated with virulence (quorum sens
 Enrichment of specific metabolic pathways is consistent with functional specialization of strains in different environmental niches [@doi:10.15252/msb.20177589].
 
 | Metapangenome graph species    | Closest strain match                 | Maximum containment |
-|:--------------------------------:|:--------------------------------------:|:-------------:|
+|:---------------------------------|:---------------------------------------|--------------:|
 |*Enterocloster clostridioformis*| *Enterocloster clostridioformis* MSK.2.78| 0.71 |
 |*Enterocloster bolteae*         | *[Clostridium] bolteae* 90A5             | 0.68 |
 |*Ruminococcus_B gnavus*            | *[Ruminococcus] gnavus* RJX1122          | 0.66 |
@@ -617,7 +617,7 @@ These requirements make the application of dominating set differential abundance
 
 # Methods
 
-All code associated with our analyses is available at www.github.com/dib-lab/2020-ibd/.
+All code associated with our analyses is available at [github.com/dib-lab/2020-ibd](www.github.com/dib-lab/2020-ibd/).
 
 ## IBD metagenome data acquisition and processing
 
@@ -640,7 +640,7 @@ At a scaled value of 2000, an average of one k-mer will be detected in each 2000
 We selected a k-mer size of 31 because of its species-level specificity [@doi:10.1128/mSystems.00020-16].
 We retained all k-mers that were present in multiple samples. 
 
-## Principle Coordinates Analysis
+## Principle Coordinate Analysis
 
 We used Jaccard distance and angular similarity as implemented in `sourmash compare` to pairwise compare FracMinHash signatures. 
 We then used the `dist()` function in base R to compute distance matrices. 
