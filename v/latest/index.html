@@ -16,7 +16,7 @@
   <meta name="author" content="Amy D. Willis" />
   <meta name="author" content="Blair D. Sullivan" />
   <meta name="author" content="C. Titus Brown" />
-  <meta name="dcterms.date" content="2022-05-29" />
+  <meta name="dcterms.date" content="2022-06-02" />
   <meta name="keywords" content="compact de Bruijn Graph, k-mer, inflammatory bowel disease, dominating set differential abundance" />
   <title>Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn’s disease</title>
   <style>
@@ -58,8 +58,8 @@
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-05-29" />
-  <meta name="citation_publication_date" content="2022-05-29" />
+  <meta name="dc.date" content="2022-06-02" />
+  <meta name="citation_publication_date" content="2022-06-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -117,9 +117,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -133,10 +133,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/480153cd1a448ff9b2a52526559a515d7683efe8/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/480153cd1a448ff9b2a52526559a515d7683efe8">taylorreiter/2021-paper-ibd@480153c</a>
-on May 29, 2022.
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/dd90ba08969589b6a13dfcb36c20a61698b377be">taylorreiter/2021-paper-ibd@dd90ba0</a>
+on June 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -266,7 +266,7 @@ We first developed a machine learning classifier based on compressed representat
 We next we used assembly graph genome queries to recover strain variation for correlated genomes.
 To rescue variation that may not have been present in the sketches, we then used assembly graph genome queries to recover strain variation for correlated genomes.
 Lastly, we developed a novel differential abundance framework that works directly on the metagenome assembly graph to uncover all sequence variants correlated with IBD.
-We refer to this approach as dominating set differential abundance analysis and have implemented it in the spacegraphcats software package (github.com/spacegraphcats/spacegraphcats).
+We refer to this approach as dominating set differential abundance analysis and have implemented it in the <a href="https://github.com/spacegraphcats/spacegraphcats">spacegraphcats software package</a>.
 We identified five bacterial strains that are associated with Crohn’s disease.
 Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.</p>
 <h1 id="introduction">Introduction</h1>
@@ -352,84 +352,84 @@ In addition, many of the nonIBD samples, particularly those from the iHMP, profi
 <thead>
 <tr class="header">
 <th style="text-align: left;">Cohort</th>
-<th style="text-align: center;">Name</th>
-<th style="text-align: center;">Country</th>
-<th style="text-align: center;">Total</th>
-<th style="text-align: center;">CD</th>
-<th style="text-align: center;">UC</th>
-<th style="text-align: center;">nonIBD</th>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Country</th>
+<th style="text-align: right;">Total</th>
+<th style="text-align: right;">CD</th>
+<th style="text-align: right;">UC</th>
+<th style="text-align: right;">nonIBD</th>
 <th style="text-align: left;">Reference</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">iHMP</td>
-<td style="text-align: center;">IBDMDB</td>
-<td style="text-align: center;">USA</td>
-<td style="text-align: center;">106</td>
-<td style="text-align: center;">50</td>
-<td style="text-align: center;">30</td>
-<td style="text-align: center;">26</td>
+<td style="text-align: left;">IBDMDB</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">26</td>
 <td style="text-align: left;"><span class="citation" data-cites="19Z0U0zL4">[<a href="#ref-19Z0U0zL4" role="doc-biblioref">5</a>]</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">PRJEB2054</td>
-<td style="text-align: center;">MetaHIT</td>
-<td style="text-align: center;">Denmark, Spain</td>
-<td style="text-align: center;">124</td>
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">21</td>
-<td style="text-align: center;">99</td>
+<td style="text-align: left;">MetaHIT</td>
+<td style="text-align: left;">Denmark, Spain</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">99</td>
 <td style="text-align: left;"><span class="citation" data-cites="17MF0XTS9">[<a href="#ref-17MF0XTS9" role="doc-biblioref">10</a>]</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">SRP057027</td>
-<td style="text-align: center;">NA</td>
-<td style="text-align: center;">Canada, USA</td>
-<td style="text-align: center;">112</td>
-<td style="text-align: center;">87</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">25</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">Canada, USA</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">25</td>
 <td style="text-align: left;"><span class="citation" data-cites="CwmUZE5B">[<a href="#ref-CwmUZE5B" role="doc-biblioref">8</a>]</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">PRJNA385949</td>
-<td style="text-align: center;">PRISM, STiNKi</td>
-<td style="text-align: center;">USA</td>
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">3</td>
+<td style="text-align: left;">PRISM, STiNKi</td>
+<td style="text-align: left;">USA</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
 <td style="text-align: left;"><span class="citation" data-cites="NznM4tWF">[<a href="#ref-NznM4tWF" role="doc-biblioref">12</a>]</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">PRJNA400072</td>
-<td style="text-align: center;">PRISM, LLDeep, and NLIBD</td>
-<td style="text-align: center;">USA, Netherlands</td>
-<td style="text-align: center;">218</td>
-<td style="text-align: center;">87</td>
-<td style="text-align: center;">76</td>
-<td style="text-align: center;">55</td>
+<td style="text-align: left;">PRISM, LLDeep, and NLIBD</td>
+<td style="text-align: left;">USA, Netherlands</td>
+<td style="text-align: right;">218</td>
+<td style="text-align: right;">87</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">55</td>
 <td style="text-align: left;"><span class="citation" data-cites="Xi4Nccqm">[<a href="#ref-Xi4Nccqm" role="doc-biblioref">29</a>]</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">PRJNA237362</td>
-<td style="text-align: center;">RISK</td>
-<td style="text-align: center;">North America</td>
-<td style="text-align: center;">28</td>
-<td style="text-align: center;">23</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">5</td>
+<td style="text-align: left;">RISK</td>
+<td style="text-align: left;">North America</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">23</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">5</td>
 <td style="text-align: left;"><span class="citation" data-cites="dSDu60g3">[<a href="#ref-dSDu60g3" role="doc-biblioref">30</a>]</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Total</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">605</td>
-<td style="text-align: center;">260</td>
-<td style="text-align: center;">132</td>
-<td style="text-align: center;">213</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: right;">605</td>
+<td style="text-align: right;">260</td>
+<td style="text-align: right;">132</td>
+<td style="text-align: right;">213</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
@@ -497,7 +497,7 @@ Assembly graph genome queries recover sequences in a metagenome that match the q
 <!-- is more sensitive the right thing to say here? Should it be more general? -->
 The resulting genome query neighborhood represents a species-level umbrella that contains sequence variation from the metagenome associated with a query.</p>
 <p>After performing genome queries, we re-anchored k-mers against the resulting query neighborhoods as well as the databases used previously.
-We observed that the percent of unassigned k-mers decreased from 26% to 8% (<strong>Figure <a href="#fig:alluvial">4</a></strong>), supporting our hypothesis that many of these k-mers are sequence variants belonging to species identified in k-mers important for predicting IBD subtype.
+We observed that the fraction of unassigned k-mers decreased from 26% to 8% (<strong>Figure <a href="#fig:alluvial">4</a></strong>), supporting our hypothesis that many of these k-mers are sequence variants belonging to species identified in k-mers important for predicting IBD subtype.
 We further observed that many other k-mers previously anchored by other genomes were reassigned to the genome query neighborhoods (<strong>Figure <a href="#fig:alluvial">4</a></strong>).
 This suggests that the genome queries create species umbrellas that represent sequence variation for the query genome itself as well as other closely related genomes that occur within a metagenome.</p>
 <div id="fig:alluvial" class="fignos">
@@ -580,36 +580,36 @@ Enrichment of specific metabolic pathways is consistent with functional speciali
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">Metapangenome graph species</th>
-<th style="text-align: center;">Closest strain match</th>
-<th style="text-align: center;">Maximum containment</th>
+<th style="text-align: left;">Metapangenome graph species</th>
+<th style="text-align: left;">Closest strain match</th>
+<th style="text-align: right;">Maximum containment</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><em>Enterocloster clostridioformis</em></td>
-<td style="text-align: center;"><em>Enterocloster clostridioformis</em> MSK.2.78</td>
-<td style="text-align: center;">0.71</td>
+<td style="text-align: left;"><em>Enterocloster clostridioformis</em></td>
+<td style="text-align: left;"><em>Enterocloster clostridioformis</em> MSK.2.78</td>
+<td style="text-align: right;">0.71</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><em>Enterocloster bolteae</em></td>
-<td style="text-align: center;"><em>[Clostridium] bolteae</em> 90A5</td>
-<td style="text-align: center;">0.68</td>
+<td style="text-align: left;"><em>Enterocloster bolteae</em></td>
+<td style="text-align: left;"><em>[Clostridium] bolteae</em> 90A5</td>
+<td style="text-align: right;">0.68</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><em>Ruminococcus_B gnavus</em></td>
-<td style="text-align: center;"><em>[Ruminococcus] gnavus</em> RJX1122</td>
-<td style="text-align: center;">0.66</td>
+<td style="text-align: left;"><em>Ruminococcus_B gnavus</em></td>
+<td style="text-align: left;"><em>[Ruminococcus] gnavus</em> RJX1122</td>
+<td style="text-align: right;">0.66</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><em>Enterocloster clostridioformis_A</em></td>
-<td style="text-align: center;"><em>[Clostridium] clostridioforme</em> AGR2157</td>
-<td style="text-align: center;">0.61</td>
+<td style="text-align: left;"><em>Enterocloster clostridioformis_A</em></td>
+<td style="text-align: left;"><em>[Clostridium] clostridioforme</em> AGR2157</td>
+<td style="text-align: right;">0.61</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><em>Enterocloster sp005845215</em></td>
-<td style="text-align: center;"><em>Enterocloster clostridioformis</em> MSK.2.78</td>
-<td style="text-align: center;">0.50</td>
+<td style="text-align: left;"><em>Enterocloster sp005845215</em></td>
+<td style="text-align: left;"><em>Enterocloster clostridioformis</em> MSK.2.78</td>
+<td style="text-align: right;">0.50</td>
 </tr>
 </tbody>
 </table>
@@ -691,7 +691,7 @@ These requirements make the application of dominating set differential abundance
 + the framework is theoretically extensible to metatranscriptomes, but this remains a point of future research
 -->
 <h1 id="methods">Methods</h1>
-<p>All code associated with our analyses is available at www.github.com/dib-lab/2020-ibd/.</p>
+<p>All code associated with our analyses is available at <a href="www.github.com/dib-lab/2020-ibd/">github.com/dib-lab/2020-ibd</a>.</p>
 <h2 id="ibd-metagenome-data-acquisition-and-processing">IBD metagenome data acquisition and processing</h2>
 <p>We searched the NCBI Sequence Read Archive and BioProject databases for shotgun metagenome studies that sequenced fecal samples from humans with Crohn’s disease, ulcerative colitis, and healthy controls.
 We included studies sequenced on Illumina platforms with paired-end chemistries and with sample libraries that contained greater than one million reads.
@@ -709,7 +709,7 @@ We refer to FracMinHash sketches as <em>signatures</em>, and to each sub-sampled
 At a scaled value of 2000, an average of one k-mer will be detected in each 2000 base pair window, and 99.8% of 10,000 base pair windows will have at least one k-mer representative.
 We selected a k-mer size of 31 because of its species-level specificity <span class="citation" data-cites="mAjlUXL2">[<a href="#ref-mAjlUXL2" role="doc-biblioref">20</a>]</span>.
 We retained all k-mers that were present in multiple samples.</p>
-<h2 id="principle-coordinates-analysis">Principle Coordinates Analysis</h2>
+<h2 id="principle-coordinate-analysis">Principle Coordinate Analysis</h2>
 <p>We used Jaccard distance and angular similarity as implemented in <code>sourmash compare</code> to pairwise compare FracMinHash signatures.
 We then used the <code>dist()</code> function in base R to compute distance matrices.
 We used the <code>cmdscale()</code> function to perform principle coordinate analysis <span class="citation" data-cites="gpnF30mH">[<a href="#ref-gpnF30mH" role="doc-biblioref">54</a>]</span>.
