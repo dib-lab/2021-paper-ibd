@@ -63,6 +63,7 @@ header-includes: |-
   <meta name="twitter:creator" content="@brooksph" />
   <meta name="citation_author" content="Yosuke Mizutani" />
   <meta name="citation_author_institution" content="School of Computing, University of Utah" />
+  <meta name="citation_author_orcid" content="0000-0002-9847-4890" />
   <meta name="twitter:creator" content="@mogproject" />
   <meta name="citation_author" content="Dominik Moritz" />
   <meta name="citation_author_institution" content="Human-Computer Interaction Institute, Carnegie Mellon University" />
@@ -89,9 +90,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/565f169c9a3db406f9e09ea4a0314e107f51f1b2/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/565f169c9a3db406f9e09ea4a0314e107f51f1b2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/565f169c9a3db406f9e09ea4a0314e107f51f1b2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,9 +114,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/dd90ba08969589b6a13dfcb36c20a61698b377be/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/565f169c9a3db406f9e09ea4a0314e107f51f1b2/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@dd90ba0](https://github.com/taylorreiter/2021-paper-ibd/tree/dd90ba08969589b6a13dfcb36c20a61698b377be)
+from [taylorreiter/2021-paper-ibd@565f169](https://github.com/taylorreiter/2021-paper-ibd/tree/565f169c9a3db406f9e09ea4a0314e107f51f1b2)
 on June 2, 2022.
 </em></small>
 
@@ -189,6 +190,8 @@ on June 2, 2022.
   </small>
 
 + **Yosuke Mizutani**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-9847-4890](https://orcid.org/0000-0002-9847-4890)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mogproject](https://github.com/mogproject)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}

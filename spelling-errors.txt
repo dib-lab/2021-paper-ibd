@@ -44,13 +44,13 @@ dismutase
 dominator
 Dominik
 domoritz
-Dysbiosis
+dysbiosis
 ecotypes
 Enterocloster
 facultative
 Faecalibacterium
 FASTA
-FASTQ
+fastq
 flagellar
 FracMinHash
 GenBank
@@ -80,7 +80,7 @@ mers
 metacoder
 metagenome
 metagenomes
-Metagenomic
+metagenomic
 MetaHIT
 metapangenome
 metapangenomes
