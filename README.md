@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Manubot Manuscript Repository: Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn’s disease
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -8,12 +8,23 @@
 [![Travis Build Status](https://travis-ci.com/taylorreiter/2021-paper-ibd.svg?branch=main)](https://travis-ci.com/taylorreiter/2021-paper-ibd)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## Manuscript description
+## Manuscript abstract
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+Microbial strains have closely related genomes but may have different phenotypes in the same environment. 
+Shotgun metagenomic sequencing can capture the genomes of all strains present in a community but strain-resolved analysis from shotgun sequencing alone remains difficult.
+We developed an approach to identify and interrogate strain-level differences in groups of metagenomes.
+We use this approach to perform a meta-analysis of stool microbiomes from individuals with and without inflammatory bowel disease (IBD; Crohn's disease, ulcerative colitis; n = 605), a disease for which there are not specific microbial biomarkers but some evidence that microbial strain variation may stratify by disease state.
+We first developed a machine learning classifier based on compressed representations of complete metagenomes (FracMinHash sketches) and identified genomes that correlate with IBD subtype. 
+We next we used assembly graph genome queries to recover strain variation for correlated genomes.
+To rescue variation that may not have been present in the sketches, we then used assembly graph genome queries to recover strain variation for correlated genomes. 
+Lastly, we developed a novel differential abundance framework that works directly on the metagenome assembly graph to uncover all sequence variants correlated with IBD. 
+We refer to this approach as dominating set differential abundance analysis and have implemented it in the [spacegraphcats software package](https://github.com/spacegraphcats/spacegraphcats). 
+We identified five bacterial strains that are associated with Crohn's disease. 
+Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.
+
+The companion analysis repository to this manuscript is available at [dib-lab/2020-ibd](https://github.com/dib-lab/2020-ibd).
 
 ## Manubot
 
