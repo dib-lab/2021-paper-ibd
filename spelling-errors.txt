@@ -54,7 +54,7 @@ fastq
 flagellar
 FracMinHash
 GenBank
-genomic
+Genomic
 ggMarginal
 ggplot
 glutathione
@@ -135,7 +135,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi

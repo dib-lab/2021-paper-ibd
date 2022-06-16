@@ -6,7 +6,7 @@ keywords:
 - inflammatory bowel disease
 - dominating set differential abundance
 lang: en-US
-date-meta: '2022-06-06'
+date-meta: '2022-06-16'
 author-meta:
 - Taylor E. Reiter
 - Luiz Irber
@@ -30,8 +30,8 @@ header-includes: |-
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-06-06" />
-  <meta name="citation_publication_date" content="2022-06-06" />
+  <meta name="dc.date" content="2022-06-16" />
+  <meta name="citation_publication_date" content="2022-06-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -90,9 +90,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/7f5ff85910c7adcdf2f3be5d3f1ad9aba8a12887/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/7f5ff85910c7adcdf2f3be5d3f1ad9aba8a12887/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/7f5ff85910c7adcdf2f3be5d3f1ad9aba8a12887/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -114,10 +114,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/7f5ff85910c7adcdf2f3be5d3f1ad9aba8a12887/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@7f5ff85](https://github.com/taylorreiter/2021-paper-ibd/tree/7f5ff85910c7adcdf2f3be5d3f1ad9aba8a12887)
-on June 6, 2022.
+from [taylorreiter/2021-paper-ibd@3537cf1](https://github.com/taylorreiter/2021-paper-ibd/tree/3537cf1e5a58eec72df03e556a0d4568c5960694)
+on June 16, 2022.
 </em></small>
 
 ## Authors
