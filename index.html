@@ -16,7 +16,7 @@
   <meta name="author" content="Amy D. Willis" />
   <meta name="author" content="Blair D. Sullivan" />
   <meta name="author" content="C. Titus Brown" />
-  <meta name="dcterms.date" content="2022-06-16" />
+  <meta name="dcterms.date" content="2022-06-27" />
   <meta name="keywords" content="compact de Bruijn Graph, k-mer, inflammatory bowel disease, dominating set differential abundance" />
   <title>Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn’s disease</title>
   <style>
@@ -58,8 +58,8 @@
   <meta name="citation_title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="og:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
   <meta property="twitter:title" content="Meta-analysis of metagenomes via machine learning and assembly graphs reveals strain switches in Crohn&#39;s disease" />
-  <meta name="dc.date" content="2022-06-16" />
-  <meta name="citation_publication_date" content="2022-06-16" />
+  <meta name="dc.date" content="2022-06-27" />
+  <meta name="citation_publication_date" content="2022-06-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -118,9 +118,9 @@
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -134,10 +134,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/3537cf1e5a58eec72df03e556a0d4568c5960694/">permalink</a>)
+(<a href="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/3537cf1e5a58eec72df03e556a0d4568c5960694">taylorreiter/2021-paper-ibd@3537cf1</a>
-on June 16, 2022.
+from <a href="https://github.com/taylorreiter/2021-paper-ibd/tree/72e884986e9ad4c56cf667529aa93758cf7230fa">taylorreiter/2021-paper-ibd@72e8849</a>
+on June 27, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -640,12 +640,15 @@ It is associated with disturbance succession and has increased gene expression d
 <p>Since genome sequences belonging to many species were differentially abundant from nonIBD in CD and UC, we next investigated whether there was a disease-specific microbiome in CD or UC – i.e., whether there are sequences from a species that were only observed in IBD.
 Using FracMinHash sketches from the differentially abundant sequences, we identified the differentially abundant sequences in each metagenome and compared their occurrence and distribution across diagnoses.</p>
 <p>In general, we found no evidence for disease-specific sequences among the 54 species we investigated.
-Instead, we observed almost all sequences in at least some CD, UC, and nonIBD metagenomes (<strong>Figure <a href="#fig:exclusive">6</a></strong>, <strong>Figure S <a href="#fig:exclusive">6</a></strong>).
+Using FracMinHash sketches of the differentially abundant sequences for each species, we counted the number of k-mers that were observed in different sets of diagnoses.
+We observed almost all sequences in at least some CD, UC, and nonIBD metagenomes (<strong>Figure <a href="#fig:exclusive">6</a></strong>, <strong>Figure S <a href="#fig:exclusive2">10</a></strong>).
 Across all species, an average of 14.9% differentially abundant k-mers were unobserved in either CD, UC, or nonIBD.
 These results in part explain heterogeneous study findings in previous IBD gut microbiome investigations.</p>
 <div id="fig:exclusive" class="fignos">
 <figure>
-<img src="images/dda_kmers_shared_across_diagnosis_upset_increased.png" alt="Figure 6: Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD. Upset plot of k-mers that were increased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.</strong> Upset plot of k-mers that were increased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.</figcaption>
+<img src="images/dda_kmers_shared_across_diagnosis_upset_increased.png" alt="Figure 6: Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD. Upset plot of k-mers that were increased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes. The bottom half of the plot highlights which diagnoses are included in each set, while the bar chart in the top half of the plot shows the number of k-mers that were observed in that set. The bar chart is colored by the metapangenome species graph in which the sequence was differentially abundant." /><figcaption aria-hidden="true"><span>Figure 6:</span> <strong>Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.</strong> Upset plot of k-mers that were increased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.
+The bottom half of the plot highlights which diagnoses are included in each set, while the bar chart in the top half of the plot shows the number of k-mers that were observed in that set.
+The bar chart is colored by the metapangenome species graph in which the sequence was differentially abundant.</figcaption>
 </figure>
 </div>
 <h1 id="discussion">Discussion</h1>
@@ -1061,7 +1064,9 @@ The maximum variable importance was estimated by allowing k-mers to be anchored 
 </div>
 <div id="fig:exclusive2" class="fignos">
 <figure>
-<img src="images/dda_kmers_shared_across_diagnosis_upset_decreased_supplemental.png" alt="Figure 10: Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD. Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes." /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.</strong> Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.</figcaption>
+<img src="images/dda_kmers_shared_across_diagnosis_upset_decreased_supplemental.png" alt="Figure 10: Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD. Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes. The bottom half of the plot highlights which diagnoses are included in each set, while the bar chart in the top half of the plot shows the number of k-mers that were observed in that set. The bar chart is colored by the metapangenome species graph in which the sequence was differentially abundant." /><figcaption aria-hidden="true"><span>Figure 10:</span> <strong>Most differentially abundant sequences occur in metagenomes of individuals diagnosed with CD, UC and non-IBD.</strong> Upset plot of k-mers that were decreased in abundance in CD and their occurrence in CD, UC, and nonIBD metagenomes.
+The bottom half of the plot highlights which diagnoses are included in each set, while the bar chart in the top half of the plot shows the number of k-mers that were observed in that set.
+The bar chart is colored by the metapangenome species graph in which the sequence was differentially abundant.</figcaption>
 </figure>
 </div>
 <!-- default theme -->
