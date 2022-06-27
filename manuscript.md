@@ -84,15 +84,15 @@ header-includes: |-
   <meta name="citation_author" content="C. Titus Brown" />
   <meta name="citation_author_institution" content="Department of Population Health and Reproduction, University of California, Davis" />
   <meta name="citation_author_orcid" content="0000-0001-6001-2677" />
-  <link rel="canonical" href="https://taylorreiter.github.io/2021-paper-ibd/" />
-  <meta property="og:url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
-  <meta property="twitter:url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
-  <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
-  <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/manuscript.pdf" />
+  <link rel="canonical" href="https://dib-lab.github.io/2021-paper-ibd/" />
+  <meta property="og:url" content="https://dib-lab.github.io/2021-paper-ibd/" />
+  <meta property="twitter:url" content="https://dib-lab.github.io/2021-paper-ibd/" />
+  <meta name="citation_fulltext_html_url" content="https://dib-lab.github.io/2021-paper-ibd/" />
+  <meta name="citation_pdf_url" content="https://dib-lab.github.io/2021-paper-ibd/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://dib-lab.github.io/2021-paper-ibd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://dib-lab.github.io/2021-paper-ibd/v/a1bbf77f2b65d7e75457ae3c8bd300e4f0126c94/" />
+  <meta name="manubot_html_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/a1bbf77f2b65d7e75457ae3c8bd300e4f0126c94/" />
+  <meta name="manubot_pdf_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/a1bbf77f2b65d7e75457ae3c8bd300e4f0126c94/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -114,9 +114,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/))
+([permalink](https://dib-lab.github.io/2021-paper-ibd/v/a1bbf77f2b65d7e75457ae3c8bd300e4f0126c94/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@554819d](https://github.com/taylorreiter/2021-paper-ibd/tree/554819dd62cc610f296655bc3db2f1e4817670c9)
+from [dib-lab/2021-paper-ibd@a1bbf77](https://github.com/dib-lab/2021-paper-ibd/tree/a1bbf77f2b65d7e75457ae3c8bd300e4f0126c94)
 on June 27, 2022.
 </em></small>
 
