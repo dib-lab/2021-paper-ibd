@@ -90,9 +90,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://taylorreiter.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://taylorreiter.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/" />
-  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/" />
+  <meta name="manubot_html_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -114,9 +114,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/72e884986e9ad4c56cf667529aa93758cf7230fa/))
+([permalink](https://taylorreiter.github.io/2021-paper-ibd/v/554819dd62cc610f296655bc3db2f1e4817670c9/))
 was automatically generated
-from [taylorreiter/2021-paper-ibd@72e8849](https://github.com/taylorreiter/2021-paper-ibd/tree/72e884986e9ad4c56cf667529aa93758cf7230fa)
+from [taylorreiter/2021-paper-ibd@554819d](https://github.com/taylorreiter/2021-paper-ibd/tree/554819dd62cc610f296655bc3db2f1e4817670c9)
 on June 27, 2022.
 </em></small>
 
@@ -337,8 +337,8 @@ For each genome query, we combined these sequences into a single assembly graph,
 We estimated the abundance of each piece in this graph within each metagenome, and used these abundances to perform differential abundance analysis.
 
 ![
-**Overview of the metagenome analysis technique.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associated these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph (cDBG) that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a cDBG from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of R=2 dominating set pieces, but in practice we used R=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
-](images/ibd_overview_steps.svg "Pipeline overview"){#fig:overview}
+**Overview of the metagenome analysis technique.** Steps that are outlined in grey were developed in this paper. **Step 1:** Using quality controlled sequencing reads from many metagenomes, we decomposed reads into k-mers and subsample these k-mers using FracMinHash, thereby selecting k-mers that evenly represent the sequence diversity within a sample. We then identified interesting k-mers using random forests, and associated these k-mers with genomes in reference databases. **Step 2:** For each metagenome, we constructed a compact de Bruijn assembly graph (cDBG) that contains all k-mers from a metagenome. We used dominating sets to carve the graph into pieces. We queried this graph with genomes associated with interesting k-mers identified in Step 1, recovering sequence diversity nearby in the assembly graph. We refer to these sequences as genome query neighborhoods. Step 2 is the workflow published in [@doi:10.1186/s13059-020-02066-4]. **Step 3:** We combined genome query neighborhoods for a single genome from all metagenomes. We constructed a cDBG from these sequences, and used a dominating set with a large radius to carve the graph into large pieces. Here, we diagram construction of *r*=2 dominating set pieces, but in practice we used *r*=10. We estimated the abundance of k-mers in each metagenome for each dominating set piece, and used these abundances to perform differential abundance analysis.
+](images/ibd_overview_steps.png "Pipeline overview"){#fig:overview}
 
 We applied this approach to the analysis of IBD gut microbiomes via meta-analysis.
 Meta-analyses have recently shown success in improving the power to detect microbial signatures of colorectal cancer [@doi:10.1038/s41591-019-0406-6; @doi:10.1038/s41591-019-0405-7; @doi:10.1128/mSystems.00332-18]. 
@@ -420,7 +420,7 @@ We assumed these genomes represent the strongest candidates for discriminating I
 Nodes are summarized to the genus level.
 All taxa up to the class level are labelled. 
 Taxa that could account for at least 1% of the normalized variable importance across random forests models are colored and labelled.
-Node size and node color reflect potential variable importance.
+Node size and node color reflect potential normalized variable importance attributable to each taxonomic lineage with larger node sizes and darker color representing larger variable importance; while normalized variable importance across models sums to one, some sequences are shared across genomes making the total potential variable importance across all genomes larger than one.
 ](images/metacoder_by_varimp.png){#fig:metacoder}
 
 ## Genome queries into metagenome assembly graphs recover neighborhoods of sequence variation and establish species umbrellas
