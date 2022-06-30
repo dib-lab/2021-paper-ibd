@@ -16,7 +16,8 @@ authors:
     affiliations:
       - Department of Population Health and Reproduction, University of California, Davis 
     funders:
-      - Grant XXXXXXXX
+      - Grant GBMF4551 from the Gordon and Betty Moore Foundation to CTB
+      - Grant R03OD030596 from the NIH Common Fund to CTB
   - github: luizirber
     name: Luiz Irber
     initials: LI
@@ -27,7 +28,8 @@ authors:
       - Graduate Group in Computer Science, UC Davis
       - Department of Population Health and Reproduction, University of California, Davis
     funders:
-      - Grant XXXXXXXX
+      - Grant GBMF4551 from the Gordon and Betty Moore Foundation to CTB
+      - Grant R01HG007513 from the NIH NHGRI to CTB
   - github: alicia-gingrich
     name: Alicia A. Gingrich
     initials: AAG
@@ -50,7 +52,10 @@ authors:
     email: ntpierce@ucdavis.edu
     affiliations:
      - Department of Population Health and Reproduction, University of California, Davis
-    funders: NSF 1711984
+    funders: 
+      - Grant 1711984 from the NSF
+      - Grant GBMF4551 from the Gordon and Betty Moore Foundation to CTB
+      - Grant 2018911 from the NSF to CTB
   - github: brooksph
     name: Phillip T. Brooks
     initials: PTB
@@ -92,7 +97,7 @@ authors:
     affiliations:
       - Department of Biostatistics, University of Washington
     funders:
-      - NIGMS R35 GM133420 
+      - Grant R35GM133420 from the NIH NIGMS 
   - github: bdsullivan
     name: Blair D. Sullivan
     initials: BDS
@@ -101,10 +106,18 @@ authors:
     email: sulivan@cs.utah.edu
     affiliations:
       - School of Computing, University of Utah
+    funders:
+      - Grant GBMF4560 from the Gordon and Betty Moore Foundation
   - github: ctb
     name: C. Titus Brown
     initials: CTB
     orcid: 0000-0001-6001-2677
+    twitter: ctitusbrown
     email: ctbrown@ucdavis.edu
     affiliations:
       - Department of Population Health and Reproduction, University of California, Davis
+    funders:
+      - Grant GBMF4551 from the Gordon and Betty Moore Foundation
+      - Grant R01HG007513 from the NIH NHGRI
+      - Grant 2018911 from the NSF
+      - Grant R03OD030596 from the NIH Common Fund
