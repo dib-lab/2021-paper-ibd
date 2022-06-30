@@ -91,9 +91,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://dib-lab.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://dib-lab.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://dib-lab.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://dib-lab.github.io/2021-paper-ibd/v/3f5bcac8cd1a3047bd6129d5864bdf56076392d4/" />
-  <meta name="manubot_html_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/3f5bcac8cd1a3047bd6129d5864bdf56076392d4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/3f5bcac8cd1a3047bd6129d5864bdf56076392d4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/" />
+  <meta name="manubot_html_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/" />
+  <meta name="manubot_pdf_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -115,9 +115,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://dib-lab.github.io/2021-paper-ibd/v/3f5bcac8cd1a3047bd6129d5864bdf56076392d4/))
+([permalink](https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/))
 was automatically generated
-from [dib-lab/2021-paper-ibd@3f5bcac](https://github.com/dib-lab/2021-paper-ibd/tree/3f5bcac8cd1a3047bd6129d5864bdf56076392d4)
+from [dib-lab/2021-paper-ibd@2fe7efe](https://github.com/dib-lab/2021-paper-ibd/tree/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178)
 on June 30, 2022.
 </em></small>
 

@@ -45,13 +45,13 @@ dismutase
 dominator
 Dominik
 domoritz
-Dysbiosis
+dysbiosis
 ecotypes
 Enterocloster
 facultative
 Faecalibacterium
 FASTA
-FASTQ
+fastq
 flagellar
 FracMinHash
 GBMF
@@ -85,7 +85,7 @@ metagenome
 metagenomes
 Metagenomic
 MetaHIT
-Metapangenome
+metapangenome
 methionine
 microbiome
 microbiomes
@@ -138,7 +138,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-sourmash
+Sourmash
 spacegraphcats
 SRP
 STiNKi
