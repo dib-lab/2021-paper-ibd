@@ -10,12 +10,11 @@ content/01.abstract.md:7:FracMinHash
 content/01.abstract.md:7:IBD
 content/01.abstract.md:7:metagenomes
 content/01.abstract.md:7:subtype
-content/01.abstract.md:10:IBD
-content/01.abstract.md:10:metagenome
-content/01.abstract.md:11:spacegraphcats
-content/01.abstract.md:11:spacegraphcats
-content/01.abstract.md:11:spacegraphcats
-content/01.abstract.md:12:Crohn's
+content/01.abstract.md:9:IBD
+content/01.abstract.md:10:spacegraphcats
+content/01.abstract.md:10:spacegraphcats
+content/01.abstract.md:10:spacegraphcats
+content/01.abstract.md:11:Crohn's
 content/02.introduction.md:4:coli
 content/02.introduction.md:4:ecotypes
 content/02.introduction.md:5:Metagenomic

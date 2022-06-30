@@ -35,6 +35,7 @@ complexUpset
 Crohn’s
 CSV
 ctb
+ctitusbrown
 cysteine
 cytokine
 dda
@@ -53,6 +54,7 @@ FASTA
 FASTQ
 flagellar
 FracMinHash
+GBMF
 GenBank
 Genomic
 ggMarginal
@@ -96,6 +98,7 @@ mulitple
 multifasta
 NADPH
 NCBI
+NHGRI
 NIGMS
 NLIBD
 nonIBD
@@ -135,7 +138,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi
@@ -156,5 +159,4 @@ unannotated
 unitigs
 vancomycin
 varimp
-XXXXXXXX
 Yosuke
