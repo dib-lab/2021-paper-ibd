@@ -56,7 +56,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -122,7 +122,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -169,7 +169,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -212,7 +212,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -260,7 +260,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -302,7 +302,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -465,7 +465,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -582,7 +582,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -626,7 +626,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -674,7 +674,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -766,7 +766,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -808,7 +808,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -862,7 +862,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1115,7 +1115,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1208,7 +1208,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1269,7 +1269,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1414,7 +1414,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1467,7 +1467,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1664,7 +1664,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1769,7 +1769,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -1961,7 +1961,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2137,7 +2137,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2187,7 +2187,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2249,7 +2249,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2328,7 +2328,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2391,7 +2391,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2454,7 +2454,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2509,7 +2509,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2559,7 +2559,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2608,7 +2608,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2655,7 +2655,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2704,7 +2704,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2768,7 +2768,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2823,7 +2823,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2874,7 +2874,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2937,7 +2937,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -2977,7 +2977,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3063,7 +3063,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3125,7 +3125,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3188,7 +3188,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3202,6 +3202,59 @@
       ]
     },
     "DOI": "10.1101/2022.01.11.475838"
+  },
+  {
+    "id": "T2ylGIH0",
+    "type": "report",
+    "abstract": "Abstract\r\n          \r\n            An estimated 2 billion species of microbes exist on Earth with orders of magnitude more strains. Microbial pangenomes are created by aggregating all genomes of a single clade and reflect the metabolic diversity of groups of organisms. As\r\n            de novo\r\n            metagenome analysis techniques have matured and reference genome databases have expanded, metapangenome analysis has risen in popularity as a tool to organize the functional potential of organisms in relation to the environment from which those organisms were sampled. However, the reliance on assembly and binning or on reference databases often leaves substantial portions of metagenomes unanalyzed, thereby underestimating the functional potential of a community. To address this challenge, we present a method for metapangenomics that relies on amino acid k-mers (k\r\n            aa\r\n            -mers) and metagenome assembly graph queries. To enable this method, we first show that k\r\n            aa\r\n            -mers estimate pangenome characteristics and that open reading frames can be accurately predicted from short shotgun sequencing reads using the previously developed tool orpheum. These techniques enable pangenomics to be performed directly on short sequencing reads. To enable metapangenome analysis, we combine these approaches with compact de Bruijn assembly graph queries to directly generate sets of sequencing reads for a specific species from a metagenome. When applied to stool metagenomes from an individual receiving antibiotics over time, we show that these approaches identify strain fluctuations that coincide with antibiotic exposure.",
+    "genre": "preprint",
+    "language": "en",
+    "note": "DOI: 10.1101/2022.06.27.497795\nThis CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1101/2022.06.27.497795",
+    "publisher": "Bioinformatics",
+    "source": "DOI.org (Crossref)",
+    "title": "Protein k-mers enable assembly-free microbial metapangenomics",
+    "URL": "https://doi.org/gqfjbh",
+    "author": [
+      {
+        "family": "Reiter",
+        "given": "Taylor E."
+      },
+      {
+        "family": "Pierce-Ward",
+        "given": "N. Tessa"
+      },
+      {
+        "family": "Irber",
+        "given": "Luiz"
+      },
+      {
+        "family": "Botvinnik",
+        "given": "Olga Borisovna"
+      },
+      {
+        "family": "Brown",
+        "given": "C. Titus"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          30
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          27
+        ]
+      ]
+    },
+    "DOI": "10.1101/2022.06.27.497795"
   },
   {
     "id": "uLmc3mM",
@@ -3241,7 +3294,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3294,7 +3347,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3355,7 +3408,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3449,7 +3502,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3505,7 +3558,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3558,7 +3611,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3611,7 +3664,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3656,7 +3709,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3707,7 +3760,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3753,7 +3806,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3796,7 +3849,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3858,7 +3911,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -3983,7 +4036,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4030,7 +4083,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4117,7 +4170,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4174,7 +4227,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4457,7 +4510,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4531,7 +4584,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4609,7 +4662,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4654,7 +4707,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4696,7 +4749,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4827,7 +4880,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4866,7 +4919,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -4879,6 +4932,64 @@
       ]
     },
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.2307/2333639"
+  },
+  {
+    "id": "ytQVjYqv",
+    "type": "article-journal",
+    "abstract": "The past decade has witnessed groundbreaking advances in the field of microbiome research. An area where immense implications of the microbiome have been demonstrated is tumor biology. The microbiome affects tumor initiation and progression through direct effects on the tumor cells and indirectly through manipulation of the immune system. It can also determine response to cancer therapies and predict disease progression and survival. Modulation of the microbiome can be harnessed to potentiate the efficacy of immunotherapies and decrease their toxicity. In this review, we comprehensively dissect recent evidence regarding the interaction of the microbiome and anti-tumor immune machinery and outline the critical questions which need to be addressed as we further explore this dynamic colloquy.",
+    "container-title": "Frontiers in Immunology",
+    "DOI": "10.3389/fimmu.2021.622064",
+    "ISSN": "1664-3224",
+    "journalAbbreviation": "Front. Immunol.",
+    "page": "622064",
+    "source": "DOI.org (Crossref)",
+    "title": "New Insights Into the Cancer–Microbiome–Immune Axis: Decrypting a Decade of Discoveries",
+    "title-short": "New Insights Into the Cancer–Microbiome–Immune Axis",
+    "URL": "https://doi.org/gmjrdg",
+    "volume": "12",
+    "author": [
+      {
+        "family": "Jain",
+        "given": "Tejeshwar"
+      },
+      {
+        "family": "Sharma",
+        "given": "Prateek"
+      },
+      {
+        "family": "Are",
+        "given": "Abhi C."
+      },
+      {
+        "family": "Vickers",
+        "given": "Selwyn M."
+      },
+      {
+        "family": "Dudeja",
+        "given": "Vikas"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          30
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          2,
+          23
+        ]
+      ]
+    },
+    "PMCID": "PMC7940198",
+    "PMID": "33708214",
+    "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.3389/fimmu.2021.622064"
   },
   {
     "type": "article",
@@ -4957,7 +5068,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -5018,7 +5129,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -5046,7 +5157,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -5200,7 +5311,7 @@
         [
           "2022",
           6,
-          27
+          30
         ]
       ]
     },
@@ -5214,5 +5325,47 @@
       ]
     },
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://CRAN.R-project.org/package=vegan"
+  },
+  {
+    "id": "63pA9pO7",
+    "type": "report",
+    "language": "en-US",
+    "publisher": "Manubot",
+    "source": "bluegenes.github.io",
+    "title": "Protein k-mer analyses for assembly- and alignment-free sequence analysis",
+    "URL": "https://bluegenes.github.io/2022-paper-protein-kmers/",
+    "author": [
+      {
+        "family": "Pierce-Ward",
+        "given": "N. Tessa"
+      },
+      {
+        "family": "Reiter",
+        "given": "Taylor E."
+      },
+      {
+        "family": "Brown",
+        "given": "C. Titus"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          30
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          22
+        ]
+      ]
+    },
+    "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: url:https://bluegenes.github.io/2022-paper-protein-kmers"
   }
 ]
