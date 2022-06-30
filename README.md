@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/dib-lab/2021-paper-ibd/tree/gh-pages) branch hosts the contents of this directory at <https://dib-lab.github.io/2021-paper-ibd/>.
-The permalink for this webpage version is <https://dib-lab.github.io/2021-paper-ibd/v/3f5bcac8cd1a3047bd6129d5864bdf56076392d4/>.
+The permalink for this webpage version is <https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://dib-lab.github.io/2021-paper-ibd/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`3f5bcac8cd1a3047bd6129d5864bdf56076392d4`](https://github.com/dib-lab/2021-paper-ibd/commit/3f5bcac8cd1a3047bd6129d5864bdf56076392d4).
+[`2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178`](https://github.com/dib-lab/2021-paper-ibd/commit/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178).
