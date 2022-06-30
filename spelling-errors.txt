@@ -45,7 +45,7 @@ dismutase
 dominator
 Dominik
 domoritz
-dysbiosis
+Dysbiosis
 ecotypes
 Enterocloster
 facultative
@@ -85,7 +85,7 @@ metagenome
 metagenomes
 Metagenomic
 MetaHIT
-metapangenome
+Metapangenome
 methionine
 microbiome
 microbiomes
@@ -138,7 +138,7 @@ Ruminococcus
 runtimes
 saltyscientist
 scalable
-Sourmash
+sourmash
 spacegraphcats
 SRP
 STiNKi

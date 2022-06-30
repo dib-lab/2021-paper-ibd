@@ -91,9 +91,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://dib-lab.github.io/2021-paper-ibd/" />
   <meta name="citation_pdf_url" content="https://dib-lab.github.io/2021-paper-ibd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://dib-lab.github.io/2021-paper-ibd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/" />
-  <meta name="manubot_html_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/" />
-  <meta name="manubot_pdf_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://dib-lab.github.io/2021-paper-ibd/v/9cd9e2277d2fcda544c1da6ea8bb3574ab5ea010/" />
+  <meta name="manubot_html_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/9cd9e2277d2fcda544c1da6ea8bb3574ab5ea010/" />
+  <meta name="manubot_pdf_url_versioned" content="https://dib-lab.github.io/2021-paper-ibd/v/9cd9e2277d2fcda544c1da6ea8bb3574ab5ea010/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -115,9 +115,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://dib-lab.github.io/2021-paper-ibd/v/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178/))
+([permalink](https://dib-lab.github.io/2021-paper-ibd/v/9cd9e2277d2fcda544c1da6ea8bb3574ab5ea010/))
 was automatically generated
-from [dib-lab/2021-paper-ibd@2fe7efe](https://github.com/dib-lab/2021-paper-ibd/tree/2fe7efe74d73d64c6d9f1420f3b7adfe80fcd178)
+from [dib-lab/2021-paper-ibd@9cd9e22](https://github.com/dib-lab/2021-paper-ibd/tree/9cd9e2277d2fcda544c1da6ea8bb3574ab5ea010)
 on June 30, 2022.
 </em></small>
 
@@ -270,9 +270,10 @@ We use this approach to perform a meta-analysis of stool microbiomes from indivi
 We first developed a machine learning classifier based on compressed representations of complete metagenomes (FracMinHash sketches) and identified genomes that correlate with IBD subtype. 
 To rescue variation that may not have been present in the genomes, we then used assembly graph genome queries to recover strain variation for correlated genomes. 
 Lastly, we developed a novel differential abundance framework that works directly on the assembly graph to uncover all sequence variants correlated with IBD. 
-Using this approach, refer to this approach as dominating set differential abundance analysis and have implemented it in the [spacegraphcats software package](https://github.com/spacegraphcats/spacegraphcats). 
-We identified five bacterial strains that are associated with Crohn's disease. 
+We refer to this approach as dominating set differential abundance analysis and have implemented it in the [spacegraphcats software package](https://github.com/spacegraphcats/spacegraphcats). 
+Using this approach, we identified five bacterial strains that are associated with Crohn's disease. 
 Our method captures variation within the entire sequencing data set, allowing for discovery of previously hidden disease associations.
+
 
 # Introduction
 
